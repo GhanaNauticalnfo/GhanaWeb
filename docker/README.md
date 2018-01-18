@@ -4,7 +4,7 @@ A dockerized container for the GhanaWeb project. The container deploys the lates
 ## Prerequisties
 * Docker 1.10.0+
 * Docker Compose 1.6.0+
-* A file called balticweb.properties
+* A file called ghanaweb.properties
 * Two configuration files for Keycloak as described in [BalticWeb](https://github.com/maritime-web/BalticWeb#configure-keycloak)
 
 ## Initial Setup

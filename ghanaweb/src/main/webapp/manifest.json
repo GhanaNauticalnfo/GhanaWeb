@@ -1,0 +1,30 @@
+{
+  "short_name": "GhanaWeb",
+  "name": "Ghana e-navigation services",
+  "icons": [
+    {
+      "src": "img/ghanaweb-icon48X48.svg",
+      "type": "image/svg+xml",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/ghanaweb-icon96X96.svg",
+      "type": "image/svg+xml",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/ghanaweb-icon192X192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/ghanaweb-icon512X512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FCD116",
+  "theme_color": "#FCD116"
+}

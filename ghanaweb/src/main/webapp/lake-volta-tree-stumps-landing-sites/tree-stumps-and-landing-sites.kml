@@ -1,0 +1,4996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+	<name>volta trans.kmz</name>
+	<Style id="sn_parks">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks0">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks1">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks2">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks0">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks1">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa00</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks3">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<color>ffff0055</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0055</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks5">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<color>ffff0055</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0055</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks2">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks3">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa00</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks4">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks5">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks6">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks7">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_parks8">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff00</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<color>ff7f00ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f00ff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks9">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks6">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks7">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff00</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks8">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks10">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks11">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks9">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks10">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks00">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks12">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks13">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff00</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks14">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks11">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<color>ffff0055</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0055</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks15">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks16">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks12">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<color>ff7f00ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7f00ff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks13">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks17">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks14">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks15">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks18">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_parks40">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aaff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks16">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<color>ffff0055</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0055</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_parks18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parks17">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_parks18">
+		<IconStyle>
+			<color>ff005555</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff00</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>files/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>files/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Fairway to Sedom, Obelemenya and Agajajetor Start point</name>
+			<LookAt>
+				<longitude>-2.00000066327212</longitude>
+				<latitude>53.99999849610616</latitude>
+				<altitude>0</altitude>
+				<heading>-5.365983182921782e-007</heading>
+				<tilt>0</tilt>
+				<range>11010840.42612089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.06361111111111112,6.511111111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fairway to Sedom, Obelemenya and Agajajetor End Point</name>
+			<LookAt>
+				<longitude>0.2812208324675347</longitude>
+				<latitude>6.377082281527604</latitude>
+				<altitude>0</altitude>
+				<heading>6.763492925278078</heading>
+				<tilt>0</tilt>
+				<range>157913.2333557104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.02083333333333333,6.320555555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sedom Landing Site</name>
+			<LookAt>
+				<longitude>0.2812208324675347</longitude>
+				<latitude>6.377082281527604</latitude>
+				<altitude>0</altitude>
+				<heading>6.763492925278078</heading>
+				<tilt>0</tilt>
+				<range>157913.2333557104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.0002611111111111111,6.344938888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Obelemanya Landing Site</name>
+			<LookAt>
+				<longitude>0.2812208324675347</longitude>
+				<latitude>6.377082281527604</latitude>
+				<altitude>0</altitude>
+				<heading>6.763492925278078</heading>
+				<tilt>0</tilt>
+				<range>157913.2333557104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.01805555555555555,6.320555555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Agajajetor Landing Site</name>
+			<LookAt>
+				<longitude>0.2812208324675347</longitude>
+				<latitude>6.377082281527604</latitude>
+				<altitude>0</altitude>
+				<heading>6.763492925278078</heading>
+				<tilt>0</tilt>
+				<range>157913.2333557104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.02749722222222222,6.336808333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Southern Fairway of the Afram Start Point</name>
+			<LookAt>
+				<longitude>0.2812208324675347</longitude>
+				<latitude>6.377082281527604</latitude>
+				<altitude>0</altitude>
+				<heading>6.763492925278078</heading>
+				<tilt>0</tilt>
+				<range>157913.2333557104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.03361111111111111,6.44888888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Southern Fairway of the Afram End Point (Akateng)</name>
+			<LookAt>
+				<longitude>0.1479580049320473</longitude>
+				<latitude>6.48645630584968</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601262</heading>
+				<tilt>0</tilt>
+				<range>148910.8353467519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1536111111111111,6.525277777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Southern Fairway of the Afram End Point (End)</name>
+			<LookAt>
+				<longitude>0.1479580049320473</longitude>
+				<latitude>6.48645630584968</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601262</heading>
+				<tilt>0</tilt>
+				<range>148910.8353467519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2077777777777778,6.535555555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akrusu Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049320473</longitude>
+				<latitude>6.48645630584968</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601262</heading>
+				<tilt>0</tilt>
+				<range>148910.8353467519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.07594722222222222,6.495358333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akotoe Tsrebuanya Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049320473</longitude>
+				<latitude>6.48645630584968</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601262</heading>
+				<tilt>0</tilt>
+				<range>148910.8353467519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.0937361111111111,6.514947222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akateng Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049320473</longitude>
+				<latitude>6.48645630584968</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601262</heading>
+				<tilt>0</tilt>
+				<range>148910.8353467519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1533083333333333,6.48645630584968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Main Fairway of the Upper Afram Start Point</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.11175,6.553333333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Main Fairway of the Upper Afram End Point</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5561111111111111,6.760277777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akuase Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2242611111111111,6.553816666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Petefour Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2333777777777778,6.596397222222221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Odotorm Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2372055555555556,6.569113888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nar Panya Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2683166666666667,6.598016666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adakope Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2823833333333333,6.630125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tremeleveme Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.3048444444444444,6.626441666666669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nketepa Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4037166666666667,6.678933333333335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Asuboni Dumasi Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.455575,6.69783888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adawso Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5132222222222223,6.719197222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hyewodin Landing Site</name>
+			<LookAt>
+				<longitude>0.1479580049293294</longitude>
+				<latitude>6.486456297447926</latitude>
+				<altitude>0</altitude>
+				<heading>6.276689386601175</heading>
+				<tilt>0</tilt>
+				<range>148910.835336324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6674249999999999,6.814369444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sempoa Landing Site</name>
+			<LookAt>
+				<longitude>-0.1873683084622246</longitude>
+				<latitude>6.560529404556029</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267658860304</heading>
+				<tilt>0</tilt>
+				<range>149098.9256294372</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.7526166666666668,6.872069444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ekye Amanfrom Landing Site</name>
+			<LookAt>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5059972222222222,6.738844444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kwame Dwamena Landing Site</name>
+			<LookAt>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.3121222222222222,6.727822222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Main Fairway of theLower Afram Start Point</name>
+			<LookAt>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.0763888888888889,6.539166666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Main Fairway of the Lower Afram End  Point</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:15:54.404645517Z</begin>
+					<end>2017-10-19T10:15:54.604650253Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1180555555555556,6.584250000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dzemini Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:16:58.490017147Z</begin>
+					<end>2017-10-19T10:16:58.690021884Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1611583333333333,6.602452777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wusuta Tornu( Wusuta Kpebe) Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:19:02.699423839Z</begin>
+					<end>2017-10-19T10:19:02.899428971Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2257777777777778,6.827686111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bruben Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:21:07.226311044Z</begin>
+					<end>2017-10-19T10:21:07.426315386Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.03271666666666667,6.850480555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Avatey( Awatetone) Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:23:25.493115448Z</begin>
+					<end>2017-10-19T10:23:25.69311979Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2104972222222222,6.874016666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kpandu Torkor Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:24:48.215677189Z</begin>
+					<end>2017-10-19T10:24:48.415681136Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.1873683067809895</longitude>
+				<latitude>6.560529404461393</latitude>
+				<altitude>0</altitude>
+				<heading>6.237267659052322</heading>
+				<tilt>0</tilt>
+				<range>149098.9255378336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2566027777777778,6.99546388888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Agordeke Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:26:10.252993774Z</begin>
+					<end>2017-10-19T10:26:10.452998511Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.004475649792299308</longitude>
+				<latitude>6.767956420863462</latitude>
+				<altitude>0</altitude>
+				<heading>6.258916338850684</heading>
+				<tilt>0</tilt>
+				<range>149084.3549122089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1180944444444445,7.045574999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adzamansu Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:27:41.333315517Z</begin>
+					<end>2017-10-19T10:27:41.533319859Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.004475649792299308</longitude>
+				<latitude>6.767956420863462</latitude>
+				<altitude>0</altitude>
+				<heading>6.258916338850684</heading>
+				<tilt>0</tilt>
+				<range>149084.3549122089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2682888888888889,7.161266666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fairway to Bridge Ano And Ntoaboma Start Point</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.004475649792299308</longitude>
+				<latitude>6.767956420863462</latitude>
+				<altitude>0</altitude>
+				<heading>6.258916338850684</heading>
+				<tilt>0</tilt>
+				<range>149084.3549122089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2379166666666667,7.162222222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fairway to Bridge Ano And Ntoaboma End Point</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:30:33.263959998Z</begin>
+					<end>2017-10-19T10:30:33.463963946Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.004475649792299308</longitude>
+				<latitude>6.767956420863462</latitude>
+				<altitude>0</altitude>
+				<heading>6.258916338850684</heading>
+				<tilt>0</tilt>
+				<range>149084.3549122089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.007916666666666667,7.185000000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bridge Ano Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:31:54.064718606Z</begin>
+					<end>2017-10-19T10:31:54.264722948Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2926276895455948</longitude>
+				<latitude>7.056524971024824</latitude>
+				<altitude>0</altitude>
+				<heading>6.208330582526896</heading>
+				<tilt>0</tilt>
+				<range>67972.6713062286</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.008502777777777778,7.184136111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ntoaboma Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:33:44.199613314Z</begin>
+					<end>2017-10-19T10:33:44.399617261Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1134684656963758</longitude>
+				<latitude>7.148659711475583</latitude>
+				<altitude>0</altitude>
+				<heading>6.186409810406119</heading>
+				<tilt>1.756238283072062</tilt>
+				<range>59504.91351572516</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.01166111111111111,7.188266666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tapa Abotoase Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1134684656963758</longitude>
+				<latitude>7.148659711475583</latitude>
+				<altitude>0</altitude>
+				<heading>6.186409810406119</heading>
+				<tilt>1.756238283072062</tilt>
+				<range>59504.91351572516</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2968194444444444,7.408825,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C.K. Kope Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1134684724298696</longitude>
+				<latitude>7.148659755192456</latitude>
+				<altitude>0</altitude>
+				<heading>6.18640987441397</heading>
+				<tilt>1.756436470492127</tilt>
+				<range>59505.08268203229</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.08985,7.384386111111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Otisu Kpedzi Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1134684724298696</longitude>
+				<latitude>7.148659755192456</latitude>
+				<altitude>0</altitude>
+				<heading>6.18640987441397</heading>
+				<tilt>1.756436470492127</tilt>
+				<range>59505.08268203229</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1067222222222222,7.647238888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kpatchu Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1361794897816293</longitude>
+				<latitude>7.348065840637541</latitude>
+				<altitude>0</altitude>
+				<heading>6.188426600357787</heading>
+				<tilt>0</tilt>
+				<range>119316.2130247551</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.05168611111111111,7.927905555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adiembra Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2169784337909042</longitude>
+				<latitude>7.674191425646417</latitude>
+				<altitude>0</altitude>
+				<heading>6.200419828909614</heading>
+				<tilt>0</tilt>
+				<range>119317.0747852505</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.08752222222222222,7.952725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dambai Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2169784337909042</longitude>
+				<latitude>7.674191425646417</latitude>
+				<altitude>0</altitude>
+				<heading>6.200419828909614</heading>
+				<tilt>0</tilt>
+				<range>119317.0747852505</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1756194444444444,8.075291666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Overbank Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1508179054466341</longitude>
+				<latitude>7.917548086153016</latitude>
+				<altitude>0</altitude>
+				<heading>6.239591401294719</heading>
+				<tilt>0</tilt>
+				<range>74550.01959138294</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1775916666666667,8.088572222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kete-Krachi Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1508179054466341</longitude>
+				<latitude>7.917548086153016</latitude>
+				<altitude>0</altitude>
+				<heading>6.239591401294719</heading>
+				<tilt>0</tilt>
+				<range>74550.01959138294</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.05308055555555555,7.775852777777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kwadwakrom Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1740640111093339</longitude>
+				<latitude>7.783265145226261</latitude>
+				<altitude>0</altitude>
+				<heading>6.242389139113987</heading>
+				<tilt>0</tilt>
+				<range>74574.97340684498</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1327055555555556,7.770005555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hiamankyne Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1740640111093339</longitude>
+				<latitude>7.783265145226261</latitude>
+				<altitude>0</altitude>
+				<heading>6.242389139113987</heading>
+				<tilt>0</tilt>
+				<range>74574.97340684498</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1160361111111111,7.975752777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Torkbenya Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1740640111093339</longitude>
+				<latitude>7.783265145226261</latitude>
+				<altitude>0</altitude>
+				<heading>6.242389139113987</heading>
+				<tilt>0</tilt>
+				<range>74574.97340684498</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1503,8.045913888888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Anyiname Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1505338452676952</longitude>
+				<latitude>7.952078704958224</latitude>
+				<altitude>0</altitude>
+				<heading>6.348655869225827</heading>
+				<tilt>0</tilt>
+				<range>82942.05575248186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1525944444444445,8.04651111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bejamsu Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1505338452676952</longitude>
+				<latitude>7.952078704958224</latitude>
+				<altitude>0</altitude>
+				<heading>6.348655869225827</heading>
+				<tilt>0</tilt>
+				<range>82942.05575248186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2303138888888889,8.064130555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hausakope Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1505338452676952</longitude>
+				<latitude>7.952078704958224</latitude>
+				<altitude>0</altitude>
+				<heading>6.348655869225827</heading>
+				<tilt>0</tilt>
+				<range>82942.05575248186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.2870694444444444,8.079116666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lonto Landing SIte</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1505338452676952</longitude>
+				<latitude>7.952078704958224</latitude>
+				<altitude>0</altitude>
+				<heading>6.348655869225827</heading>
+				<tilt>0</tilt>
+				<range>82942.05575248186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.3922444444444445,8.199902777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Padjae No.2 Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:34:42.150739186Z</begin>
+					<end>2017-10-19T10:34:42.350743529Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.150533644975972</longitude>
+				<latitude>7.952076324837068</latitude>
+				<altitude>0</altitude>
+				<heading>6.348655840765096</heading>
+				<tilt>0</tilt>
+				<range>170899.3870493709</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.150533644975972,8.172091666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fairway to Tonka, kajai and Parambo Start Point</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.3091310382526147</longitude>
+				<latitude>7.472033076837818</latitude>
+				<altitude>0</altitude>
+				<heading>6.29844652108996</heading>
+				<tilt>0</tilt>
+				<range>183258.1599595583</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin60</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5701388888888889,8.206944444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fairway to Tonka, kajai and Parambo End Point</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.5526658823585918</longitude>
+				<latitude>8.068090866915407</latitude>
+				<altitude>0</altitude>
+				<heading>6.180555772636151</heading>
+				<tilt>0</tilt>
+				<range>183281.110267867</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.7636111111111111,8.116388888888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tonka Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.5526658823585918</longitude>
+				<latitude>8.068090866915407</latitude>
+				<altitude>0</altitude>
+				<heading>6.180555772636151</heading>
+				<tilt>0</tilt>
+				<range>183281.110267867</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6219138888888889,8.142758333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kajai Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.5526658823585918</longitude>
+				<latitude>8.068090866915407</latitude>
+				<altitude>0</altitude>
+				<heading>6.180555772636151</heading>
+				<tilt>0</tilt>
+				<range>183281.110267867</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6560083333333333,8.154094444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parambo (No. 1 Ensuano) Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.5526658823585918</longitude>
+				<latitude>8.068090866915407</latitude>
+				<altitude>0</altitude>
+				<heading>6.180555772636151</heading>
+				<tilt>0</tilt>
+				<range>183281.110267867</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.773425,8.121575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gbetepko Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.5526658823585918</longitude>
+				<latitude>8.068090866915407</latitude>
+				<altitude>0</altitude>
+				<heading>6.180555772636151</heading>
+				<tilt>0</tilt>
+				<range>183281.110267867</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5543916666666667,8.249749999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jakla No.3 Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6367111111111111,8.228147222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yeji Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6446027777777778,8.234205555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Makango Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6296666666666667,8.312047222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Soldierkope Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.644975,8.33406388888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mataheko Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.8391944444444444,8.505705555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Debre Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.2731,8.705891666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buipe Landing Site</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.7210840315790223</longitude>
+				<latitude>8.135406026746463</latitude>
+				<altitude>0</altitude>
+				<heading>6.155224382830737</heading>
+				<tilt>0.1579232497895893</tilt>
+				<range>309950.245150107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.445427777777778,8.768441666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VLTC Main NOrth-SOuth Route ( Akosombo)</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.01213927916358104</longitude>
+				<latitude>6.801465828675745</latitude>
+				<altitude>0</altitude>
+				<heading>6.2837121165508</heading>
+				<tilt>0.02511845730853824</tilt>
+				<range>311365.5284044903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.0008638888888888889,6.344363888888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VLTC Main North-South Route ( Kete- Krachi)</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.01213927916358104</longitude>
+				<latitude>6.801465828675745</latitude>
+				<altitude>0</altitude>
+				<heading>6.2837121165508</heading>
+				<tilt>0.02511845730853824</tilt>
+				<range>311365.5284044903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.05308055555555555,7.775852777777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VLTC Main North-South Route ( Yeji)</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.01213927916358104</longitude>
+				<latitude>6.801465828675745</latitude>
+				<altitude>0</altitude>
+				<heading>6.2837121165508</heading>
+				<tilt>0.02511845730853824</tilt>
+				<range>311365.5284044903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6446027777777778,8.234205555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VLTC Main North-South Route (Buipe Bost Only)</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.01213927916358104</longitude>
+				<latitude>6.801465828675745</latitude>
+				<altitude>0</altitude>
+				<heading>6.2837121165508</heading>
+				<tilt>0.02511845730853824</tilt>
+				<range>311365.5284044903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.445427777777778,8.768441666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VLTC Main North-South Route</name>
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-0.0007135387966084039,6.34487660761736,0 -0.0007569673697860324,6.344472252455701,0 -0.05305470458859651,7.775853996465418,0 -0.6444543364335076,8.234027100480601,0 -1.44532167667636,8.76848378540846,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<longitude>-0.03821935400632803</longitude>
+				<latitude>6.476083076314892</latitude>
+				<altitude>0</altitude>
+				<heading>11.40387236152449</heading>
+				<tilt>0</tilt>
+				<range>95621.72418140543</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1783333333333333,6.852222222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1686053507559238</longitude>
+				<latitude>6.827104372362934</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796155087256</heading>
+				<tilt>0</tilt>
+				<range>49544.36280051445</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2116666666666667,7.039722222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152015</heading>
+				<tilt>0</tilt>
+				<range>90780.31178532862</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2280555555555556,7.3125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2590453315792085</longitude>
+				<latitude>7.102717195417426</latitude>
+				<altitude>0</altitude>
+				<heading>11.43839486811859</heading>
+				<tilt>0</tilt>
+				<range>90780.06219670267</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.03583333333333334,7.766388888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1314572117806145</longitude>
+				<latitude>7.627180522541406</latitude>
+				<altitude>0</altitude>
+				<heading>11.42106406532196</heading>
+				<tilt>0</tilt>
+				<range>90743.28194523539</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.0375,7.766666666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1314572117806145</longitude>
+				<latitude>7.627180522541406</latitude>
+				<altitude>0</altitude>
+				<heading>11.42106406550333</heading>
+				<tilt>0</tilt>
+				<range>90743.28194525532</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1786111111111111,6.857777777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2197225771898382</longitude>
+				<latitude>6.967208539928289</latitude>
+				<altitude>0</altitude>
+				<heading>11.43137342785959</heading>
+				<tilt>0</tilt>
+				<range>90780.48004189784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1777777777777778,6.851666666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2197225771898382</longitude>
+				<latitude>6.967208539928289</latitude>
+				<altitude>0</altitude>
+				<heading>11.43137342785959</heading>
+				<tilt>0</tilt>
+				<range>90780.48004189784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1772222222222222,6.872500000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2197225771898382</longitude>
+				<latitude>6.967208539928289</latitude>
+				<altitude>0</altitude>
+				<heading>11.43137342785959</heading>
+				<tilt>0</tilt>
+				<range>90780.48004189784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.08805555555555557,7.796944444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.06890232707134736</longitude>
+				<latitude>7.724070586906896</latitude>
+				<altitude>0</altitude>
+				<heading>11.39122836924259</heading>
+				<tilt>0</tilt>
+				<range>90779.62550100485</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.09916666666666667,7.818055555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.06890232707134736</longitude>
+				<latitude>7.724070586906896</latitude>
+				<altitude>0</altitude>
+				<heading>11.39122836939004</heading>
+				<tilt>0</tilt>
+				<range>90779.62550105016</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1005555555555556,7.820833333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.06890232707134736</longitude>
+				<latitude>7.724070586906896</latitude>
+				<altitude>0</altitude>
+				<heading>11.39122836952917</heading>
+				<tilt>0</tilt>
+				<range>90779.625501098</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1030555555555556,7.833055555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-0.06890232707134736</longitude>
+				<latitude>7.724070586906896</latitude>
+				<altitude>0</altitude>
+				<heading>11.39122836965034</heading>
+				<tilt>0</tilt>
+				<range>90779.62550121492</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.03166666666666666,6.431388888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263172579</longitude>
+				<latitude>6.827104265166732</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151968</heading>
+				<tilt>0</tilt>
+				<range>90780.99399506304</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.0288888888888889,6.425277777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263172579</longitude>
+				<latitude>6.827104265166732</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151968</heading>
+				<tilt>0</tilt>
+				<range>90780.99399506304</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.02583333333333333,6.421666666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263172579</longitude>
+				<latitude>6.827104265166732</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151968</heading>
+				<tilt>0</tilt>
+				<range>90780.99399506304</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1708333333333333,6.408611111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263172579</longitude>
+				<latitude>6.827104265166732</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151968</heading>
+				<tilt>0</tilt>
+				<range>90780.99399506304</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.0175,6.40138888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263172579</longitude>
+				<latitude>6.827104265166732</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151968</heading>
+				<tilt>0</tilt>
+				<range>90780.99399506304</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.01416666666666667,6.393888888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263172579</longitude>
+				<latitude>6.827104265166732</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151968</heading>
+				<tilt>0</tilt>
+				<range>90780.99399506304</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.0125,6.390833333333335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263147799</longitude>
+				<latitude>6.827104258444888</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151954</heading>
+				<tilt>0</tilt>
+				<range>90781.67620090602</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.384722222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.376944444444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.368611111111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.360555555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.351666666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.003333333333333333,6.349444444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.33388888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.4279607515202</heading>
+				<tilt>0</tilt>
+				<range>90782.35850055634</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.0288888888888889,6.451111111111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104278511311</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152008</heading>
+				<tilt>0</tilt>
+				<range>90783.04062591681</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.007222222222222222,6.465277777777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104278511311</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152008</heading>
+				<tilt>0</tilt>
+				<range>90783.04062591681</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.006388888888888889,6.475833333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104278511311</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152008</heading>
+				<tilt>0</tilt>
+				<range>90783.04062591681</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.04722222222222222,6.503055555555555,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.530833333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.535277777777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.536111111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.541666666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1011111111111111,6.547777777777776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1127777777777778,6.546388888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.12,6.548055555555555,0</coordinates>
+			</Point>
+		</Placemark>
+
+
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104271888576</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152016</heading>
+				<tilt>0</tilt>
+				<range>90783.72283953933</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.538055555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152009</heading>
+				<tilt>0</tilt>
+				<range>90784.40514142874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.531666666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152009</heading>
+				<tilt>0</tilt>
+				<range>90784.40514142874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.528333333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152009</heading>
+				<tilt>0</tilt>
+				<range>90784.40514142874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.530833333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152009</heading>
+				<tilt>0</tilt>
+				<range>90784.40514142874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.535277777777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152009</heading>
+				<tilt>0</tilt>
+				<range>90784.40514142874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.528333333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075152009</heading>
+				<tilt>0</tilt>
+				<range>90784.40514142874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.535555555555556,0</coordinates>
+			</Point>
+		</Placemark>
+
+
+
+
+
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986196020894</longitude>
+				<latitude>6.827104265268177</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075072136</heading>
+				<tilt>0</tilt>
+				<range>90785.08744548918</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.532222222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986196020894</longitude>
+				<latitude>6.827104265268177</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075072136</heading>
+				<tilt>0</tilt>
+				<range>90785.08744548918</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0,6.52861111111111,0</coordinates>
+			</Point>
+		</Placemark>
+
+
+
+
+
+
+
+
+
+
+
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1395337083515847</longitude>
+				<latitude>6.480362884405405</latitude>
+				<altitude>0</altitude>
+				<heading>11.42525447304407</heading>
+				<tilt>0</tilt>
+				<range>107994.3482478735</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks16</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.3169444444444444,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151999</heading>
+				<tilt>0</tilt>
+				<range>90785.76974737614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.3472222222222222,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151999</heading>
+				<tilt>0</tilt>
+				<range>90785.76974737614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4016666666666667,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151999</heading>
+				<tilt>0</tilt>
+				<range>90785.76974737614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.401111111111111,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151999</heading>
+				<tilt>0</tilt>
+				<range>90785.76974737614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4202777777777779,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151999</heading>
+				<tilt>0</tilt>
+				<range>90785.76974737614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4263888888888889,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151977</heading>
+				<tilt>0</tilt>
+				<range>90786.45204926463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4347222222222221,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151977</heading>
+				<tilt>0</tilt>
+				<range>90786.45204926463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4527777777777778,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151977</heading>
+				<tilt>0</tilt>
+				<range>90786.45204926463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4583333333333334,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151977</heading>
+				<tilt>0</tilt>
+				<range>90786.45204926463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5111111111111111,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151977</heading>
+				<tilt>0</tilt>
+				<range>90786.45204926463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5111111111111111,6.671472222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986263197359</longitude>
+				<latitude>6.827104265265842</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075151977</heading>
+				<tilt>0</tilt>
+				<range>90786.45204926463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1838888888888889,7.172499999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986330324263</longitude>
+				<latitude>6.827104265065287</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075231771</heading>
+				<tilt>0</tilt>
+				<range>90787.13416467171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1830555555555556,7.172638888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.1685986330324263</longitude>
+				<latitude>6.827104265065287</latitude>
+				<altitude>0</altitude>
+				<heading>11.42796075231771</heading>
+				<tilt>0</tilt>
+				<range>90787.13416467171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1613888888888889,7.180555555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Single Tree</name>
+			<LookAt>
+				<longitude>-2.00000066327212</longitude>
+				<latitude>53.99999849610616</latitude>
+				<altitude>0</altitude>
+				<heading>-5.365983182921782e-007</heading>
+				<tilt>0</tilt>
+				<range>11010840.42612089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1225,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-1.132526175008046</longitude>
+				<latitude>5.161628562696428</latitude>
+				<altitude>0</altitude>
+				<heading>6.064294233569933</heading>
+				<tilt>0</tilt>
+				<range>1648649.974817714</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1736111111111111,7.172638888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1677777777777778,7.172638888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1736111111111111,7.180555555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1736111111111111,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1736111111111111,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1005555555555556,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108750807522775</longitude>
+				<latitude>1.298885894083567</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640778765852</heading>
+				<tilt>0</tilt>
+				<range>1653857.062052674</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.09527777777777777,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1736111111111111,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1736111111111111,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.08055555555555555,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.08,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.07083333333333333,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.06722222222222223,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.06194444444444445,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.05555555555555557,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.2108751875884773,7.169444444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.08583333333333333,6.529166666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove</name>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2017-10-19T10:28:58.238892538Z</begin>
+					<end>2017-10-19T10:28:58.438897669Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>0.2108751875884773</longitude>
+				<latitude>1.298885894093571</latitude>
+				<altitude>0</altitude>
+				<heading>5.976640781187701</heading>
+				<tilt>0</tilt>
+				<range>1653694.253880187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.075,6.529166666666668,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

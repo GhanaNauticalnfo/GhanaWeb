@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="theme-color" content="#FCD116">
     <title>GhanaWeb</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" sizes="192x192" href="img/ghanaweb-icon192X192.svg">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.3.min.js"></script>
     <script src="//use.fontawesome.com/40f01fd2ee.js"></script>
-    <script src="https://openlayers.org/en/v4.3.4/build/ol.js" ></script>
+    <script src="https://openlayers.org/en/v4.3.4/build/ol-debug.js" ></script>
+    <!--<script src="https://openlayers.org/en/v4.3.4/build/ol.js" ></script>-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> <!-- still used in the menu dropdowns -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdn.rawgit.com/abdmob/x2js/master/xml2json.js"></script>
@@ -37,6 +41,8 @@
 
 </head>
 <body ng-cloak>
+<noscript><h1>To use GhanaWeb, please enable JavaScript</h1></noscript>
+
 <div growl limit-messages="13"></div>
 
 <div ng-controller="AppController">
@@ -95,6 +101,7 @@
 <script src="weather/weather-service.js"></script>
 <script src="weather/weather-directive.js"></script>
 <script src="weather/weather-ctrl.js"></script>
+<script src="lake-volta-tree-stumps-landing-sites/tree-stump-layer.directive.js"></script>
 <!-- endbuild -->
 
 <script src="main-app/google-analytics.js"></script>
