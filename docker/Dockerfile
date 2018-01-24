@@ -38,9 +38,10 @@ RUN ls -la /opt/jboss/wildfly/standalone/deployments
 # with many thanks to https://github.com/vishnubob/wait-for-it
 COPY wait_for_it.sh /opt/jboss/wildfly/bin/wait_for_it.sh
 
-RUN dos2unix /opt/jboss/wildfly/bin/wait_for_it.sh
 
 USER root
+
+RUN dos2unix /opt/jboss/wildfly/bin/wait_for_it.sh
 
 RUN chmod +x /opt/jboss/wildfly/bin/wait_for_it.sh
 
