@@ -10,6 +10,24 @@
     <packaging>war</packaging>
     <name>ghana-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
+
+    <properties>
+        <version.org.jboss.spec.javaee7>1.0.3.Final</version.org.jboss.spec.javaee7>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.jboss.spec</groupId>
+                <artifactId>jboss-javaee-7.0</artifactId>
+                <version>${version.org.jboss.spec.javaee7}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>dk.dma.enav.balticweb</groupId>
@@ -17,6 +35,70 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+
+        <dependency>
+            <groupId>dk.dma.enav.services</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>dk.dma.enav.services</groupId>
+            <artifactId>user</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>dk.dma.enav.services</groupId>
+            <artifactId>msi</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>dk.dma.enav.services</groupId>
+            <artifactId>service-registry</artifactId>
+        </dependency>
+
+
+
+        <!-- Import the Servlet API. -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+
+        <!-- Import the CDI API. -->
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Import the Common Annotations API (JSR-250). -->
+        <dependency>
+            <groupId>org.jboss.spec.javax.annotation</groupId>
+            <artifactId>jboss-annotations-api_1.2_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Import the EJB API. -->
+        <dependency>
+            <groupId>org.jboss.spec.javax.ejb</groupId>
+            <artifactId>jboss-ejb-api_3.2_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jaxrs</artifactId>
+        </dependency>
+
+        <!-- WILDFLY -->
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jackson2-provider</artifactId>
+        </dependency>
+
+
+
+        
     </dependencies>
     <build>
         <finalName>ghana-web</finalName>
@@ -32,6 +114,13 @@
                         <overlay>
                             <groupId>dk.dma.enav.balticweb</groupId>
                             <artifactId>baltic-web</artifactId>
+                            <excludes>
+                                <exclude>**/balticweb/**/*</exclude>
+                                <exclude>**/berths/*</exclude>
+                                <exclude>**/demo/routes/*</exclude>
+                                <exclude>**/shapefiles/*</exclude>
+                                <exclude>**/balticweb-shiro.ini</exclude>
+                            </excludes>
                         </overlay>
                     </overlays>
                 </configuration>

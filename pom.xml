@@ -7,6 +7,12 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Ghana Web Parent</name>
+    <parent>
+        <groupId>dk.dma.enav.services</groupId>
+        <artifactId>parent</artifactId>
+        <!-- Version number for development. Release versions don't get pushed to VCS -->
+        <version>1.0-Developer-SNAPSHOT</version>
+    </parent>
 
     <modules>
         <module>ghanaweb</module>
