@@ -18,17 +18,20 @@
 
         function link(scope, element, attrs, ctrl) {
             var treeStumpLayer = createTreeStumpLayer();
+            var selectedFeature;
             treeStumpLayer.getSource().on("addfeature", function (evt) {
                 var f = evt.feature;
                 var styleFunc = f.getStyle();
 
                 var newStyleFunc = function (resolution) {
                     // console.log("resolution: " + resolution);
+                    var newStyles = [];
                     var styles = styleFunc.apply(f, [resolution]);
                     styles.forEach(function (style) {
                         var scale = 1.0;
                         var image = style.getImage();
                         if (image) {
+                            newStyles.push(style);
                             scale = image.getScale() > 1 ? image.getScale() : 1.0;
                             if (resolution < 1.0) {
                                 scale = 0.95 * scale;
@@ -63,19 +66,28 @@
                         }
                         var text = style.getText();
                         if (text) {
-                            if (resolution > 500) {
-                                text.setScale(0.15);
-                            } else if (resolution > 350) {
-                                text.setScale(0.35);
-                            } else if (resolution > 100) {
-                                text.setScale(0.55);
+                            if (resolution < 45 || selectedFeature === f) {
+                                if (selectedFeature === f) {
+                                    style = style.clone();
+                                    style.getText().getFill().setColor("black");
+                                    style.getText().setScale(1.0);
+                                }
+
+                                newStyles.push(style);
+                            }
+                            if (resolution > 40) {
+                                text.setScale(0.70);
+                            } else if (resolution > 35) {
+                                text.setScale(0.75);
+                            } else if (resolution > 20) {
+                                text.setScale(0.85);
                             } else {
-                                text.setScale(0.8);
+                                text.setScale(0.9);
                             }
 
                         }
                     });
-                    return styles;
+                    return newStyles;
                 };
                 if (styleFunc) {
                     f.setStyle(newStyleFunc);
@@ -99,19 +111,30 @@
             olScope.getMap().then(function (map) {
                 map.addLayer(treeStumpLayer);
 
-                map.on('click', function(evt) {
-                    var features = [];
-                    map.forEachFeatureAtPixel(evt.pixel, function(feature) {
-                        features.push(feature);
+                var onClickKey = map.on('click', function(e) {
+                    var selected = false;
+                    var pixel = map.getEventPixel(e.originalEvent);
+                    var hitThis = map.hasFeatureAtPixel(pixel, {
+                        layerFilter: function (layerCandidate) {
+                            return layerCandidate === treeStumpLayer;
+                        }
                     });
-                    if (features.length > 0) {
-                        features.forEach(function (f) {
-                            // console.log(f.getKeys());
-                            f.getKeys().forEach(function (k) {
-                                // console.log(f.get(k));
-                            });
+
+                    if (hitThis) {
+                        map.forEachFeatureAtPixel(pixel, function (feature) {
+                            selectedFeature = feature;
+                            selected = true;
+                        }, /** @type olx.AtPixelOptions */{
+                            layerFilter: function (layerCandidate) {
+                                return layerCandidate === treeStumpLayer;
+                            }
                         });
                     }
+                    if (!selected) {
+                        selectedFeature = undefined;
+                    }
+
+                    treeStumpLayer.getSource().changed();
                 });
 
                 // Clean up when the scope is destroyed
@@ -119,11 +142,9 @@
                     if (angular.isDefined(treeStumpLayer)) {
                         map.removeLayer(treeStumpLayer);
                     }
-/*
-                    if (onclickKey) {
-                        ol.Observable.unByKey(onclickKey);
+                    if (onClickKey) {
+                        ol.Observable.unByKey(onClickKey);
                     }
-*/
                 });
             })
         }

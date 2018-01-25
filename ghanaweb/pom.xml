@@ -120,6 +120,7 @@
                                 <exclude>**/demo/routes/*</exclude>
                                 <exclude>**/shapefiles/*</exclude>
                                 <exclude>**/balticweb-shiro.ini</exclude>
+                                <exclude>**/js/balticweb.js</exclude>
                             </excludes>
                         </overlay>
                     </overlays>

@@ -22,16 +22,6 @@
     </filter-mapping>
 
     <filter>
-        <filter-name>CacheForeverFilter</filter-name>
-        <filter-class>dk.dma.embryo.common.servlet.CacheForeverFilter</filter-class>
-    </filter>
-
-    <filter-mapping>
-        <filter-name>CacheForeverFilter</filter-name>
-        <url-pattern>/map/*</url-pattern>
-    </filter-mapping>
-
-    <filter>
         <filter-name>NoCacheFilter</filter-name>
         <filter-class>dk.dma.embryo.common.servlet.ETagFilter</filter-class>
     </filter>
@@ -45,45 +35,16 @@
         <url-pattern>*.jpeg</url-pattern>
         <url-pattern>*.jpg</url-pattern>
         <url-pattern>*.svg</url-pattern>
+        <url-pattern>*.kml</url-pattern>
+        <url-pattern>*.json</url-pattern>
     </filter-mapping>
-
-    <filter-mapping>
-        <filter-name>NoCacheFilter</filter-name>
-        <url-pattern>/partials/admin/*</url-pattern>
-    </filter-mapping>
-
-    <filter-mapping>
-        <filter-name>NoCacheFilter</filter-name>
-        <url-pattern>/partials/common/*</url-pattern>
-    </filter-mapping>
-
-    <filter-mapping>
-        <filter-name>NoCacheFilter</filter-name>
-        <url-pattern>/partials/front/*</url-pattern>
-    </filter-mapping>
-
-    <filter-mapping>
-        <filter-name>NoCacheFilter</filter-name>
-        <url-pattern>/partials/*</url-pattern>
-    </filter-mapping>
-
-
-    <filter>
-        <filter-name>SetCacheManifestContentTypeFilter</filter-name>
-        <filter-class>dk.dma.embryo.common.servlet.SetContentTypeFilter</filter-class>
-        <init-param>
-            <param-name>ContentType</param-name>
-            <param-value>text/cache-manifest</param-value>
-        </init-param>
-    </filter>
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
-
     <mime-mapping>
-        <extension>appcache</extension>
-        <mime-type>text/cache-manifest</mime-type>
+        <extension>kml</extension>
+        <mime-type>application/vnd.google-earth.kml+xml</mime-type>
     </mime-mapping>
 </web-app>
