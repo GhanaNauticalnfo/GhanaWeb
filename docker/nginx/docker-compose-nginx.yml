@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginxredirect:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d
+
+
