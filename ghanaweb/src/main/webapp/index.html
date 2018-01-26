@@ -5,7 +5,7 @@
     <meta name="theme-color" content="#FCD116">
     <title>GhanaWeb</title>
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" sizes="192x192" href="img/ghanaweb-icon192X192.svg">
+    <link rel="icon" sizes="192x192" href="img/ghanaweb-icon192X192.png">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
@@ -42,7 +42,7 @@
 </head>
 <body ng-cloak>
 <noscript><h1>To use GhanaWeb, please enable JavaScript</h1></noscript>
-
+<div id="status"></div>
 <div growl limit-messages="13"></div>
 
 <div ng-controller="AppController">
@@ -103,6 +103,45 @@
 <script src="weather/weather-ctrl.js"></script>
 <script src="lake-volta-tree-stumps-landing-sites/tree-stump-layer.directive.js"></script>
 <!-- endbuild -->
+
+<script>
+    // Helper function which returns a promise which resolves once the service worker registration
+    // is past the "installing" state.
+    function waitUntilInstalled(registration) {
+        return new Promise(function(resolve, reject) {
+            if (registration.installing) {
+                // If the current registration represents the "installing" service worker, then wait
+                // until the installation step (during which the resources are pre-fetched)
+                registration.installing.addEventListener('statechange', function(e) {
+                    if (e.target.state === 'installed') {
+                        resolve();
+                    } else if(e.target.state === 'redundant') {
+                        reject();
+                    }
+                });
+            } else {
+                // Otherwise, if this isn't the "installing" service worker, then installation must have been
+                // completed during a previous visit to this page, and the resources are already pre-fetched.
+                resolve();
+            }
+        });
+    }
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./service-worker.js', {scope: './'})
+            .then(waitUntilInstalled)
+            .catch(function(error) {
+                // Something went wrong during registration. The service-worker.js file
+                // might be unavailable or contain a syntax error.
+                console.error(error);
+            });
+    } else {
+        // The current browser doesn't support service workers.
+        var aElement = document.createElement('a');
+        aElement.href = 'http://www.chromium.org/blink/serviceworker/service-worker-faq';
+        aElement.textContent = 'Service workers are not supported in the current browser.';
+        document.querySelector('#status').appendChild(aElement);
+    }
+</script>
 
 </body>
 </html>
