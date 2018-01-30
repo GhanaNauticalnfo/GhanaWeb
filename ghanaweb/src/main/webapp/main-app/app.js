@@ -39,6 +39,11 @@ angular.module('maritimeweb.nasa-satellite', ['yaru22.angular-timeago']);
         'chart.js',
         'yaru22.angular-timeago',
         'iso-3166-country-codes']);
-    keycloakInitialize(module, 'maritimeweb', false);
+    keycloakInitialize({
+        module: module,
+        moduleName: 'maritimeweb',
+        loginRequired: false,
+        initOptions: {checkLoginIframe: false}
+    });
 })();
 

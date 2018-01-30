@@ -121,10 +121,46 @@
                                 <exclude>**/shapefiles/*</exclude>
                                 <exclude>**/balticweb-shiro.ini</exclude>
                                 <exclude>**/js/balticweb.js</exclude>
+                                <exclude>**/img/unused/**/*</exclude>
+                                <exclude>**/img/wave/*</exclude>
+                                <exclude>**/img/sar/*</exclude>
+                                <exclude>**/img/wave_legend/*</exclude>
+                                <exclude>**/img/wind/*</exclude>
+                                <exclude>**/img/wind_legend/*</exclude>
+                                <exclude>**/img/forecast/*</exclude>
+                                <exclude>**/img/front/*</exclude>
+                                <exclude>**/img/ext/**/*</exclude>
+                                <exclude>**/img/current/*</exclude>
+                                <exclude>**/img/current_legend/*</exclude>
+                                <exclude>**/img/common/*</exclude>
+                                <exclude>**/img/cargo_labels/*</exclude>
+                                <exclude>**/libs/xml2json/**/*</exclude>
                             </excludes>
                         </overlay>
                     </overlays>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>exec-maven-plugin</artifactId>
+                <groupId>org.codehaus.mojo</groupId>
+                <version>1.5.0</version>
+                <executions>
+                    <execution>
+                        <id>npm-run</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>cmd</executable>
+                            <arguments>
+                                <argument>/c</argument>
+                                <argument>"workbox --config-file workbox-cli-config.js inject:manifest"</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
 

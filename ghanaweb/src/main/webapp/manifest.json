@@ -3,23 +3,23 @@
   "name": "Ghana e-navigation services",
   "icons": [
     {
-      "src": "img/ghanaweb-icon48X48.svg",
-      "type": "image/svg+xml",
+      "src": "img/ghana/ghanaweb-icon48X48.png",
+      "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "img/ghanaweb-icon96X96.svg",
-      "type": "image/svg+xml",
+      "src": "img/ghana/ghanaweb-icon96X96.png",
+      "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "img/ghanaweb-icon192X192.png",
+      "src": "img/ghana/ghanaweb-icon192X192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/ghanaweb-icon512X512.svg",
-      "type": "image/svg+xml",
+      "src": "img/ghana/ghanaweb-icon512X512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],

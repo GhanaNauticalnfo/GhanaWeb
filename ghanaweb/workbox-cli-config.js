@@ -1,0 +1,30 @@
+module.exports = {
+    "globDirectory": "target\\ghana-web\\",
+    "globPatterns": [
+        "**/*.{png,svg,html,js,kml,map,json,css,xml,woff2}"
+    ],
+    "swSrc": "sw.js",
+    "swDest": "src\\main\\webapp\\sw.js",
+    "clientsClaim": true,
+    "skipWaiting": true,
+    "globIgnores": [
+        "..\\..\\workbox-cli-config.js",
+        "img/!(E2_Logo*|eu_emblem*|MaritimeCloud*).png",
+        "libs/sw-toolbox/**",
+        "libs/workbox-sw/**",
+        "libs/xmllint/**",
+        "libs/**/*debug*.js",
+        "libs/**/package.json",
+        "**/barrenswatch_no_salstraumen.json",
+        "libs/angular-timeago/*",
+        "META-INF/**",
+        "WEB-INF/**",
+        "sw.js",
+    ],
+    "runtimeCaching":  [
+        {
+            "urlPattern": new RegExp('.*80X15.png'),
+            "handler": "staleWhileRevalidate"
+        }
+    ]
+};

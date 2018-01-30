@@ -1,8 +1,73 @@
+importScripts('/lib/workbox-sw/2.1.2/workbox-sw.dev.v2.1.2.js');
 var CACHE_VERSION = 1;
 var CURRENT_CACHES = {
     prefetch: 'prefetch-cache-v' + CACHE_VERSION
 };
 
+var urlsToPrefetch = [
+    'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js',
+    'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js',
+    'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js',
+    'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js',
+    'https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.3.min.js',
+    'https://use.fontawesome.com/40f01fd2ee.js',
+    'https://use.fontawesome.com/webfontloader/1.6.24/webfontloader.js',
+    'https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js',
+    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
+    'https://cdn.rawgit.com/abdmob/x2js/master/xml2json.js',
+    'https://openlayers.org/en/v4.3.4/build/ol.js',
+    'https://cdn.rawgit.com/kripken/xml.js/master/xmllint.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.js',
+    'https://cdn.rawgit.com/indrimuska/angular-moment-picker/master/dist/angular-moment-picker.min.js',
+    'https://cdn.rawgit.com/indrimuska/angular-moment-picker/master/dist/angular-moment-picker.min.css',
+    'https://openlayers.org/en/v4.3.2/css/ol.css',
+    'https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+    'https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.woff2',
+
+    'index.html',
+    'libs/json-formatter/dist/json-formatter.min.js',
+    'libs/world-flags/flags16.css',
+    'libs/world-flags/flags32.css',
+    'libs/angular-datetime-inputs/datetime-inputs.min.css',
+    'style/ghanaweb.css',
+    'libs/growl2-lib/angular-growl.min.css',
+    'libs/json-formatter/dist/json-formatter.min.css',
+    'libs/angular-timeago/dist/angular-timeago.js',
+    'libs/turfjs/turfjs.min.js',
+    'libs/growl2-lib/angular-growl.min.js',
+    'libs/keycloak/keycloak.js',
+    'main-app/keycloak-angular-initializer.js',
+    'main-app/app.js',
+    'main-app/app-ctrl.js',
+    'main-app/app-route-config.js',
+    'main-app/growl-config.js',
+    'map/position.js',
+    'map/map-service.js',
+    'map/map-directives.js',
+    'service-registry/service-registry-service.js',
+    'service-registry/mc-sr-ctrl.js',
+    'nw-nm/nw-nm-layer.js',
+    'lake-volta-tree-stumps-landing-sites/tree-stump-layer.directive.js',
+];
+
+// All of these logging statements should be visible via the "Inspect" interface
+// for the relevant SW accessed via chrome://serviceworker-internals
+console.log('Handling install event. Resources to prefetch:', urlsToPrefetch);
+
+const workboxSW = new WorkboxSW();
+
+//Configuration
+workboxSW.core.setCacheNameDetails({
+    prefix: 'ghana-web',
+    suffix: 'v1'
+});
+
+workboxSW.core.setLogLevel(workboxSW.core.LOG_LEVELS.debug);
+
+//Precache
+workboxSW.precacheAndRoute(urlsToPrefetch);
+
+/*
 self.addEventListener('install', function(event) {
     var now = Date.now();
 
@@ -26,6 +91,7 @@ self.addEventListener('install', function(event) {
         'https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
         'https://use.fontawesome.com/releases/v4.6.3/fonts/fontawesome-webfont.woff2',
 
+        'index.html',
         'libs/json-formatter/dist/json-formatter.min.js',
         'libs/world-flags/flags16.css',
         'libs/world-flags/flags32.css',
@@ -54,7 +120,9 @@ self.addEventListener('install', function(event) {
     // All of these logging statements should be visible via the "Inspect" interface
     // for the relevant SW accessed via chrome://serviceworker-internals
     console.log('Handling install event. Resources to prefetch:', urlsToPrefetch);
+*/
 
+/*
     event.waitUntil(
         caches.open(CURRENT_CACHES.prefetch).then(function(cache) {
             var cachePromises = urlsToPrefetch.map(function(urlToPrefetch) {
@@ -101,7 +169,9 @@ self.addEventListener('install', function(event) {
         })
     );
 });
+*/
 
+/*
 self.addEventListener('activate', function(event) {
     // Delete all caches that aren't named in CURRENT_CACHES.
     // While there is only one cache in this example, the same logic will handle the case where
@@ -156,4 +226,4 @@ self.addEventListener('fetch', function(event) {
             });
         })
     );
-});
+});*/
