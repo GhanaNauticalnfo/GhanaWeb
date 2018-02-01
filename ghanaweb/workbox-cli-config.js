@@ -8,8 +8,7 @@ module.exports = {
     "clientsClaim": true,
     "skipWaiting": true,
     "globIgnores": [
-        "..\\..\\workbox-cli-config.js",
-        "img/!(E2_Logo*|eu_emblem*|MaritimeCloud*).png",
+        "img/!(bgr_refuse*).png",
         "libs/sw-toolbox/**",
         "libs/workbox-sw/**",
         "libs/xmllint/**",

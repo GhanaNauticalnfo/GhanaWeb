@@ -135,6 +135,9 @@
                                 <exclude>**/img/common/*</exclude>
                                 <exclude>**/img/cargo_labels/*</exclude>
                                 <exclude>**/libs/xml2json/**/*</exclude>
+                                <exclude>testdata.html</exclude>
+                                <exclude>sitemap.xml</exclude>
+                                <exclude>*.appcache</exclude>
                             </excludes>
                         </overlay>
                     </overlays>
@@ -154,9 +157,11 @@
                         </goals>
                         <configuration>
                             <executable>cmd</executable>
+                            <workingDirectory>./</workingDirectory>
                             <arguments>
                                 <argument>/c</argument>
-                                <argument>"workbox --config-file workbox-cli-config.js inject:manifest"</argument>
+                                <argument>"npm run-script build"</argument>
+                                <!--<argument>"workbox &#45;&#45;config-file workbox-cli-config.js inject:manifest"</argument>-->
                             </arguments>
                         </configuration>
                     </execution>

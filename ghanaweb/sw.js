@@ -1,4 +1,4 @@
-importScripts('/libs/workbox-sw/2.1.2/workbox-sw.dev.v2.1.2.js');
+importScripts('/libs/workbox-sw/2.1.2/workbox-sw.prod.v2.1.2.js');
 
 const workboxSW = new self.WorkboxSW({
   "skipWaiting": true,
