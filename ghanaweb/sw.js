@@ -6,6 +6,5 @@ const workboxSW = new self.WorkboxSW({
 });
 workboxSW.precache([]);
 
-
 workboxSW.router.registerRoute(/.*80x15.png/, workboxSW.strategies.staleWhileRevalidate({}), 'GET');
 workboxSW.router.registerRoute(/keycloak.json/, workboxSW.strategies.staleWhileRevalidate({}), 'GET');

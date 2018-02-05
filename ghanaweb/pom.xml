@@ -110,6 +110,11 @@
                 <version>3.2.0</version>
                 <configuration>
                     <workDirectory>target/overlay</workDirectory>
+                    <warSourceExcludes>
+                        libs/angular-moment-picker/**/*,
+                        **/libs/angular-timeago/**/*,
+                        **/libs/xmllint/**/*
+                    </warSourceExcludes>
                     <overlays>
                         <overlay>
                             <groupId>dk.dma.enav.balticweb</groupId>
@@ -134,7 +139,29 @@
                                 <exclude>**/img/current_legend/*</exclude>
                                 <exclude>**/img/common/*</exclude>
                                 <exclude>**/img/cargo_labels/*</exclude>
+                                <exclude>**/libs/angular-chart.js/**/*</exclude>
+                                <exclude>**/libs/angular-datetime-inputs/**/*</exclude>
+                                <exclude>**/libs/angular-moment-picker/**/*</exclude>
+                                <exclude>**/libs/angular-timeago/**/*</exclude>
+                                <exclude>**/libs/chart.js/**/*</exclude>
+                                <exclude>**/libs/cryptojs/**/*</exclude>
+                                <exclude>**/libs/geolib/**/*</exclude>
+                                <exclude>**/libs/iso-3166-country-codes-angular/**/*</exclude>
+                                <exclude>**/libs/json-formatter/**/*</exclude>
+                                <exclude>**/libs/moment/**/*</exclude>
+                                <exclude>**/libs/ng-file-upload/**/*</exclude>
+                                <exclude>**/libs/turfjs/**/*</exclude>
+                                <exclude>**/libs/world-flags/**/*</exclude>
                                 <exclude>**/libs/xml2json/**/*</exclude>
+                                <exclude>**/nasa-satellite/*</exclude>
+                                <exclude>**/no-go-area/*</exclude>
+                                <exclude>**/route/*</exclude>
+                                <exclude>**/route/**/*</exclude>
+                                <exclude>**/service-registry/**/*</exclude>
+                                <exclude>**/vessel/**/*</exclude>
+                                <exclude>**/vessel-traffic-service/**/*</exclude>
+                                <exclude>**/weather/**/*</exclude>
+                                <exclude>**/style/balticweb.css</exclude>
                                 <exclude>testdata.html</exclude>
                                 <exclude>sitemap.xml</exclude>
                                 <exclude>*.appcache</exclude>
@@ -142,6 +169,28 @@
                         </overlay>
                     </overlays>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>pre package service worker generation support</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>exploded</goal>
+                        </goals>
+                        <configuration>
+                            <webappDirectory>${project.build.directory}/sw-prepare</webappDirectory>
+                            <workDirectory>target/sw-work</workDirectory>
+                        </configuration>
+                    </execution>
+<!--
+                    <execution>
+                        <id>package with updated service worker</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>war</goal>
+                        </goals>
+                    </execution>
+-->
+                </executions>
             </plugin>
 
             <plugin>
@@ -151,7 +200,7 @@
                 <executions>
                     <execution>
                         <id>npm-run</id>
-                        <phase>verify</phase>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>exec</goal>
                         </goals>

@@ -1,5 +1,5 @@
 module.exports = {
-    "globDirectory": "target\\ghana-web\\",
+    "globDirectory": "target\\sw-prepare\\",
     "globPatterns": [
         "**/*.{png,svg,html,js,kml,map,json,css,xml,woff2}"
     ],
@@ -20,10 +20,12 @@ module.exports = {
         "WEB-INF/**",
         "sw.js",
     ],
+/*
     "runtimeCaching":  [
         {
             "urlPattern": new RegExp('.*80X15.png'),
             "handler": "staleWhileRevalidate"
         }
     ]
+*/
 };
