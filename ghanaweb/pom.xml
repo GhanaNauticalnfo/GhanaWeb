@@ -181,15 +181,6 @@
                             <workDirectory>target/sw-work</workDirectory>
                         </configuration>
                     </execution>
-<!--
-                    <execution>
-                        <id>package with updated service worker</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>war</goal>
-                        </goals>
-                    </execution>
--->
                 </executions>
             </plugin>
 

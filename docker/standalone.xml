@@ -346,10 +346,13 @@
                 <http-listener name="default" socket-binding="http"/>
                 <host name="default-host" alias="localhost">
                     <location name="/" handler="welcome-content"/>
-<!--
-                    <filter-ref name="server-header"/>
-                    <filter-ref name="x-powered-by-header"/>
--->
+                    <filter-ref name="gzip-filter"
+                                predicate="path-suffix['.css'] or path-suffix['.js'] or path-suffix['.json'] or path-suffix['.html'] or path-suffix['.xml'] or path-suffix['.kml']"/>
+
+                    <!--
+                                        <filter-ref name="server-header"/>
+                                        <filter-ref name="x-powered-by-header"/>
+                    -->
                 </host>
             </server>
             <servlet-container name="default">
@@ -362,6 +365,8 @@
             <filters>
                 <response-header name="server-header" header-name="Server" header-value="WildFly/8"/>
                 <response-header name="x-powered-by-header" header-name="X-Powered-By" header-value="Undertow/1"/>
+                <gzip name="gzip-filter"/>
+
             </filters>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:webservices:1.2">
