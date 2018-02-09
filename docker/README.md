@@ -1,5 +1,6 @@
-# GhanaWeb Docker
-A dockerized container for the GhanaWeb project. The container deploys the latest successful build of GhanaWeb on a Wildfly 8.2.0 web server. It also has the required CouchDB and MySQL as described in the [BalticWeb](https://github.com/maritime-web/BalticWeb#balticweb) guide. 
+# Docker Setup
+A dockerized container for the GhanaWeb project. The container deploys the latest successful build of GhanaWeb on a 
+Wildfly 8.2.0 web server. It also has the required MySQL as described in the [GhanaWeb](../README.md) guide. 
 
 ## Prerequisties
 * Docker 1.10.0+
@@ -7,60 +8,37 @@ A dockerized container for the GhanaWeb project. The container deploys the lates
 * A file called ghanaweb.properties
 * Two configuration files for Keycloak as described in [BalticWeb](https://github.com/maritime-web/BalticWeb#configure-keycloak)
 
-## Initial Setup
-Clone the repository to a choosen directory using
+## Property Setup
+In your home directory you need to make a new directory - 'ghanaweb/properties'. 
+In the 'properties' directory you should put the 'ghanaweb.properties' file.
 
-    $ git clone https://github.com/maritime-web/BalticWeb-Docker.git
+It is recommended to also put the configuration files for Keycloak in the 'properties' directory. In 
+'ghanaweb.properties' you should then override the default configuration with the following:
 
-In your home directory you need to make two new directories - 'balticweb/properties' and 'balticweb/couchdb'. The latter needs to have the subdirectory 'couchdb/etc/local.d'.
-In the 'balticweb/properties' directory you should put the 'balticweb.properties' file, and in 'balticweb/couchdb/etc/local.d' you should put the configuration files you wish to use for the CouchDB.
+	enav-service.keycloak.service-client.configuration.url=file:///opt/jboss/wildfly/ghanaweb_properties/<path_to_first_file>/<your_first_file>.json
+	enav-service.keycloak.web-client.configuration.url=file:///opt/jboss/wildfly/ghanaweb_properties/<path_to_second_file>/<your_second_file>.json
 
-It is recommended to also put the configuration files for Keycloak in the 'balticweb/properties' directory. In 'balticweb.properties' you should then override the default configuration with the following:
-
-	enav-service.keycloak.service-client.configuration.url=file:///opt/jboss/wildfly/balticweb_properties/<path_to_first_file>/<your_first_file>.json
-	enav-service.keycloak.web-client.configuration.url=file:///opt/jboss/wildfly/balticweb_properties/<path_to_second_file>/<your_second_file>.json
-
-
-If you want to build the BalticWeb container yourself do the following, but you only need to do this if you have a specific reason to do it 
-
-    $ docker build -t dmadk/balticweb .
-
-Currently there are two ways of starting the BalticWeb container and the two databases.
-The first is using Docker Compose. On the first startup do
+## Build
+To build the GhanaWeb container first build the ghanaweb project to ensure that you have a ghana-web.war file in the 
+target directory then:
+  
+    On Linux     
+    $ ./build-ghanaweb.sh
     
-    $ docker-compose up
+    On Windows
+    $ ./build-ghanaweb.cmd
+    
+##Start
+Start the ghanaweb container and the two databases by using Docker Compose. 
+    
+    $ docker-compose -f docker-compose-prod.yml up -d
 
-On subsequent startups you can start with either
+To stop use
 
-    $ docker-compose up
+	$ docker-compose -f docker-compose-prod.yml down
 
-Or
+## Development environment
 
-    $ docker-compose start
 
-To stop use either
-
-	$ docker-compose stop
-
-Or
-
-	$ docker-compose down
-
-The second way of starting is using the script deploy.sh which also makes a [WatchTower](https://github.com/CenturyLinkLabs/watchtower#watchtower) container which makes sure that you are always running the latest version of BalticWeb.
-On the first startup using this method do
-	
-	$ chmod +x deploy.sh
-	$ chmod +x undeploy.sh
-	$ ./deploy.sh full
-
-On subsequent startups do
-
-	$ ./deploy.sh
-
-When you want to stop the containers do
-
-	$ ./undeploy.sh
-
-If you want to stop the containers and then remove them do
-
-	$ ./undeploy.sh full
+TODO
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted

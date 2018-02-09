@@ -8,8 +8,6 @@ RUN yum remove -y java-1.7.0-openjdk-devel
 
 RUN yum install -y java-1.8.0-openjdk-devel
 
-#RUN yum install -y epel-release
-
 RUN yum install -y dos2unix
 
 RUN yum clean all
@@ -25,7 +23,7 @@ USER jboss
 
 RUN /opt/jboss/wildfly/bin/add-user.sh admin admin --silent
 
-COPY standalone.xml /opt/jboss/wildfly/standalone/configuration/standalone.xml
+COPY standalone_8.xml /opt/jboss/wildfly/standalone/configuration/standalone.xml
 
 COPY mysql-connector-java-5.1.38-bin.jar /opt/jboss/wildfly/modules/com/mysql/main/mysql-connector-java-5.1.38-bin.jar
 

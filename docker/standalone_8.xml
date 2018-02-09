@@ -347,7 +347,7 @@
                 <host name="default-host" alias="localhost">
                     <location name="/" handler="welcome-content"/>
                     <filter-ref name="gzip-filter"
-                                predicate="path-suffix['.css'] or path-suffix['.js'] or path-suffix['.json'] or path-suffix['.html'] or path-suffix['.xml'] or path-suffix['.kml']"/>
+                                predicate="path-suffix['.css'] or path-suffix['.js'] or path-suffix['.json'] or path-suffix['.html'] or path-suffix['.xml'] or path-suffix['.kml'] or regex['/rest/.*']"/>
 
                     <!--
                                         <filter-ref name="server-header"/>

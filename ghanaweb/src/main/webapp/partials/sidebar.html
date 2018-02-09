@@ -6,7 +6,7 @@
         <!-- NW-NM tab -->
         <uib-tab classes="btn-sm" ng-click="sidebarUncollapse()">
             <uib-tab-heading>
-                <img src="/img/nwnm/nw.png" height="16"/>
+                <img src="/img/nwnm/nw16x16.png" alt="Navigational warning icon" />
                 NW-NM
                 <span class="badge sidebar-badge" ng-bind="nwNmMessages.length"></span>
             </uib-tab-heading>
@@ -19,15 +19,15 @@
 
                     <div class="small pull-right">
                         Display &nbsp;&nbsp;
-                        <input type="checkbox" ng-model="nwNmType.NW" ng-change="nwNmTypeChanged()">&nbsp;NW
+                        <input type="checkbox" ng-model="nwNmType.NW" ng-change="nwNmTypeChanged()" aria-label="Display navigational warnings">&nbsp;NW
                         &nbsp;&nbsp;
-                        <input type="checkbox" ng-model="nwNmType.NM" ng-change="nwNmTypeChanged()">&nbsp;NtM
+                        <input type="checkbox" ng-model="nwNmType.NM" ng-change="nwNmTypeChanged()" aria-label="Display notices to mariners">&nbsp;NtM
                     </div>
                 </div>
 
                 <div class="panel-body">
                     <div class="message-service" ng-repeat="s in nwNmServices">
-                        <input type="checkbox" ng-model="s.selected" ng-change="nwNmSelected(s)">&nbsp;{{s.name}}
+                        <input type="checkbox" ng-model="s.selected" ng-change="nwNmSelected(s)" aria-label="Choose service">&nbsp;{{s.name}}
                     </div>
                     <table class="table table-striped">
                         <tr ng-repeat-start="msg in nwNmMessages"
@@ -38,8 +38,8 @@
                         </tr>
                         <tr ng-repeat-end>
                             <td width="20" align="left" class="message-item">
-                                <img ng-if="msg.mainType == 'NM'" src="/img/nwnm/nm.png" height="20"/>
-                                <img ng-if="msg.mainType == 'NW'" src="/img/nwnm/nw.png" height="20"/>
+                                <img ng-if="msg.mainType == 'NM'" src="/img/nwnm/nm20x20.png" alt="Notices to mariners icon"/>
+                                <img ng-if="msg.mainType == 'NW'" src="/img/nwnm/nw20x20.png" alt="Navigational warning icon"/>
                             </td>
                             <td width="*" class="message-item">
                                 <span ng-if="msg.shortId" class="badge label-message-id">{{msg.shortId}}</span>

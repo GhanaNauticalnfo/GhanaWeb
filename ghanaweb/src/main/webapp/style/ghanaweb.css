@@ -108,7 +108,7 @@ body {
     cursor: default !important;
 }
 .sidebar-badge {
-    background-color: lightgray;
+    background-color: darkgreen;
     font-size: 10px;
 }
 #loadingspinner{
@@ -474,7 +474,7 @@ table.message-details-item-fields td {
 }
 
 .label-message-id {
-    background-color: gray;
+    background-color: black;
     font-size: 10px;
     display: inline-block;
     margin-bottom: 4px;

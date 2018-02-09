@@ -7332,7 +7332,7 @@ ol.events.listen = function(target, type, listener, opt_this, opt_once) {
       target: target,
       type: type
     });
-    target.addEventListener(type, ol.events.bindListener_(listenerObj));
+    target.addEventListener(type, ol.events.bindListener_(listenerObj), {passive: false});
     listeners.push(listenerObj);
   }
 
