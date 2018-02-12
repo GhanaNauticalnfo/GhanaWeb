@@ -139,6 +139,7 @@
                                 <exclude>**/img/current_legend/*</exclude>
                                 <exclude>**/img/common/*</exclude>
                                 <exclude>**/img/cargo_labels/*</exclude>
+                                <exclude>**/img/vts_fuelicons/*</exclude>
                                 <exclude>**/libs/angular-chart.js/**/*</exclude>
                                 <exclude>**/libs/angular-datetime-inputs/**/*</exclude>
                                 <exclude>**/libs/angular-moment-picker/**/*</exclude>
@@ -161,21 +162,12 @@
                                 <exclude>**/vessel/**/*</exclude>
                                 <exclude>**/vessel-traffic-service/**/*</exclude>
                                 <exclude>**/weather/**/*</exclude>
+                                <exclude>**/main-app/google-analytics.js</exclude>
                                 <exclude>**/style/balticweb.css</exclude>
                                 <exclude>testdata.html</exclude>
                                 <exclude>sitemap.xml</exclude>
                                 <exclude>*.appcache</exclude>
-                                <exclude>WEB-INF/lib/dom4j*.jar</exclude>
                                 <exclude>WEB-INF/lib/vts-report*.jar</exclude>
-                                <exclude>WEB-INF/lib/usertype*.jar</exclude>
-                                <exclude>WEB-INF/lib/javassist*.jar</exclude>
-                                <exclude>WEB-INF/lib/jboss-logging*.jar</exclude>
-                                <exclude>WEB-INF/lib/validation-api*.jar</exclude>
-                                <exclude>WEB-INF/lib/javax.inject*.jar</exclude>
-                                <exclude>WEB-INF/lib/javax.interceptor*.jar</exclude>
-                                <exclude>WEB-INF/lib/javax.annotation*.jar</exclude>
-                                <exclude>WEB-INF/jboss-classloading*.xml</exclude>
-                                <exclude>WEB-INF/lib/joda-time*.jar</exclude>
                             </excludes>
                         </overlay>
                     </overlays>

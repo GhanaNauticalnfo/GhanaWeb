@@ -28,6 +28,15 @@ target directory then:
     On Windows
     $ ./build-ghanaweb.cmd
     
+##Push
+Push a new version to dockerhub by running
+    
+    Windows
+    .\push-ghanaweb.cmd
+    
+    Linux
+    ./build-ghanaweb.sh push
+
 ##Start
 Start the ghanaweb container and the two databases by using Docker Compose. 
     
@@ -38,7 +47,17 @@ To stop use
 	$ docker-compose -f docker-compose-prod.yml down
 
 ## Development environment
+Use the start-dev-ghanaweb script to start a ghana-web instance without any application deployed
 
+    Windows (remember to enable script by running Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted)
+    ./start-dev-ghanaweb.ps1
+    
+    Linux
+    docker-compose -f docker-compose-dev.yml up -d
+    docker-compose -f docker-compose-dev.yml exec ghanaweb ./wildfly/bin/jboss-cli.sh -c --command="undeploy ghana-web.war"
+    docker-compose -f docker-compose-dev.yml exec ghanaweb rm -f wildfly/standalone/deployments/ghana-web*
+    
+Deploy changes using 
 
-TODO
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+    mvn -Pfulldeploy clean install
+    
