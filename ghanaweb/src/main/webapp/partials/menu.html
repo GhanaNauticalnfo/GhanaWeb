@@ -23,12 +23,24 @@
                     <ul class="dropdown-menu" >
 
                         <li class="dropdown-header"> <i class="fa fa-life-ring" aria-hidden="true"></i> Maritime navigational aid information</li>
-                        <li ng-repeat="aService in mapMiscLayers.getLayers().getArray()" ng-class="{'active':aService.getVisible()}"><a href ng-bind="aService.get('title')" ng-click="toggleLayer(aService)"></a></li>
+                        <li ng-repeat="aService in mapMiscLayers.getLayers().getArray()" ng-class="{'active':aService.getVisible()}">
+                            <a href ng-bind="aService.get('title')" ng-click="toggleLayer(aService)"></a>
+                        </li>
 
 
                         <li role="separator" class="divider"></li>
-                        <li class="dropdown-header"><img src="/img/nwnm/nw16x16.png" alt="Navigational warning icon"/> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Navigational warnings and notices to mariners </li>
-                        <li ng-repeat="aService in nwNmServices" ng-class="{'active':aService.selected}"><a href ng-click="toggleService(aService)"> {{aService.name}}</a></li>
+                        <li class="dropdown-header"><img src="/img/nwnm/nw16x16.png" alt="Navigational warning icon"/>
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Navigational warnings and notices to mariners
+                        </li>
+                        <li ng-repeat="aService in nwNmServices" ng-class="{'active':aService.selected}">
+                            <a href ng-click="toggleService(aService)"> {{aService.name}}</a>
+                        </li>
+
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">
+                            <img src="/img/lake-volta/tree.svg" alt="Regulatory Mark Hazard"/> Lake Volta hazards
+                        </li>
+                        <li><a href ng-click="zoomToLakeVoltaFeatures()"> Zoom to features</a></li>
 
                     </ul>
                 </li>

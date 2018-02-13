@@ -70,9 +70,10 @@ angular.module('maritimeweb.app')
 
             // Map state and layers
             $scope.mapState = JSON.parse($window.localStorage.getItem('mapState-storage')) ? JSON.parse($window.localStorage.getItem('mapState-storage')) : {};
+            $scope.mapState['reloadMap'] = false;
             $scope.mapBackgroundLayers = MapService.createStdBgLayerGroup();
             $scope.mapMiscLayers = MapService.createStdMiscLayerGroup();
-            $scope.mapSeaMapLayer = MapService.createSuperSeaMapLayerGroup();
+            // $scope.mapSeaMapLayer = MapService.createSuperSeaMapLayerGroup();
             $scope.mcServiceRegistryInstances = [];
 
 
@@ -86,6 +87,15 @@ angular.module('maritimeweb.app')
                 growl.info("Welcome back");
             }
 
+
+            /**************************************/
+            /** Lake Volta functionality         **/
+            /**************************************/
+            $scope.zoomToLakeVoltaFeatures = function () {
+                $scope.mapState.zoom = 9;
+                $scope.mapState.center = [0.2, 7.5];
+                $scope.mapState['reloadMap'] = true;
+            };
 
             /**************************************/
             /** NW-NM sidebar functionality      **/

@@ -634,6 +634,7 @@ table.positions td:nth-child(1) {
     bottom: 12px;
     left: -50px;
     min-width: 280px;
+    padding: 15px;
 }
 .ol-popup:after, .ol-popup:before {
     top: 100%;
