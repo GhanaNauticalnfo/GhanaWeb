@@ -60,6 +60,7 @@
                                 // textAlign: 'start',
                                 font: font,
                                 placement: 'line',
+                                overflow: false,
                                 text: name,
                                 fill: new ol.style.Fill({color: 'black'}),
                                 stroke: new ol.style.Stroke({color: 'white', width: 3})
@@ -124,82 +125,19 @@
                                 })
                             }),
                             text: new ol.style.Text(/** @type {olx.style.TextOptions}*/{
-                                textAlign: 'start',
+                                // textAlign: 'start',
                                 font: font,
                                 text: name,
                                 fill: new ol.style.Fill({color: 'black'}),
                                 stroke: new ol.style.Stroke({color: 'white', width: 3}),
-                                offsetX: 10,
-                                offsetY: 0,
+                                offsetX: 0,
+                                offsetY: 10,
                                 rotation: 0
                             }),
                             zIndex: isSelected ? 2 : 1
                         }));
                     }
 
-                    // var styles = styleFunc.apply(f, [resolution]);
-/*
-                    styles.forEach(function (style) {
-                        var scale = 1.0;
-                        var image = style.getImage();
-                        if (image) {
-                            newStyles.push(style);
-                            scale = image.getScale() > 1 ? image.getScale() : 1.0;
-                            if (resolution < 1.0) {
-                                scale = 0.95 * scale;
-                            } else if (resolution < 2.0) {
-                                scale = 0.9 * scale;
-                            } else if (resolution < 8.0) {
-                                scale = 0.8 * scale;
-                            } else if (resolution < 19.0) {
-                                scale = 0.7 * scale;
-                            } else if (resolution < 38.0) {
-                                scale = 0.6 * scale;
-                            } else if (resolution < 76.0) {
-                                scale = 0.5 * scale;
-                            } else if (resolution < 150.0) {
-                                scale = 0.4 * scale;
-                            } else if (resolution < 600.0) {
-                                scale = 0.35 * scale;
-                            } else if (resolution < 1200.0) {
-                                scale = 0.3 * scale;
-                            } else if (resolution < 2400.0) {
-                                scale = 0.2 * scale;
-                            } else if (resolution < 4800.0) {
-                                scale = 0.18 * scale;
-                            } else if (resolution < 9000.0) {
-                                scale = 0.15 * scale;
-                            } else if (resolution < 18000.0) {
-                                scale = 0.12 * scale;
-                            } else {
-                                scale = 0.1 * scale;
-                            }
-                            image.setScale(scale);
-                        }
-                        var text = style.getText();
-                        if (text) {
-                            if (resolution < 45 || selectedFeature === f) {
-                                if (selectedFeature === f) {
-                                    style = style.clone();
-                                    style.getText().getFill().setColor("black");
-                                    style.getText().setScale(1.0);
-                                }
-
-                                newStyles.push(style);
-                            }
-                            if (resolution > 40) {
-                                text.setScale(0.70);
-                            } else if (resolution > 35) {
-                                text.setScale(0.75);
-                            } else if (resolution > 20) {
-                                text.setScale(0.85);
-                            } else {
-                                text.setScale(0.9);
-                            }
-
-                        }
-                    });
-*/
                     return newStyles;
                 };
                 f.setStyle(newStyleFunc);
@@ -223,19 +161,18 @@
                     if (isPath) {
                         f.set("description", "A path");
                     }
-                    if (isAccessChannelPoint) {
+                    if (isAccessChannelPoint && !isTree) {
                         f.set("description", "Access channel marker");
                     }
                 }
             });
             function createTreeStumpLayer() {
                 var layer = new ol.layer.Vector(/** @type {olx.layer.VectorOptions}*/{
-                    declutter: true,
+                    // declutter: true,
                     maxResolution: 620,
                     source: new ol.source.Vector(/** @type {olx.source.VectorOptions}*/{
                         url: 'lake-volta-tree-stumps-landing-sites/tree-stumps-and-landing-sites.kml',
                         format: new ol.format.KML(),
-                        overlaps: false
                     })
                 });
 
@@ -293,8 +230,6 @@
                             scope.popupImgSrc = selectedFeature.get("popupImgSrc");
                             scope.popupImgAlt = selectedFeature.get("popupImgAlt");
 
-                            console.log(scope.popupImgSrc);
-                            console.log(scope.popupImgAlt);
                         }, /** @type olx.AtPixelOptions */{
                             layerFilter: function (layerCandidate) {
                                 return layerCandidate === treeStumpLayer;

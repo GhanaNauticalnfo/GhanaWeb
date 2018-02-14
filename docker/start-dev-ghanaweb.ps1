@@ -22,4 +22,5 @@
   docker-compose -f docker-compose-dev.yml exec ghanaweb ./wildfly/bin/jboss-cli.sh -c --command="undeploy ghana-web.war"
 
   echo "Deleting ghana-web.war from deployments directory"
-  docker-compose -f docker-compose-dev.yml exec ghanaweb rm -f wildfly/standalone/deployments/ghana-web*
+  docker-compose -f docker-compose-dev.yml exec ghanaweb rm -f wildfly/standalone/deployments/ghana-web.war
+  docker-compose -f docker-compose-dev.yml exec ghanaweb rm -f wildfly/standalone/deployments/ghana-web.war.undeployed

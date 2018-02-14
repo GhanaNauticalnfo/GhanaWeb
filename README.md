@@ -38,22 +38,41 @@ On the client side we use:
 * AngularJS (for forms and similar)
 * Service Worker for caching
 
-On the server side we depend on the [Enav-Services](https://github.com/maritime-web/Enav-Services) project. 
+On the server side GhanaWeb depends on the [Enav-Services](https://github.com/maritime-web/Enav-Services) project. 
 Please refer to that project for technical details  
 
 ## Prerequisites ##
 
-* Docker
-* Docker-Compose
+* Docker 17.12.0-ce+
+* Docker-Compose 1.18.0+
 * Java JDK 1.8
-* Maven 3.x
-* Wildfly 8.2 (Maven setup to deploy to Wildfly)
-* MySQL (Maven configures JBoss datasource to use MySQL)
-* a file called ghanaweb.properties 
-
+* Maven 3.3.9+
+* Node 8.9.4+
+* a file called ghanaweb.properties
+* keycloak configuration files 
 
 
 ## Server side code
 This project mainly contains the web side code executed in the browser client. All server side executed
 logic (web, services and data access) is maintained in the [Enav-Services](https://github.com/maritime-web/Enav-Services) Github project.
 Most of it is developed as Java code and included in the war-file produced by this project as .jar artifacts.
+
+Only a subset of the services defined in the Enav-Services repository is included in GhanaWeb namely
+* common
+* msi (integration with the Niord NW/NM service)
+* service-registry (integration with the MCP service registry)
+* user (user related services which may be needed should GhanaWeb wish to integrate with services requiring a known user)
+
+## Building ##
+
+    mvn clean install
+
+## Local deployment ##
+
+See the [docker](docker/README.md#development-environment) documentation for how to start up a local GhanaWeb instance.
+
+When a local instans is running type 
+
+    mvn -Pfulldeploy clean install
+    
+to deploy changes    
