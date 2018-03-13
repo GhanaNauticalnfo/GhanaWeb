@@ -8,7 +8,18 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "workbox-cli": "latest"
+    "workbox-cli": "latest",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015-node6": "^0.4.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node6"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
   },
   "dependencies": {
     "angular": "1.5.7",
@@ -17,13 +28,18 @@
     "angular-route": "1.5.7",
     "angular-moment-picker": "0.10.2",
     "openlayers": "4.6.4",
+    "ol": "4.6.4",
     "jquery": "1.12.0",
     "font-awesome": "4.7.0",
     "bootstrap": "3.3.7",
     "xmllint": "0.1.1",
-    "angular-timeago": "0.4.1"
+    "angular-timeago": "0.4.1",
+    "babel-polyfill": "^6.26.0",
+    "proj4": "^2.3.15"
   },
   "scripts": {
+    "build-ol": "babel node_modules/ol --out-dir node_modules/ol",
+    "build:grid": "node src/scripts/tile-url-generator.js",
     "build": "workbox --config-file workbox-cli-config.js inject:manifest"
   }
 }
