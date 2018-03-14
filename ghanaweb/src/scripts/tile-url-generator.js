@@ -1,3 +1,6 @@
+/**
+ * Calculates OSM tile url's for a given extent (in this case Ghana) and transform them to a Workbox route expression.
+ */
 global.window = {};
 global.navigator = {
     userAgent: ''
@@ -70,6 +73,12 @@ console.log("input 888-1511: "+ toRegExp(888, 1511));
 console.log("input 1000-2000: "+ toRegExp(1000, 2000));
 */
 
+/**
+ * Converts an interval to a regular expression
+ * @param min the lower end of the interval
+ * @param max the upper end of the interval
+ * @returns {string} part of a regular expresion capturing all numbers in the given interval e.g. min=250;max=259 => 25[0-9]
+ */
 function toRegExp(min, max) {
     const result = [];
     const minString = min.toString();

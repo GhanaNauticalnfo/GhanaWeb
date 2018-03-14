@@ -4,7 +4,7 @@ var moduleName = 'maritimeweb';
 angular.module('maritimeweb.map', []);
 angular.module('maritimeweb.app', ['angular-growl'/*,'g1b.datetime-inputs'*/]);
 // angular.module('maritimeweb.route', ['angular-growl', 'ngFileUpload']);
-// angular.module('maritimeweb.vessel', ['yaru22.angular-timeago']);
+angular.module('maritimeweb.vessel', ['yaru22.angular-timeago']);
 angular.module('maritimeweb.nw-nm', []);
 // angular.module('maritimeweb.no-go-area', []);
 // angular.module('maritimeweb.weather', []);
@@ -25,7 +25,7 @@ angular.module('maritimeweb.volta', []);
         // 'jsonFormatter',
         'maritimeweb.map',
         'maritimeweb.app',
-        // 'maritimeweb.vessel',
+        'maritimeweb.vessel',
         'maritimeweb.nw-nm',
         // 'maritimeweb.no-go-area',
         // 'maritimeweb.weather',

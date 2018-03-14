@@ -143,7 +143,7 @@
                                 <exclude>**/libs/angular-chart.js/**/*</exclude>
                                 <exclude>**/libs/angular-datetime-inputs/**/*</exclude>
                                 <exclude>**/libs/angular-moment-picker/**/*</exclude>
-                                <exclude>**/libs/angular-timeago/**/*</exclude>
+                                <!--<exclude>**/libs/angular-timeago/**/*</exclude>-->
                                 <exclude>**/libs/chart.js/**/*</exclude>
                                 <exclude>**/libs/cryptojs/**/*</exclude>
                                 <exclude>**/libs/geolib/**/*</exclude>
@@ -159,7 +159,7 @@
                                 <exclude>**/route/*</exclude>
                                 <exclude>**/route/**/*</exclude>
                                 <exclude>**/service-registry/**/*</exclude>
-                                <exclude>**/vessel/**/*</exclude>
+                                <!--<exclude>**/vessel/**/*</exclude>-->
                                 <exclude>**/vessel-traffic-service/**/*</exclude>
                                 <exclude>**/weather/**/*</exclude>
                                 <exclude>**/main-app/google-analytics.js</exclude>
