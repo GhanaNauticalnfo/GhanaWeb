@@ -15,7 +15,7 @@ module.exports = {
         "libs/**/*debug*.js",
         "libs/**/package.json",
         "**/barrenswatch_no_salstraumen.json",
-        "libs/angular-timeago/*",
+        // "libs/angular-timeago/*",
         "META-INF/**",
         "WEB-INF/**",
         "sw.js",

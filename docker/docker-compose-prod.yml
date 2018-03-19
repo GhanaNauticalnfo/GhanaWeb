@@ -1,21 +1,26 @@
-version: '2'
+version: '3'
 services:
   ghanaweb:
     image: ghananauticalinfo/ghanaweb:1.0.0
-    links:
-      - mysqldb:db
+    networks:
+      - ghana-net
     ports:
       - "8080:8080"
       - "8443:8443"
     depends_on: 
       - mysqldb
     volumes:
-      - ~$USER/ghanaweb/properties:/opt/jboss/wildfly/ghanaweb_properties
+      - ~/ghanaweb/properties:/opt/jboss/wildfly/ghanaweb_properties
   mysqldb:
     image: mysql
+    container_name: mysql
+    networks:
+      - ghana-net
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: embryo
       MYSQL_PASSWORD: embryo
       MYSQL_DATABASE: embryo
 
+networks:
+  ghana-net:
