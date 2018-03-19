@@ -155,7 +155,7 @@
             <datasources>
                 <datasource jndi-name="java:jboss/datasources/embryoDS" pool-name="java:jboss/datasources/embryoDS" enabled="true">
                     <connection-url>jdbc:mysql://db:3306/embryo</connection-url>
-                    <driver>mysql-connector-java-5.1.38-bin.jar</driver>
+                    <driver>mysql-connector-java-5.1.46-bin.jar</driver>
                     <security>
                         <user-name>embryo</user-name>
                         <password>embryo</password>
@@ -163,7 +163,7 @@
                 </datasource>
 
                 <drivers>
-                    <driver name="mysql-connector-java-5.1.38-bin.jar" module="com.mysql">
+                    <driver name="mysql-connector-java-5.1.46-bin.jar" module="com.mysql">
                         <driver-class>com.mysql.jdbc.Driver</driver-class>
                     </driver>
                 </drivers>
