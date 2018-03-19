@@ -11,7 +11,7 @@ services:
     depends_on: 
       - mysqldb
     volumes:
-      - ~$USER/ghanaweb/properties:/opt/jboss/wildfly/ghanaweb_properties
+      - ~/ghanaweb/properties:/opt/jboss/wildfly/ghanaweb_properties
   mysqldb:
     image: mysql
     environment:

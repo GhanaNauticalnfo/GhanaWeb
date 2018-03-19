@@ -10,7 +10,7 @@
   DO
   {
     Start-Sleep -s 5
-    $deployment = docker-compose -f docker-compose-dev.yml exec ghanaweb ./wildfly/bin/jboss-cli.sh -c --command="ls" | grep deployment
+    $deployment = docker-compose -f docker-compose-dev.yml exec ghanaweb ./wildfly/bin/jboss-cli.sh -c --command="ls" | Select-String -Pattern "deployment"
     if ($deployment) {
         $gw = docker-compose -f docker-compose-dev.yml exec ghanaweb ./wildfly/bin/jboss-cli.sh -c --command="ls deployment"
     }
