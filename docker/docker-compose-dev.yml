@@ -22,6 +22,16 @@ services:
       MYSQL_USER: embryo
       MYSQL_PASSWORD: embryo
       MYSQL_DATABASE: embryo
+  aistrack:
+    image: dmadk/ais-track:latest
+    container_name: ais-track-ghana
+    networks:
+      - ghana-net
+    ports:
+      - "8081:8080"
+    volumes:
+      - ~/ghanaweb/properties/ais:/config
+      - ~/ghanaweb/properties/ais:/data
 
 networks:
   ghana-net:

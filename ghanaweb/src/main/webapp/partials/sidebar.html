@@ -50,5 +50,58 @@
                 </div>
             </div>
         </uib-tab>
+
+        <!-- Vessels tab -->
+        <uib-tab classes="btn-sm" ng-click="sidebarUncollapse()">
+            <uib-tab-heading classes="btn-sm" >
+                <img src="/img/vessel_gray.png"/>
+                &nbsp;Vessels
+                <span class="badge sidebar-badge" ng-if="vessels.length>0" >{{vessels.length}} <i ng-if="vesselsinfo.maxnumberexceeded" class="fa fa-plus" aria-hidden="true"></i> </span>
+            </uib-tab-heading>
+            <div class="sidebar-panel">
+
+<!--
+                <div ng-if="!loggedIn" class="well" ng-click="sidebarUncollapse()">
+                    <p class="cursor-default">Log in to access vessel data</p>
+                    <button class="btn btn-default" ng-click="login()">Login</button>
+                </div>
+-->
+
+                <!--<div class="panel panel-default" ng-if="loggedIn" ng-click="sidebarUncollapse()">-->
+                <div class="panel panel-default" ng-click="sidebarUncollapse()">
+
+                    <div class="panel-heading cursor-default"><span class="glyphicon glyphicon-globe"></span> AIS information
+                    </div>
+                    <div class="panel-body">
+                        <p class="cursor-default"><i class="fa fa-ship" aria-hidden="true"></i> Position information from AIS providers</p>
+                        <p class="small" ng-if="vesselsinfo.maxnumberexceeded">Note that the actual number of vessels in the areas is {{vesselsinfo.actualnumberofvessels}} but the number is reduced to {{vessels.length}} in order to increase performance. Zoom in to see all vessels in an area.</p>
+                    </div>
+
+                    <!-- Table -->
+                    <table class="table"
+                           ng-repeat="aService in mapTrafficLayers.getLayers().getArray()">
+
+                        <tr ng-class="{'active':aService.getVisible()}">
+                            <td><a href ng-bind="aService.get('title')"
+                                   ng-click="toggleLayer(aService)"></a>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <table ng-if="mapTrafficLayers.getLayers().getArray()[0].getVisible()" class="table table-striped">
+                    <tr ng-repeat="vessel in vessels | orderBy: 'mmsi' | limitTo: 100">
+                        <td class="vessel-item">
+                            <img ng-src="{{iconForVessel(vessel)}}">
+                        </td>
+                        <td class="vessel-item"><span ng-if="vessel.mmsi">{{vessel.mmsi}}</span></td>
+                        <td class="vessel-item"><a ng-href="#/vessel/{{vessel.mmsi}}">{{vessel.name}}</a></td>
+                        <td class="vessel-item">{{toLonLat(vessel) | lonlat:{ decimals : 3, pp: true } }}</td>
+                    </tr>
+                </table>
+            </div>
+        </uib-tab>
+
     </uib-tabset>
 </div>

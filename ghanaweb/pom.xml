@@ -56,6 +56,11 @@
             <artifactId>service-registry</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>dk.dma.enav.services</groupId>
+            <artifactId>vessel</artifactId>
+        </dependency>
+
 
 
         <!-- Import the Servlet API. -->

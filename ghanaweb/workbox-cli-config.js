@@ -8,7 +8,7 @@ module.exports = {
     "clientsClaim": true,
     "skipWaiting": true,
     "globIgnores": [
-        "img/!(bgr_refuse*).png",
+        "img/!(bgr_refuse*|vessel*).png",
         "libs/sw-toolbox/**",
         "libs/workbox-sw/**",
         "libs/xmllint/**",

@@ -1,0 +1,120 @@
+<div class="ng-cloak">
+
+    <div class="container-fluid">
+        <h3>
+            {{msg.data.aisVessel.name}} ({{msg.data.aisVessel.country}})
+            <!--<flag country="{{msg.data.aisVessel.country}}" size="32"></flag>-->
+        </h3>
+
+        <div class="row">
+
+            <div class="col-md-6" ng-if="msg.data.aisVessel.lat && msg.data.aisVessel.lon ">
+                <div class="well">
+
+                    <h3>Information</h3>
+                    <p>Position: {{ toLonLat(msg.data.aisVessel.lon,
+                        msg.data.aisVessel.lat) | lonlat:{ decimals : 3, pp: true} }}</p>
+                    <p>Position received: <strong>{{msg.data.aisVessel.lastReport
+                        | timeAgo}}</strong> at {{msg.data.aisVessel.lastReport | date:'yyyy-MM-dd HH:mm:ss' : 'UTC'}}
+                        UTC</p>
+
+                    <p ng-if="msg.data.aisVessel.destination">
+                        Destination:
+                        {{msg.data.aisVessel.destination}}
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.eta">
+                    <th scope="row">ETA:
+                        <!-- Estimated Time of Arrival:--> ~ {{msg.data.aisVessel.eta | timeAgo}} <br>
+                        {{msg.data.aisVessel.eta | date:'yyyy-MM-dd HH:mm:ss' : 'UTC'}} UTC
+                    </td>
+
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.navStatus">
+                        Navigational status:
+                        {{navStatusText(msg.data.aisVessel.navStatus)}}
+
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.draught">
+                        Draught: {{msg.data.aisVessel.draught}}
+                    </p>
+
+
+                    <p ng-if="msg.data.aisVessel.sog"
+                       tooltip="Speed Over the Ground (SOG) is the speed of the vessel relative to the surface of the earth.">
+                        SOG: {{msg.data.aisVessel.sog}} knots
+                    </p>
+
+
+                    <p ng-if="msg.data.aisVessel.rot">
+                    <p scope="row" tootltip="the speed at which a ship, vessel, or unit is turning at, or is capable of turning at.">
+                        ROT: {{msg.data.aisVessel.rot}}
+                    </p>
+
+                    <div ng-if="msg.data.aisVessel.cog">
+                        <p>COG :
+                            <!--- the actual course the vessel is <br> sailing relative to the Earth</spanp> -->
+                            {{msg.data.aisVessel.cog}}°
+                        </p>
+                    </div>
+
+
+                    <div ng-if="msg.data.aisVessel.heading">
+                        <p>Heading: {{msg.data.aisVessel.heading}}°</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="well">
+                    <h3>Static information</h3>
+
+                    <p ng-if="msg.data.aisVessel.country">
+                        Country:
+                        <!--<span> {{msg.data.aisVessel.country | isoCountry}} [{{msg.data.aisVessel.country}}]-->
+                        <span> {{msg.data.aisVessel.country}} </span>
+                        <!--<flag country="{{msg.data.aisVessel.country}}" size="16"></flag></span>-->
+
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.callsign">
+                    <p scope="row">Radio callsign:
+                        {{msg.data.aisVessel.callsign}}</p>
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.mmsi">
+                    <p scope="row">MMSI: {{msg.data.aisVessel.mmsi}} -
+                        <a target="_blank"
+                           href="http://www.marinetraffic.com/ais/shipdetails.aspx?mmsi={{msg.data.aisVessel.mmsi}}">marinetraffic.com/ais/details/ships/{{msg.data.aisVessel.mmsi}}</a>
+                    </p>
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.imoNo">
+                    <p scope="row">IMO number: {{msg.data.aisVessel.imoNo}} -
+                        <a target="_blank"
+                           href="http://maritime-connector.com/ship-search/?keyword=&ship=&imo={{msg.data.aisVessel.imoNo}}&type=&limit=25&sort=&sort_type=">maritime-connector.com/ship/{{msg.data.aisVessel.imoNo}}</a>
+                    </p>
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.length && msg.data.aisVessel.width">
+                    <p scope="row">Length &times; Width:
+                        {{msg.data.aisVessel.length}}m &times; {{msg.data.aisVessel.width}}m</p>
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.vesselType">
+                    <p>Vessel Type: {{msg.data.aisVessel.vesselType}}</p>
+                    </p>
+
+                    <p ng-if="msg.data.aisVessel.targetType">
+                    <p>AIS Transponder Type <a
+                            href="http://www.dma.dk/AIS/WORTHKNOWINGABOUTAIS/Sider/AISclassAandB.aspx#" target="_blank"><span
+                            class="glyphicon glyphicon-info-sign"></span></a>: {{msg.data.aisVessel.targetType}}
+                    </p>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

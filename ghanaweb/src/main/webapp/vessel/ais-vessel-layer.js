@@ -1,0 +1,517 @@
+/**
+ * Defines the main AIS vessel layer
+ */
+
+angular.module('maritimeweb.vessel')
+    /**
+     * The map-vessel-layer directive supports drawing a list of vessels on a map layer.
+     * It will automatically load the vessels for the current map bounding box,
+     * but only if the user is logged in.
+     */
+    .directive('mapVesselLayer', ['$rootScope', '$timeout', 'Auth', 'MapService', 'VesselService', 'growl', '$log', '$window',
+        function ($rootScope, $timeout, Auth, MapService, VesselService, growl, $log, $window) {
+            return {
+                restrict: 'E',
+                replace: false,
+                template: '<div id="vessel-info" class="ng-cloak"></div>' +
+                '<div id="popup" class="ol-popup">' +
+                '<a href id="popup-closer" class="ol-popup-closer"></a>' +
+                '<h3 class="popover-title">{{vessel.name}}</h3>' +
+                '<div class="popover-content">' +
+                '<p uib-popover="MMSI number" popover-placement="left" popover-trigger="mouseenter">MMSI: {{vessel.mmsi}}</p>' +
+                '<p uib-popover="Radio call sign" popover-placement="left" popover-trigger="mouseenter">Radio: {{vessel.callsign}} </p>' +
+                '<p uib-popover="Type of vessel i.e. Tanker, Passenger, Fishing etc." popover-placement="left" popover-trigger="mouseenter">Type: {{vessel.type}}</p>' +
+                '<p uib-popover="GPS position in latitude longitude" popover-placement="left" popover-trigger="mouseenter">Position: {{vessel.position}}</p>' +
+                '<p uib-popover="Direction of the ship in degrees" popover-placement="left" popover-trigger="mouseenter">COG: {{vessel.angle}}°</p>' +
+                //'<p><button uib-popover="Retrieve more detailed information about {{vessel.name}} i.e. past track, destination, estimated-time-of-arrivel, size, speed-over-ground, country of origin, IMO number and more" popover-trigger="mouseenter"' +
+                //' popover-placement="bottom" type="button" class="btn btn-primary"' +
+                //' ng-click="getMoreVesselDetails()">More details</button></p>' +
+                '<p><a ng-href="#/vessel/{{vessel.mmsi}}">More details</a></p>' +
+                '</div>' +
+                '</div>',
+                require: '^olMap',
+                scope: {
+                    name: '@',
+                    alerts: '=?',
+                    vessels: '=?',
+                    vesselsinfo: '=?',
+                    maxnumberofvessels: '=?'
+                },
+                link: function (scope, element, attrs, ctrl) {
+                    var olScope = ctrl.getOpenlayersScope();
+                    var vesselLayers;
+                    var loadTimer;
+
+                    var maxNumberOfVesselsOnMap = scope.maxnumberofvessels > 0 ? scope.maxnumberofvessels : 100; // default number of ships is only 100, if maxnumberofvessels hasn't been defined.
+
+                    scope.loggedIn = Auth.loggedIn;
+
+                    olScope.getMap().then(function (map) {
+
+                        /** get the current bounding box in Bottom left  Top right format. */
+                        scope.clientBBOX = function () {
+                            var bounds = map.getView().calculateExtent(map.getSize());
+                            var extent = ol.proj.transformExtent(bounds, MapService.featureProjection(), MapService.dataProjection());
+                            var l = Math.floor(extent[0] * 100) / 100;
+                            var b = Math.floor(extent[1] * 100) / 100;
+                            var r = Math.ceil(extent[2] * 100) / 100;
+                            var t = Math.ceil(extent[3] * 100) / 100;
+                            return b + "|" + l + "|" + t + "|" + r + "";
+                        };
+
+
+                        // Clean up when the layer is destroyed
+                        scope.$on('$destroy', function () {
+                            if (angular.isDefined(vesselLayers)) {
+                                map.removeLayer(vesselLayers);
+                            }
+                            if (angular.isDefined(loadTimer)) {
+                                $timeout.cancel(loadTimer);
+                            }
+                        });
+
+
+                        /** TODO: Remove this method and create a method similar to colorHexForVessel:
+                         * a simple function that given one color can darken or lighten it.
+                         * Given two colors, the function mixes the two, and returns the blended color.
+                         * This funtion is bluntly copy/pasted from http://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
+                         * by http://stackoverflow.com/users/693927/pimp-trizkit
+                         * usage
+                         * var color1 = "#FF343B";
+                         * var color2 = "#343BFF";
+                         * var color3 = "rgb(234,47,120)";
+                         * var color4 = "rgb(120,99,248)";
+                         * var shadedcolor1 = shadeBlend(0.75,color1);
+                         * var shadedcolor3 = shadeBlend(-0.5,color3);
+                         * var blendedcolor1 = shadeBlend(0.333,color1,color2);
+                         * var blendedcolor34 = shadeBlend(-0.8,color3,color4); // Same as using 0.8
+                         * @param p percentage of shade or highlight
+                         * @param c0 first color
+                         * @param c1 OPTIONAL second color, only for blending
+                         * @returns A string with a color.
+                         */
+                        scope.shadeBlend = function (p, c0, c1) {
+                            var n = p < 0 ? p * -1 : p, u = Math.round, w = parseInt;
+                            if (c0.length > 7) {
+                                var f = c0.split(","), t = (c1 ? c1 : p < 0 ? "rgb(0,0,0)" : "rgb(255,255,255)").split(","), R = w(f[0].slice(4)), G = w(f[1]), B = w(f[2]);
+                                return "rgb(" + (u((w(t[0].slice(4)) - R) * n) + R) + "," + (u((w(t[1]) - G) * n) + G) + "," + (u((w(t[2]) - B) * n) + B) + ")"
+                            } else {
+                                var f = w(c0.slice(1), 16), t = w((c1 ? c1 : p < 0 ? "#000000" : "#FFFFFF").slice(1), 16), R1 = f >> 16, G1 = f >> 8 & 0x00FF, B1 = f & 0x0000FF;
+                                return "#" + (0x1000000 + (u(((t >> 16) - R1) * n) + R1) * 0x10000 +
+                                    (u(((t >> 8 & 0x00FF) - G1) * n) + G1) * 0x100 + (u(((t & 0x0000FF) - B1) * n) + B1)).toString(16).slice(1)
+                            }
+                        };
+
+                        /**
+                         * Given a vessels type number betweeen 0-7, return a color in RGB hex format.
+                         * @param vo = a vessel
+                         * @returns a color in hex format i.e. #0000ff, #737373, #40e0d0
+                         *
+                         */
+                        scope.colorHexForVessel = function (vo) {
+                            var colorName;
+                            switch (vo.type) {
+                                case "0" :
+                                    colorName = "#0000ff";
+                                    break; // blue
+                                case "1" :
+                                    colorName = "#737373";
+                                    break; // grey
+                                case "2" :
+                                    colorName = "#00cc00";
+                                    break; // green
+                                case "3" :
+                                    colorName = "#ffa500";
+                                    break; // orange
+                                case "4" :
+                                    colorName = "#800080";
+                                    break; // purple
+                                case "5" :
+                                    colorName = "#ff0000";
+                                    break; // red
+                                case "6" :
+                                    colorName = "#40e0d0";
+                                    break; // turquoise
+                                case "7" :
+                                    colorName = "#ffff00";
+                                    break; // yellow
+                                default :
+                                    colorName = "#737373"; // grey
+                            }
+                            return colorName;
+                        };
+
+                        /** Create a simplified vessel feature, with only lat,lon,type. */
+                        scope.createMinimalVesselFeature = function (vessel) {
+                            var colorHex = scope.colorHexForVessel(vessel);
+                            var shadedColor = scope.shadeBlend(-0.15, colorHex, undefined);
+
+                            var markerStyle = new ol.style.Style({
+                                image: new ol.style.Circle({
+                                    radius: 3,
+                                    stroke: new ol.style.Stroke({
+                                        color: shadedColor,
+                                        width: 1
+                                    }),
+                                    fill: new ol.style.Fill({
+                                        color: colorHex // attribute colour
+                                    })
+                                })
+                            });
+                            var vesselPosition = new ol.geom.Point(ol.proj.transform([vessel.x, vessel.y], 'EPSG:4326', 'EPSG:900913'));
+                            var markerVessel = new ol.Feature({
+                                geometry: vesselPosition,
+                                type: vessel.type
+                            });
+                            markerVessel.setStyle(markerStyle);
+                            return markerVessel;
+                        };
+
+
+                    scope.retForcedScale = function (scaleset) {
+                        var zoom = map.getView().getZoom();
+                        var scale = 0;
+                        switch (zoom) {
+                            case 15 :
+                                scale = scaleset[2]; //starts at third pos (2)
+                                break;
+                            case 16 :
+                                scale = scaleset[3];
+                                break;
+                            case 17 :
+                                scale = scaleset[4];
+                                break;
+                            case 18 :
+                                scale = scaleset[5];
+                                break;
+                            case 19 :
+                                scale = scaleset[6];
+                                break;
+                            case 20 :
+                                scale = scaleset[7];
+                                break;
+                        }
+                        if (zoom < 15) scale = scaleset[0]; //first
+                        if (zoom > 20) scale = scaleset[1]; //second
+                        return scale;
+                    };
+
+                        /** Mark a vessel feature with a ring or whatever. */
+                        scope.markVesselFeature = function (vessel) {
+                            var rot = vessel.radian;
+                            if(vessel.moored && vessel.radian==3.141592653589793) rot = 0; //means undefined
+                            var scale = scope.retForcedScale([0.4,1.2,0.5,0.7,1.2,1.2,1.2,1.2]); //by look and feel
+                            var markerStyle = new ol.style.Style({
+                                image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+                                    anchor: [0.5, 0.5],
+                                    scale:0.9,
+                                    opacity: 1,
+                                    // opacity: 0.85, //org
+                                    id: vessel.id + '_marker',
+                                    // offset: [0, 0],
+                                    offset: [0, 1],
+                                    rotation: rot,
+                                    rotateWithView: true,
+                                    scale: scale,
+                                    src: 'img/shipIconCompassLarge_Red.png'
+                                }))
+                            });
+
+                            var vesselPosition = new ol.geom.Point(ol.proj.transform([vessel.x, vessel.y], 'EPSG:4326', 'EPSG:900913'));
+                            var markVessel = new ol.Feature({
+                                name: vessel.name,
+                                id: vessel.id,
+                                angle: vessel.angle,
+                                radian: vessel.radian,  // (vessel.angle * (Math.PI / 180)),
+                                callSign: vessel.callSign,
+                                mmsi: vessel.mmsi,
+                                latitude: vessel.y,
+                                longitude: vessel.x,
+                                geometry: vesselPosition,
+                            });
+                            markVessel.setStyle(markerStyle);
+                            return markVessel;
+                        };
+
+                        /** Create a vessel feature for any openlayers 3 map. */
+                        scope.createVesselFeature = function (vessel) {
+                            var image = VesselService.imageAndTypeTextForVessel(vessel); //can have custom image - look into vesselService
+                            var anchor = [0.5, 1.0];
+                            var scale = 1;
+
+                            //for demonstration purposes - custom image for vessel
+                            if($window.localStorage.getItem('mmsi') && parseInt(vessel.mmsi) == parseInt($window.localStorage.getItem('mmsi'))){
+                                anchor = [0.5,0.57];
+                                scale = scope.retForcedScale([0.2,20,0.3,0.5,1.2,4,8,20]); //by look and feel
+                            }
+
+                            var markerStyle = new ol.style.Style({
+                                image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+                                    anchor: anchor,
+                                    opacity: 0.85,
+                                    scale: scale,
+                                    id: vessel.id,
+                                    rotation: vessel.radian,
+                                    rotateWithView: true,
+                                    src: 'img/' + image.name //can have custom image - look into vesselService
+                                }))
+                            });
+                            if($window.localStorage.getItem('mmsi') && parseInt(vessel.mmsi) == parseInt($window.localStorage.getItem('mmsi'))) {
+                                markerStyle.setZIndex(95005); //always on top
+                            }
+
+
+
+                            var vesselPosition = new ol.geom.Point(ol.proj.transform([vessel.x, vessel.y], 'EPSG:4326', 'EPSG:900913'));
+                            var markerVessel = new ol.Feature({
+                                name: vessel.name,
+                                id: vessel.id,
+                                type: image.type,
+                                angle: vessel.angle,
+                                radian: vessel.radian,  // (vessel.angle * (Math.PI / 180)),
+                                callSign: vessel.callSign,
+                                mmsi: vessel.mmsi,
+                                latitude: vessel.y,
+                                longitude: vessel.x,
+                                geometry: vesselPosition
+                            });
+                            markerVessel.setStyle(markerStyle);
+                            return markerVessel;
+                        };
+
+                        /** Refreshes the list of vessels from the server */
+                        scope.refreshVessels = function () {
+
+/* No authentication required for now
+                            if (!scope.loggedIn) {
+                                //growl.info('Log in to see vessels');
+                                return;
+                            }
+*/
+                            $rootScope.loadingData = true; // start spinner
+
+                            var zoomLvl = map.getView().getZoom();
+                            scope.vessels.length = 0;
+
+
+                            VesselService.getVesselsInArea(zoomLvl, scope.clientBBOX())
+                                .success(function (vessels) {
+
+                                    var features = [];
+                                    scope.vesselsinfo.maxnumberexceeded  = (vessels.length > maxNumberOfVesselsOnMap);
+                                    scope.vesselsinfo.actualnumberofvessels = vessels.length ;
+
+                                    for (var i = 0; i < vessels.length && i < maxNumberOfVesselsOnMap; i++) {
+                                        var vessel = vessels[i];
+                                        var vesselData = {
+                                            name: vessel.name || "",
+                                            type: vessel.type,
+                                            x: vessel.x,
+                                            y: vessel.y,
+                                            angle: vessel.angle,
+                                            radian: (vessel.angle - 90) * (Math.PI / 180),
+                                            mmsi: vessel.mmsi || "",
+                                            callSign: vessel.callSign || "",
+                                            moored: vessel.moored || false,
+                                            inBW: vessel.inAW || false
+                                        };
+                                        scope.vessels.push(vesselData);
+
+                                        var vesselFeature;
+                                        if (zoomLvl > 8) {
+                                            vesselFeature = scope.createVesselFeature(vesselData);
+                                        } else {
+                                            vesselFeature = scope.createMinimalVesselFeature(vesselData);
+                                        }
+                                        features.push(vesselFeature);
+
+                                        //always display users vessel if one is specified
+                                        if ($window.localStorage.getItem('mmsi') != null && $window.localStorage.getItem('mmsi') == vessel.mmsi) {
+                                            features.push(scope.markVesselFeature(vesselData));
+                                        }
+                                    }
+
+
+                                    vesselLayer.getSource().clear();
+                                    vesselLayer.getSource().addFeatures(features);
+                                    vesselLayer.setZIndex(10);
+                                    $rootScope.loadingData = false; // stop spinner
+
+
+                                    if($window.localStorage.getItem('mmsi')!= null && zoomLvl<9){
+                                        var uservessel = {};
+                                        VesselService.detailsMMSI($window.localStorage.getItem('mmsi')).then(function (vesselDetails) {
+                                            uservessel.name = vesselDetails.data.aisVessel.name;
+                                            uservessel.lon = vesselDetails.data.aisVessel.lon;
+                                            uservessel.lat = vesselDetails.data.aisVessel.lat;
+                                            uservessel.cog = vesselDetails.data.aisVessel.cog;
+                                            uservessel.id = vesselDetails.data.aisVessel.name;
+                                            uservessel.callsign = vesselDetails.data.aisVessel.callsign;
+                                            uservessel.mmsi = vesselDetails.data.aisVessel.mmsi;
+                                            uservessel.moored = vesselDetails.data.aisVessel.moored;
+                                            uservessel.angle = vesselDetails.data.aisVessel.rot;
+                                            uservessel.radian = ((vesselDetails.data.overview.angle - 90) * (Math.PI / 180));
+                                            $window.localStorage.setItem('Vessel_AIS_data', JSON.stringify(uservessel));
+                                            var tmpves = {"name":uservessel.name,"type":"0","x":uservessel.lon,"y":uservessel.lat,"angle":uservessel.angle,"radian":uservessel.radian,"mmsi":uservessel.mmsi,"callSign":uservessel.callsign,"moored":uservessel.moored,"inBW":false};
+                                            vesselLayer.getSource().addFeatures([scope.markVesselFeature(tmpves)]);
+                                        });
+                                    }
+
+                                })
+                                .error(function (reason) {
+                                    $rootScope.loadingData = false; // stop spinner
+                                    $log.error(reason);
+                                    growl.error("Connection problems " + reason);
+                                });
+
+                        };
+                        scope.getMoreVesselDetails = function () {
+                            VesselService.showVesselInfoFromMMsi(scope.vessel.mmsi);
+
+                        };
+
+                        /** When the map extent changes, reload the Vessels's using a timer to batch up changes - also display vesselmarker on zoom out */
+                        scope.mapChanged = function () {
+                            if (MapService.isLayerVisible('vesselVectorLayer', vesselLayers)) {
+                                if (loadTimer) {
+                                    $timeout.cancel(loadTimer);
+                                }
+                                loadTimer = $timeout(scope.refreshVessels, 500);
+                            }else{
+                                scope.vessels.length = 0;
+                            }
+                        };
+
+                        // Create vessel layer
+                        var vessselLayerAttributions = [
+                                '<div class="panel panel-info">' +
+                                '<div class="panel-heading">Traffic information</div>' +
+                                '<div class="panel-body">' +
+                                '<span>' +
+                                'Vessel AIS Traffic information <a href="http://aerial-maritime.com/GB.aspx">AERIAL MARITIME</a> AIS Data' +
+                                '</span>' +
+                                '</div>'
+                            ,
+                            ol.source.OSM.ATTRIBUTION
+                        ];
+
+                        var vectorSource = new ol.source.Vector({
+                            features: [], //to begin with, add an array empty array vessel features
+                            attributions: vessselLayerAttributions
+                        });
+
+                        var vesselLayer = new ol.layer.Vector({
+                            name: "vesselVectorLayer",
+                            title: "Vessels - AIS",
+                            source: vectorSource,
+                            visible: false
+                        });
+
+                        vesselLayers = new ol.layer.Group({
+                            title: 'Vessels',
+                            layers: [vesselLayer],
+                            visible: true
+                        });
+
+                        map.addLayer(vesselLayers);
+
+                        // update the map when a user pan-move ends.
+                        map.on('moveend', scope.mapChanged);
+
+
+
+                        // listens when visibility on map has been toggled.
+                        scope.$watch(function () { return window.localStorage['Vessels - AIS']; },function(newVal,oldVal){
+                            if(newVal && (newVal+"")!="" && (newVal+"") != (oldVal+"")){
+                                if((newVal+"")=="true"){
+                                    scope.mapChanged();
+                                }
+                            }
+                        });
+
+
+
+                        $rootScope.mapTrafficLayers = vesselLayers; // add group-layer to rootscope so it can be enabled/disabled
+                        /***************************/
+                        /** Vessel Details        **/
+                        /***************************/
+
+                        var elm = document.getElementById('vessel-info');
+
+                        var popup = new ol.Overlay({
+                            element: elm,
+                            positioning: 'bottom-center',
+                            stopEvent: false
+                        });
+                        map.addOverlay(popup);
+
+                        /**
+                         * Elements that make up the popup.
+                         */
+                        var container = document.getElementById('popup');
+                        var content = document.getElementById('popup-content');
+                        var closer = document.getElementById('popup-closer');
+
+                        /**
+                         * Create an overlay to anchor the popup to the map.
+                         */
+                        var overlay = new ol.Overlay(/** @type {olx.OverlayOptions} */ ({
+                            element: container,
+                            autoPan: true,
+                            autoPanAnimation: {
+                                duration: 250
+                            }
+                        }));
+
+                        /**
+                         * Add a click handler to hide the popup.
+                         * @return {boolean} Don't follow the href.
+                         */
+                        closer.onclick = function () {
+                            overlay.setPosition(undefined);
+                            closer.blur();
+                            return false;
+                        };
+
+                        map.addOverlay(overlay);
+
+                        /**
+                         * Add a click handler to the map to render the popup.
+                         */
+                        map.on('singleclick', function (evt) {
+                            var zoomLvl = map.getView().getZoom();
+                            if (zoomLvl > 8) {
+
+                                var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
+                                    if(feature.get('mmsi')){
+                                        return feature;
+                                    }
+                                    return false;
+                                },{hitTolerance: 4});
+
+                                if (feature && feature.get('mmsi')) {
+                                    var geometry = feature.getGeometry();
+                                    var coordinate = evt.coordinate;
+                                    scope.vessel = {};
+                                    scope.vessel.name = feature.get('name');
+                                    scope.vessel.mmsi = feature.get('mmsi');
+                                    scope.vessel.type = feature.get('type');
+                                    scope.vessel.angle = feature.get('angle');
+                                    scope.vessel.callsign = feature.get('callSign');
+                                    scope.vessel.position = ol.coordinate.toStringHDMS([feature.get('longitude'), feature.get('latitude')], 3);
+                                    overlay.setPosition(coordinate);
+                                    scope.$apply();
+                                } else {
+                                     $log.debug("destroy");
+                                    overlay.setPosition(undefined);
+                                }
+                            } else { // close popups when zoomed below lvl 8 and clicks on map...
+                                $log.debug("destroy - zoomed below lvl 8 ");
+                                overlay.setPosition(undefined);
+                            }
+
+                        });
+                    });
+                }
+            };
+        }]);

@@ -18,6 +18,7 @@ import dk.dma.embryo.common.log.LogEntryRestService;
 import dk.dma.embryo.common.rs.CommonExceptionMappers;
 import dk.dma.embryo.user.json.AuthenticationService;
 import dk.dma.embryo.user.json.UserRestService;
+import dk.dma.embryo.vessel.json.VesselRestService;
 import dk.dma.enav.services.nwnm.NwNmRestService;
 import dk.dma.enav.services.registry.ServiceLookupRestService;
 
@@ -41,6 +42,7 @@ public class ApplicationConfig extends Application {
                 LogEntryRestService.class,
                 UserRestService.class, 
                 NwNmRestService.class,
+                VesselRestService.class,
                 ServiceLookupRestService.class));
 
         return set;

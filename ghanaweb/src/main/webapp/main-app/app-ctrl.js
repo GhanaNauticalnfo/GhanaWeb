@@ -2,8 +2,8 @@ angular.module('maritimeweb.app')
 
     .controller("AppController", [
         '$scope', '$http', '$window', '$timeout', 'Auth', 'MapService',
-        'NwNmService', 'growl', '$uibModal', '$log',
-        function ($scope, $http, $window, $timeout, Auth, MapService, NwNmService, growl, $uibModal, $log) {
+        'NwNmService', 'growl', '$uibModal', '$log', 'VesselService',
+        function ($scope, $http, $window, $timeout, Auth, MapService, NwNmService, growl, $uibModal, $log, VesselService) {
 
             // Cancel any pending NW-NN queries
             var loadTimerService = undefined;
@@ -96,6 +96,37 @@ angular.module('maritimeweb.app')
                 $scope.mapState.center = [0.2, 7.5];
                 $scope.mapState['reloadMap'] = true;
             };
+
+
+            /**************************************/
+            /** Vessel sidebar functionality      **/
+            /**************************************/
+
+            // Vessels
+            $scope.vessels = [];
+            $scope.vesselsinfo = {};
+            $scope.vesselsinfo.maxnumberexceeded = false; // flag to indicate if more vessels are presented than displayed.
+            $scope.vesselsinfo.actualnumberofvessels = 0;
+
+
+            /** Returns the icon to use for the given vessel **/
+            $scope.iconForVessel = function (vo) {
+                return '/img/' + VesselService.imageAndTypeTextForVessel(vo).name;
+            };
+
+            /** Returns the lat-lon attributes of the vessel */
+            $scope.toLonLat = function (vessel) {
+                return {lon: vessel.x, lat: vessel.y};
+            };
+
+            $scope.showVesselDetails = function (vessel) {
+                $log.info("mmsi" + vessel);
+                VesselService.showVesselInfoFromMMsi(vessel);
+                growl.info("Vessel details retrieved");
+
+            };
+
+
 
             /**************************************/
             /** NW-NM sidebar functionality      **/
