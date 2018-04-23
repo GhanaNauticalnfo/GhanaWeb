@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
 
-    <display-name>GhanaWeb</display-name>
+    <display-name>Ghananautical</display-name>
 
     <!-- Overwrite default security configuration -->
     <context-param>
         <param-name>shiroConfigLocations</param-name>
-        <param-value>classpath:ghanaweb-shiro.ini</param-value>
+        <param-value>classpath:ghananautical-shiro.ini</param-value>
     </context-param>
 
     <filter>

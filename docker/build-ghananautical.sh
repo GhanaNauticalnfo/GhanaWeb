@@ -7,7 +7,7 @@ if [ "$1" = "build" ]; then
   echo "**********************************************"
 
   cp ../ghanaweb/target/ghana-web.war ./ghana-web.war
-  DOCKER_TAG="ghananauticalinfo/ghanaweb:1.0.0"
+  DOCKER_TAG="ghananauticalinfo/ghananautical:1.0.0"
   echo "**********************************************"
   echo "** Building $DOCKER_TAG                     **"
   echo "**********************************************"
@@ -19,7 +19,7 @@ if [ "$1" = "build" ]; then
 
 elif [ "$1" = "push" ]; then  
   VERSION=${2:-1.0.0}
-  DOCKER_TAG="ghananauticalinfo/niord-gh-appsrv:$VERSION"
+  DOCKER_TAG="ghananauticalinfo/ghananautical:$VERSION"
   echo "Pushing $DOCKER_TAG to docker.io - make sure you are logged in"
   docker push $DOCKER_TAG
   exit     

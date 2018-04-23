@@ -27,7 +27,7 @@
         <extension module="org.wildfly.extension.undertow"/>
     </extensions>
     <system-properties>
-        <property name="ghanaweb.configuration" value="file:///opt/jboss/wildfly/ghanaweb_properties/ghanaweb.properties"/>
+        <property name="ghananautical.configuration" value="file:///opt/jboss/wildfly/ghananautical_properties/ghananautical.properties"/>
     </system-properties>
     <management>
         <security-realms>

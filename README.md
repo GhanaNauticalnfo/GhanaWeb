@@ -1,6 +1,6 @@
-# GhanaWeb
+# Ghananautical
 
-GhanaWeb is a maritime map-centric portal. The site will aggregate relevant maritime data and information and
+Ghananautical is a maritime map-centric portal. The site will aggregate relevant maritime data and information and
     allow access for users and services by utilizing the [Maritime Connectivity Platform](http://maritimeconnectivity.net/).
     
 #### Services available for all:
@@ -11,23 +11,23 @@ GhanaWeb is a maritime map-centric portal. The site will aggregate relevant mari
 
 ## Purpose
 
-GhanaWeb aims to serve the mariner in these ways:
+Ghananautical aims to serve the mariner in these ways:
 
 * Assist in planning a sea voyage
 * Navigational aid on a sea voyage
 
 ## How
 
-GhanaWeb uses the [Maritime Connectivity Platform (MCP)](http://maritimeconnectivity.net)
+Ghananautical uses the [Maritime Connectivity Platform (MCP)](http://maritimeconnectivity.net)
 in order to identify and retrieve relevant web services.
 
-GhanaWeb is derived from [BalticWeb](https://balticweb.e-navigation.net/) which have been developed as
+Ghananautical is derived from [BalticWeb](https://balticweb.e-navigation.net/) which have been developed as
 part of the EU-funded [EfficenSea2](http://efficiensea2.org/) Project.
 
 
 ## Software Architecture
 
-The GhanaWeb client is a rich client HTML/JS-application with a server side REST (JSON) API.
+The Ghananautical client is a rich client HTML/JS-application with a server side REST (JSON) API.
 The server is a Java EE 7 application.
 
 On the client side we use:
@@ -38,7 +38,7 @@ On the client side we use:
 * AngularJS (for forms and similar)
 * Service Worker for caching
 
-On the server side GhanaWeb depends on the [Enav-Services](https://github.com/maritime-web/Enav-Services) project. 
+On the server side Ghananautical depends on the [Enav-Services](https://github.com/maritime-web/Enav-Services) project. 
 Please refer to that project for technical details  
 
 ## Prerequisites ##
@@ -48,7 +48,7 @@ Please refer to that project for technical details
 * Java JDK 1.8
 * Maven 3.3.9+
 * Node 8.9.4+
-* a file called ghanaweb.properties
+* a file called ghananautical.properties
 * keycloak configuration files 
 
 
@@ -57,11 +57,11 @@ This project mainly contains the web side code executed in the browser client. A
 logic (web, services and data access) is maintained in the [Enav-Services](https://github.com/maritime-web/Enav-Services) Github project.
 Most of it is developed as Java code and included in the war-file produced by this project as .jar artifacts.
 
-Only a subset of the services defined in the Enav-Services repository is included in GhanaWeb namely
+Only a subset of the services defined in the Enav-Services repository is included in Ghananautical namely
 * common
 * msi (integration with the Niord NW/NM service)
 * service-registry (integration with the MCP service registry)
-* user (user related services which may be needed should GhanaWeb wish to integrate with services requiring a known user)
+* user (user related services which may be needed should Ghananautical wish to integrate with services requiring a known user)
 
 ## Building ##
 
@@ -69,7 +69,7 @@ Only a subset of the services defined in the Enav-Services repository is include
 
 ## Local deployment ##
 
-See the [docker](docker/README.md#development-environment) documentation for how to start up a local GhanaWeb instance.
+See the [docker](docker/README.md#development-environment) documentation for how to start up a local Ghananautical instance.
 
 When a local instans is running type 
 

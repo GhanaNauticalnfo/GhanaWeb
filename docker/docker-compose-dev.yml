@@ -1,7 +1,7 @@
 version: '3'
 services:
-  ghanaweb:
-    image: ghananauticalinfo/ghanaweb:1.0.0
+  ghananautical:
+    image: ghananauticalinfo/ghananautical:1.0.0
     networks:
       - ghana-net
     ports:
@@ -11,9 +11,9 @@ services:
     depends_on: 
       - mysqldb
     volumes:
-      - ~/ghanaweb/properties:/opt/jboss/wildfly/ghanaweb_properties
+      - ~/ghananautical/properties:/opt/jboss/wildfly/ghananautical_properties
   mysqldb:
-    image: mysql
+    image: mysql:5.7.22
     container_name: mysql
     networks:
       - ghana-net
@@ -30,8 +30,8 @@ services:
     ports:
       - "8081:8080"
     volumes:
-      - ~/ghanaweb/properties/ais:/config
-      - ~/ghanaweb/properties/ais:/data
+      - ~/ghananautical/properties/ais:/config
+      - ~/ghananautical/properties/ais:/data
 
 networks:
   ghana-net:
