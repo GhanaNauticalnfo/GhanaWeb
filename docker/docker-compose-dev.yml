@@ -1,37 +1,8 @@
 version: '3'
 services:
   ghananautical:
-    image: ghananauticalinfo/ghananautical:1.0.0
-    networks:
-      - ghana-net
     ports:
-      - "8080:8080"
-      - "8443:8443"
       - "9990:9990"
-    depends_on: 
-      - mysqldb
-    volumes:
-      - ~/ghananautical/properties:/opt/jboss/wildfly/ghananautical_properties
-  mysqldb:
-    image: mysql:5.7.22
-    container_name: mysql
-    networks:
-      - ghana-net
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: embryo
-      MYSQL_PASSWORD: embryo
-      MYSQL_DATABASE: embryo
   aistrack:
-    image: dmadk/ais-track:latest
-    container_name: ais-track-ghana
-    networks:
-      - ghana-net
     ports:
       - "8081:8080"
-    volumes:
-      - ~/ghananautical/properties/ais:/config
-      - ~/ghananautical/properties/ais:/data
-
-networks:
-  ghana-net:

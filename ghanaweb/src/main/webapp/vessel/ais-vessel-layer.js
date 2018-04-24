@@ -51,12 +51,14 @@ angular.module('maritimeweb.vessel')
                         /** get the current bounding box in Bottom left  Top right format. */
                         scope.clientBBOX = function () {
                             var bounds = map.getView().calculateExtent(map.getSize());
-                            var extent = ol.proj.transformExtent(bounds, MapService.featureProjection(), MapService.dataProjection());
-                            var l = Math.floor(extent[0] * 100) / 100;
-                            var b = Math.floor(extent[1] * 100) / 100;
-                            var r = Math.ceil(extent[2] * 100) / 100;
-                            var t = Math.ceil(extent[3] * 100) / 100;
-                            return b + "|" + l + "|" + t + "|" + r + "";
+                            var lowLeft = ol.proj.toLonLat([bounds[0], bounds[1]]);
+                            var topRight = ol.proj.toLonLat([bounds[2], bounds[3]]);
+                            var l = Number(lowLeft[0]).toFixed(2);
+                            var b = Number(lowLeft[1]).toFixed(2);
+                            var r = Number(topRight[0]).toFixed(2);
+                            var t = Number(topRight[1]).toFixed(2);
+                            var res = b + "|" + l + "|" + t + "|" + r + "";
+                            return res;
                         };
 
 
