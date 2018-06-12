@@ -102,8 +102,21 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>org.locationtech.jts</groupId>
+            <artifactId>jts-core</artifactId>
+            <version>1.15.0</version>
+            <scope>test</scope>
+        </dependency>
 
-        
+        <!-- https://mvnrepository.com/artifact/org.locationtech.jts.io/jts-io-common -->
+        <dependency>
+            <groupId>org.locationtech.jts.io</groupId>
+            <artifactId>jts-io-common</artifactId>
+            <version>1.15.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>ghana-web</finalName>

@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17833333333333332,
+          6.852222222222222
+        ]
+      },
+      "properties": {
+        "characteristics": "Single tree",
+        "est-number-of-trees": "1",
+        "area-size": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1786111111111111,
+          6.857777777777778
+        ]
+      },
+      "properties": {
+        "characteristics": "Grove",
+        "est-number-of-trees": "10",
+        "area-size": "0.3 ha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17777777777777776,
+          6.851666666666667
+        ]
+      },
+      "properties": {
+        "characteristics": "Grove",
+        "est-number-of-trees": "30",
+        "area-size": "1.0 ha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17722222222222223,
+          6.8725000000000005
+        ]
+      },
+      "properties": {
+        "characteristics": "Grove",
+        "est-number-of-trees": "10",
+        "area-size": "0.3 ha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.21166666666666667,
+          7.039722222222222
+        ]
+      },
+      "properties": {
+        "characteristics": "Single tree",
+        "est-number-of-trees": "1",
+        "area-size": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.22805555555555557,
+          7.3125
+        ]
+      },
+      "properties": {
+        "characteristics": "Single tree",
+        "est-number-of-trees": "1",
+        "area-size": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.035833333333333335,
+          7.766388888888889
+        ]
+      },
+      "properties": {
+        "characteristics": "Single trees",
+        "est-number-of-trees": "5",
+        "area-size": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0375,
+          7.766666666666667
+        ]
+      },
+      "properties": {
+        "characteristics": "Single trees",
+        "est-number-of-trees": "5",
+        "area-size": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08805555555555555,
+          7.796944444444445
+        ]
+      },
+      "properties": {
+        "characteristics": "Single trees",
+        "est-number-of-trees": "1",
+        "area-size": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.09916666666666667,
+            7.8180555555555555
+          ],
+          [
+            -0.10055555555555556,
+            7.820833333333333
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10305555555555557,
+          7.833055555555555
+        ]
+      },
+      "properties": {
+        "characteristics": "Single trees",
+        "est-number-of-trees": "1",
+        "area-size": "-"
+      }
+    }
+  ]
+}
