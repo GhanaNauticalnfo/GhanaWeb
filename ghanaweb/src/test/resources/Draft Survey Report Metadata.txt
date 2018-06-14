@@ -1,2 +1,138 @@
 	VLTC Main North-South Route
 		Table  8 Characteristics
+		Table  9 Buoys/Waypoints
+		Table 10 Trees
+	White Volta River
+		Table 11 Buoys/Waypoints
+	Fairway to Sedom, Obelemenya and Agajajetor
+		Table 12 Characteristics
+		Table 13 Buoys/Waypoints
+		Table 14 Trees
+	Sedom Landing Site
+		Table 15 Characteristics
+	Obelemanya Landing Site
+		Table 16 Characteristics
+	Agajajetor Landing Site
+		Table 17 Characteristics
+	Southern Fairway of the Afram
+		Table 18 Characteristics
+		Table 19 Buoys/Waypoints
+		Table 20 Trees
+	Akrusu Landing Site
+		Table 21 Characteristics
+	Akotoe Tsrebuanya Landing Site
+		Table 22 Characteristics
+	Akateng Landing Site
+		Table 23 Characteristics
+	Main Fairway of the Upper Afram
+		Table 24 Characteristics
+		Table 25 Buoys/Waypoints
+		Table 26 Trees
+	Akuase Landing Site
+		Table 27 Characteristics
+	Odotorm Landing Site
+		Table 28 Characteristics
+	Petefour Landing Site
+		Table 29 Characteristics
+	Nar Panya Landing Site
+		Table 30 Characteristics
+	Adakope Landing Site
+		Table 31 Characteristics
+	Tremeleveme Landing Site
+		Table 32 Characteristics
+	Nketepa Landing Site Characteristics
+		Table 33 Characteristics
+	Asuboni Dumasi Landing Site
+		Table 34 Characteristics
+	Adawso Landing Site
+		Table 35 Characteristics
+	Hyewodin Landing Site
+		Table 36 Characteristics
+	Sempoa Landing Site
+		Table 37 Characteristics
+	Ekye Amanfrom Landing Site
+		Table 38 Characteristics
+	Kwame Dwamena Landing Site
+		Table 39 Characteristics
+	Main Fairway of the Lower Afram
+		Table 40 Characteristics
+		Table 41 Buoys/Waypoints
+		Table 42 Trees
+	Dzemini Landing Site
+		Table 43 Characteristics
+	Wusuta Tornu Landing Site
+		Table 44 Characteristics
+	Bruben Landing Site
+		Table 45 Characteristics
+	Avatey (Awatetone) Landing Site
+		Table 46 Characteristics
+	Kpandu Torkor Landing Site
+		Table 47 Characteristics
+	Agordeke Landing Site
+		Table 48 Characteristics
+	Adzamansu Landing Site
+		Table 49 Characteristics
+	Fairway to Bridge Ano and Ntoaboma
+		Table 50 Characteristics
+		Table 51 Buoys/Waypoints
+		Table 52 Trees
+	Bridge Ano Landing Site
+		Table 53 Characteristics
+	Ntoaboma Landing Site
+		Table 54 Characteristics
+	Tapa Abotoase Landing Site
+		Table 55 Characteristics
+	C.K. Kope Landing Site
+		Table 56 Characteristics
+	Otisu Kpedzi Landing Site
+		Table 57 Characteristics
+	Kpatchu Landing Site
+		Table 58 Characteristics
+	Adiembra Landing Site
+		Table 59 Characteristics
+	Dambai Landing Site
+		Table 60 Characteristics
+	Overbank Landing Site
+		Table 61 Characteristics
+	Kete-Krachi Landing Site
+		Table 62 Characteristics
+	Kwadwakrom Landing Site
+		Table 63 Characteristics
+	Hiamankyne Landing Site
+		Table 64 Characteristics
+	Torkbenya Landing Site
+		Table 65 Characteristics
+	Anyiname Landing Site
+		Table 66 Characteristics
+	Bejamsu Landing Site
+		Table 67 Characteristics
+	Hausakope Landing Site
+		Table 68 Characteristics
+	Lonto Landing Site
+		Table 69 Characteristics
+	Padjae No. 2 Landing Site
+		Table 70 Characteristics
+	Fairway to Tonka, Kajai and Parambo
+		Table 71 Characteristics
+	Tonka Landing Site
+		Table 72 Characteristics
+	Kajai Landing Site
+		Table 73 Characteristics
+	Parambo (No. 1 Ensuano) Landing Site
+		Table 74 Characteristics
+	Gbetepko Landing Site
+		Table 75 Characteristics
+	Jakla No.3 Landing Site
+		Table 76 Characteristics
+	Yeji Landing Site
+		Table 77 Characteristics
+	Makango Landing Site
+		Table 78 Characteristics
+	Soldierkope Landing Site
+		Table 79 Characteristics
+	Mataheko Landing Site
+		Table 80 Characteristics
+	Debre Landing Site
+		Table 81 Characteristics
+	Buipe Landing Site
+		Table 82 Characteristics

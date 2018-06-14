@@ -11,10 +11,12 @@ class VoltaFeatureParser {
     private boolean tableFound;
     private FeatureParser featureParser;
     private List<VoltaFeature> features;
+    private List<Waypoint> waypoints;
 
     VoltaFeatureParser(String heading) {
         this.heading = heading;
         this.features = new ArrayList<>();
+        this.waypoints = new ArrayList<>();
     }
 
     boolean isParsingTable() {
@@ -36,7 +38,7 @@ class VoltaFeatureParser {
     }
 
     private boolean isTableLine(String line) {
-        return line.contains("Table") && line.contains(tableNumber);
+        return line.contains("Table " + tableNumber);
     }
 
     void startParsingTable(String metadataLine) {
@@ -46,10 +48,18 @@ class VoltaFeatureParser {
         String tableType = tableData[2];
         if (tableType.contains("Characteristics")) {
             featureParser = new CharacteristicParser();
+        } else if (tableType.contains("Buoys/Waypoints")) {
+            featureParser = new WaypointParser(this);
+        } else if (tableType.contains("Trees")) {
+            featureParser = new TreeParser(waypoints);
         }
     }
 
     VoltaFeatureCollection getFeatureCollection() {
         return new VoltaFeatureCollection(heading, features);
+    }
+
+    void addWaypoint(Waypoint wp) {
+        waypoints.add(wp);
     }
 }

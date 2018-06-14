@@ -22,6 +22,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Stack;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class VoltaDataParser {
     private List<FeatureVo> features;
@@ -60,6 +62,9 @@ public class VoltaDataParser {
 
     private void readNext(String line) {
         if (currentFeatureParser == null) {
+            if (metadata.isEmpty()) {
+                return;
+            }
             String metadataLine = metadata.pollFirst();
             currentFeatureParser = new VoltaFeatureParser(metadataLine);
         }
@@ -69,6 +74,8 @@ public class VoltaDataParser {
         } else {
             String metadataLine = metadata.pollFirst();
             if (metadataLine == null) {
+                voltaFeatures.add(currentFeatureParser.getFeatureCollection());
+                currentFeatureParser = null;
                 return;
             }
             if (metadataLine.contains("Table")) {
@@ -80,6 +87,7 @@ public class VoltaDataParser {
         }
     }
 
+/*
     @Test
     public void convertCharacteristics() throws IOException, URISyntaxException {
         String outputFileName = "landing-site-sedom.json";
@@ -310,15 +318,58 @@ public class VoltaDataParser {
         int sign = nsew.equals("W") || nsew.equals("S") ? -1 : 1;
         return sign * (degrees + minutes/60D + seconds/3600D);
     }
+*/
+private double parseDegreesMinuttesSeconds(String degMinSec) {
+    degMinSec = degMinSec.replace("*", "’");
+    String[] degreeSplit = degMinSec.split("°");
+    int degrees = Integer.parseInt(degreeSplit[0]);
+    String[] minSplit = degreeSplit[1].split("’");
+    int minutes = Integer.parseInt(minSplit[0]);
+    String[] secSplit = minSplit[1].split("”");
+    double seconds = Double.parseDouble(secSplit[0]);
+
+    String nsew = secSplit[1];
+    int sign = nsew.equals("W") || nsew.equals("S") ? -1 : 1;
+    return sign * (degrees + minutes/60D + seconds/3600D);
+}
 
     @Test
     public void name() {
-        String charac = "Table  8 Characteristics";
-        String bu = "Table  9 Buoys/Waypoints";
-        String tree = "Table 10 Trees";
+        double[] WP18 = {0.015833333333333335, 6.395833333333334};
+        double x1 = 0.015833333333333335;
+        double y1 = 6.395833333333334;
+        double[] WP19 = {0.006666666666666667, 6.38};
+        double x0 = 0.006666666666666667;
+        double y0 = 6.38;
+        double[] WP110 = {0.0, 6.363333333333333};
 
-        System.out.println("\""+charac.replace("  ", " ").split(" ")[1] + "\"");
-        System.out.println("\""+charac.split(" +")[1] + "\"");
+        double lat = parseDegreesMinuttesSeconds("6°23’05”N");
+
+//        double a = (WP18[0] - WP19[0]) / (WP18[1] - WP19[1]);
+//        double b = WP18[1] - a * WP18[0];
+        double a = (y1 - y0) / (x1 - x0);
+        double b = y1 - a * x1;
+
+        System.out.println("a: " + a);
+        System.out.println("b: " + b);
+
+        double lon = (lat - b) / a;
+
+        System.out.println("Lat: " + lat);
+        System.out.println("Lon: " + lon);
+
+    }
+
+    @Test
+    public void namea() {
+        Pattern p = Pattern.compile("(?<lat>\\d°\\d{2}’\\d{2}”N)");
+        Pattern latPattern = Pattern.compile("(?<lat>\\d°\\d{2}’\\d{2}(\\.\\d{2})?”N)");
+
+        Matcher matcher = latPattern.matcher("0°03’11.09”N");
+//        System.out.println(matcher.matches());
+//        matcher = p.matcher(";;;;;6°23’05”N;sdflkwsjhfowe");
+        System.out.println(matcher.find());
+        System.out.println(matcher.group("lat"));
 
     }
 }

@@ -10,4 +10,12 @@ public class VoltaFeatureCollection {
         this.heading = heading;
         this.features = features;
     }
+
+    public String getHeading() {
+        return heading;
+    }
+
+    public List<VoltaFeature> getFeatures() {
+        return features;
+    }
 }
