@@ -103,5 +103,34 @@
             </div>
         </uib-tab>
 
+        <!-- Lake Volta tab -->
+        <uib-tab classes="btn-sm" ng-click="sidebarUncollapse()">
+            <uib-tab-heading>
+                Lake Volta
+                <span class="badge sidebar-badge" ng-bind="voltaFeatures.length"></span>
+            </uib-tab-heading>
+
+            <div class="panel" ng-class="(nwNmServicesStatus=='true') ? 'panel-primary' : 'panel-default'">
+                <div class="panel-heading cursor-default clearfix" ng-click="sidebarUncollapse()">
+                    Landing sites, Routes and Fairways of the Lake Volta
+                </div>
+
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <tr ng-repeat-start="feature in voltaFeatures">
+                            <td class="message-area-heading">
+                                {{feature.heading}}
+                            </td>
+                        </tr>
+                        <tr ng-repeat-end ng-repeat="f in feature.features">
+                            <td class="message-item">
+                                {{f.heading}}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </uib-tab>
+
     </uib-tabset>
 </div>

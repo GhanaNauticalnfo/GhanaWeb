@@ -10,7 +10,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.StringJoiner;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Matcher;
 
@@ -120,7 +119,7 @@ public class CharacteristicParser implements FeatureParser {
 
     @Override
     public VoltaFeature getFeature() {
-        return new VoltaFeature(heading, convertCharacteristic());
+        return new VoltaFeature(heading, "Characteristics", convertCharacteristic());
     }
 
     private FeatureCollectionVo convertCharacteristic() {

@@ -2,8 +2,8 @@ angular.module('maritimeweb.app')
 
     .controller("AppController", [
         '$scope', '$http', '$window', '$timeout', 'Auth', 'MapService',
-        'NwNmService', 'growl', '$uibModal', '$log', 'VesselService',
-        function ($scope, $http, $window, $timeout, Auth, MapService, NwNmService, growl, $uibModal, $log, VesselService) {
+        'NwNmService', 'growl', '$uibModal', '$log', 'VesselService','LakeVoltaService',
+        function ($scope, $http, $window, $timeout, Auth, MapService, NwNmService, growl, $uibModal, $log, VesselService, LakeVoltaService) {
 
             // Cancel any pending NW-NN queries
             var loadTimerService = undefined;
@@ -96,7 +96,13 @@ angular.module('maritimeweb.app')
                 $scope.mapState.center = [0.2, 7.5];
                 $scope.mapState['reloadMap'] = true;
             };
+            $scope.voltaFeatures = [];
 
+            LakeVoltaService.getFeatures().then(function (features) {
+                $scope.voltaFeatures = features;
+            }).catch(function (err) {
+                $log.error(err);
+            });
 
             /**************************************/
             /** Vessel sidebar functionality      **/
