@@ -2217,7 +2217,7 @@ WP02-1;;6°30’31”N;0°03’58”W;;
 WP02-2;;6°31’22”N;0°04’29”W;;
 WP02-3;;6°31’18”N;0°05’02”W;;
 WP02-4;;6°31’58”N;0°05’13”W;;
-WP02-5;;6°23’40.50”N;0°05’46”W;;
+WP02-5;;6°32’40.50”N;0°05’46”W;;
 WP02-6;;6°32’50”N;0°06’34”W;;
 WP02-7;;6°32’50”N;0°07’40”W;;
 WP02-8;;6°32’16”N;0°08’26”W;;
@@ -2280,10 +2280,10 @@ Between;6°31’42”N;;3.8 ha;115;
 and;6°32’08”N;;;;
 Groves;;;;;
 Between;;0°09’29”W;0.9 ha;25;
-and;;0°10’01W;;;
+and;;0°10’01”W;;;
 Groves;;;;;
 Between;;0°10’08”W;0.8 ha;25;
-and;;0°10’28W;;;
+and;;0°10’28”W;;;
 Groves;;;;;
 Between;6°31’56”N;;9.1 ha;275;
 and;6°31’43”N;;;;
@@ -2516,12 +2516,11 @@ Source:;HPC, 2014.;;;;
 ;;Cutting of submerged trees in order to improve safety of navigation on the main;;;
 ;;fairway of the Upper Afram is recommended on the following locations:;;;
 ;;;;;
-Table 26:;Areas where submerged Trees are endangering the;;;;
-Navigation on the Main Fairway of the Upper Afram;;;;;
+Table 26:;Areas where submerged Trees are endangering the Navigation on the Main Fairway of the Upper Afram;;;;
 ;;;;;
 Characteristics;;Latitude;Longitude;Size of area to;Estimated
 ;;;;be cleaned;number of trees
-;;;Between WP 03-12 and WP 03-14 (Adakope);;
+;;;Between WP 03-11 and WP 03-14 (Adakope);;
 Groves;;;;;
 between;;;0°15’07”W;23.3 ha;700
 and;;;0°16’12”W;;
@@ -2537,7 +2536,7 @@ Single Trees;;6°40’17.30”N;0°19’01”W;-;1
 Groves;;;;;
 Between;;;0°20’50”W;40.0 ha;1200
 and;;;0°24’06”W;;
-;;;Between WP 03-22 (Nketepa) and WP 03-27 (Asuboni);;
+;;;Between WP 03-21 (Nketepa) and WP 03-27 (Asuboni);;
 Groves;;;;;
 Between;;;0°24’04”W;4.8 ha;145
 and;;;0°25’13”W;;
@@ -2555,7 +2554,7 @@ and;;;0°30’40”W;;
 ;;;Water Level);;
 Groves;;;;;
 Between;;;0°30’40”W;31.1 ha;935
-and;;;0°30’22”W;;
+and;;;0°33’22”W;;
 Source:;HPC, 2014.;;;;
 ;;;;;
 HPC Hamburg Port Consulting GmbH;HPTI Hamburg Port Training Institute GmbH;;;;
@@ -3139,8 +3138,8 @@ Characteristics;;Latitude;Longitude;Size of area to;Number of trees
 ;;;;be cleaned;
 ;;;Between Junction with Main Fairway of the Upper Afram  (WP02-4) and WP 06-1;;
 Groves;;;;;
-between;;;0°05’09”W;4.3 ha;130
-and;;;0°04’30”W;;
+between;;6°31’58”N;0°05’09”W;4.3 ha;130
+and;;6°32’21”N;0°04’30”W;;
 Source:;HPC, 2014.;;;;
 ;;;;;
 HPTI Hamburg Port Training Institute GmbH;HPC Hamburg Port Consulting GmbH;;;;
