@@ -42,7 +42,7 @@ public class WaypointParser implements FeatureParser {
         FeatureVo feature = new FeatureVo();
         PointVo pointVo = new PointVo();
         double[] coord = {parseDegreesMinuttesSeconds(waypointTokens[2]), parseDegreesMinuttesSeconds(waypointTokens[1])};
-        voltaFeatureParser.addWaypoint(new Waypoint(coord));
+        voltaFeatureParser.addWaypoint(new Waypoint(name, coord));
         pointVo.setCoordinates(coord);
         feature.setGeometry(pointVo);
         HashMap<String, Object> properties = new HashMap<>();

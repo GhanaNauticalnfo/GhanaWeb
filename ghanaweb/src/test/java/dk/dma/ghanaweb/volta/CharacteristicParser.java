@@ -2,7 +2,6 @@ package dk.dma.ghanaweb.volta;
 
 import org.niord.model.geojson.FeatureCollectionVo;
 import org.niord.model.geojson.FeatureVo;
-import org.niord.model.geojson.MultiPointVo;
 import org.niord.model.geojson.PointVo;
 
 import java.util.ArrayList;
@@ -10,7 +9,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Matcher;
 
 public class CharacteristicParser implements FeatureParser {
@@ -49,7 +47,6 @@ public class CharacteristicParser implements FeatureParser {
                 System.out.println("WHAT???");
                 System.out.println(line);
             }
-//            characteristic.get(lastLocationKey).add(line.split(";")[1].replace("Longitude - ", "").replace(",", "."));
         }
 
         if (line.startsWith("Type of waterborne transport")) {
@@ -119,49 +116,46 @@ public class CharacteristicParser implements FeatureParser {
 
     @Override
     public VoltaFeature getFeature() {
-        return new VoltaFeature(heading, "Characteristics", convertCharacteristic());
+        String type = "Characteristics";
+        if (heading.contains("Fairway")) {
+            type = "Fairway Characteristics";
+        }
+        return new VoltaFeature(heading, type, convertCharacteristic());
     }
 
     private FeatureCollectionVo convertCharacteristic() {
-        List<String> locationKeys = new ArrayList<>();
+        List<FeatureVo> features = new ArrayList<>();
         characteristic.keySet().forEach(key -> {
-            if (key.startsWith("Location") || key.startsWith("Starting Point") || key.startsWith("End Point") || key.startsWith("Alternative End Point")) {
-                locationKeys.add(key);
+            if (key.startsWith("Location")) {
+                features.add(createFeature(key, "Location"));
+            } else if (key.startsWith("Starting Point")) {
+                features.add(createFeature(key, "Starting Point"));
+            } else if (key.startsWith("End Point")) {
+                features.add(createFeature(key, "End Point"));
+            } else if (key.startsWith("Alternative End Point")) {
+                features.add(createFeature(key, "Alternative End Point"));
             }
         });
 
-        FeatureVo feature = new FeatureVo();
-        if (locationKeys.size() == 1) {
-            PointVo pointVo = new PointVo();
-            List<String> latLon = characteristic.get(locationKeys.get(0));
-            if (latLon.get(1).equals("") || latLon.get(0).equals("")) {
-                System.out.println(latLon);
-            }
-            double[] coord = {parseDegreesMinuttesSeconds(latLon.get(1)), parseDegreesMinuttesSeconds(latLon.get(0))};
-            pointVo.setCoordinates(coord);
-            feature.setGeometry(pointVo);
-        } else {
-            double[][] coords = new double[locationKeys.size()][2];
-            MultiPointVo multiPointVo = new MultiPointVo();
-            AtomicInteger i = new AtomicInteger(0);
-            locationKeys.forEach(key -> {
-                List<String> latLon = characteristic.get(key);
-                double[] coord = {parseDegreesMinuttesSeconds(latLon.get(1)), parseDegreesMinuttesSeconds(latLon.get(0))};
-                coords[i.getAndAdd(1)] = coord;
-            });
-            multiPointVo.setCoordinates(coords);
-            feature.setGeometry(multiPointVo);
-        }
-
-        HashMap<String, Object> properties = new HashMap<>();
-
-        characteristic.forEach((key, value) -> properties.put(key, String.join(" - ", value)));
-
-        feature.setProperties(properties);
-
         FeatureCollectionVo featureCollection = new FeatureCollectionVo();
-        featureCollection.setFeatures(new FeatureVo[] {feature});
+        featureCollection.setFeatures(features.toArray(new FeatureVo[0]));
 
         return featureCollection;
+    }
+
+    private FeatureVo createFeature(String locKey, String locationIdentifier) {
+        FeatureVo feature = new FeatureVo();
+        PointVo pointVo = new PointVo();
+        List<String> latLon = characteristic.get(locKey);
+        double[] coord = {parseDegreesMinuttesSeconds(latLon.get(1)), parseDegreesMinuttesSeconds(latLon.get(0))};
+        pointVo.setCoordinates(coord);
+        feature.setGeometry(pointVo);
+
+        HashMap<String, Object> properties = new HashMap<>();
+        characteristic.forEach((key, value) -> properties.put(key, String.join(" - ", value)));
+        properties.put("LocationIdentifier", locationIdentifier);
+        feature.setProperties(properties);
+
+        return feature;
     }
 }

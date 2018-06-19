@@ -11,24 +11,10 @@
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    -1.4454277777777778,
-                    8.768441666666668
-                  ],
-                  [
-                    -8.638888888888889E-4,
-                    6.344363888888888
-                  ],
-                  [
-                    -0.05308055555555556,
-                    7.775852777777778
-                  ],
-                  [
-                    -0.6446027777777777,
-                    8.234205555555555
-                  ]
+                  -1.4454277777777778,
+                  8.768441666666668
                 ]
               },
               "properties": {
@@ -46,6 +32,94 @@
                 "Type of waterborne transport": "Ro/Ro Cargo Vessel (Yapei Queen), Pushers &",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
+                "Appr. area to be cleared from submerged trees": "1.6 ha",
+                "Total population served by location": "no data"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -8.638888888888889E-4,
+                  6.344363888888888
+                ]
+              },
+              "properties": {
+                "Location Buipe (BOST only)": "8°46’06.39”N - 1°26’43.54”W",
+                "Number of visiting outboarder boats": "n.a.",
+                "Design width of approach channel": "56.5 m",
+                "Cost for buoyage [USD]": "none",
+                "Location Akosombo": "6°20’39.71”N - 0°00’03.11”W",
+                "Costs for cutting of trees [USD]": "8.935",
+                "Appr. clearance width for approach channel": "150 m",
+                "Location Kete-Krachi": "7°46’33.07”N - 0°03’11.09”W",
+                "Weekly passenger transport by boat": "no data",
+                "Number of buoys": "n.a.",
+                "Location Yeji": "8°14’03.14”N - 0°38’40.57”W",
+                "Type of waterborne transport": "Ro/Ro Cargo Vessel (Yapei Queen), Pushers &",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
+                "Appr. area to be cleared from submerged trees": "1.6 ha",
+                "Total population served by location": "no data"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.05308055555555556,
+                  7.775852777777778
+                ]
+              },
+              "properties": {
+                "Location Buipe (BOST only)": "8°46’06.39”N - 1°26’43.54”W",
+                "Number of visiting outboarder boats": "n.a.",
+                "Design width of approach channel": "56.5 m",
+                "Cost for buoyage [USD]": "none",
+                "Location Akosombo": "6°20’39.71”N - 0°00’03.11”W",
+                "Costs for cutting of trees [USD]": "8.935",
+                "Appr. clearance width for approach channel": "150 m",
+                "Location Kete-Krachi": "7°46’33.07”N - 0°03’11.09”W",
+                "Weekly passenger transport by boat": "no data",
+                "Number of buoys": "n.a.",
+                "Location Yeji": "8°14’03.14”N - 0°38’40.57”W",
+                "Type of waterborne transport": "Ro/Ro Cargo Vessel (Yapei Queen), Pushers &",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
+                "Appr. area to be cleared from submerged trees": "1.6 ha",
+                "Total population served by location": "no data"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.6446027777777777,
+                  8.234205555555555
+                ]
+              },
+              "properties": {
+                "Location Buipe (BOST only)": "8°46’06.39”N - 1°26’43.54”W",
+                "Number of visiting outboarder boats": "n.a.",
+                "Design width of approach channel": "56.5 m",
+                "Cost for buoyage [USD]": "none",
+                "Location Akosombo": "6°20’39.71”N - 0°00’03.11”W",
+                "Costs for cutting of trees [USD]": "8.935",
+                "Appr. clearance width for approach channel": "150 m",
+                "Location Kete-Krachi": "7°46’33.07”N - 0°03’11.09”W",
+                "Weekly passenger transport by boat": "no data",
+                "Number of buoys": "n.a.",
+                "Location Yeji": "8°14’03.14”N - 0°38’40.57”W",
+                "Type of waterborne transport": "Ro/Ro Cargo Vessel (Yapei Queen), Pushers &",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "1.6 ha",
                 "Total population served by location": "no data"
               }
@@ -3253,23 +3327,17 @@
     "features": [
       {
         "heading": "Characteristics of the Fairway to Sedom, Obelemenya and Agajajetor",
-        "type": "Characteristics",
+        "type": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    0.06361111111111112,
-                    6.511111111111111
-                  ],
-                  [
-                    -0.020833333333333332,
-                    6.320555555555555
-                  ]
+                  0.06361111111111112,
+                  6.511111111111111
                 ]
               },
               "properties": {
@@ -3284,7 +3352,35 @@
                 "End Point": "6°19’14”N - 0°01’15”W",
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
-                "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the fairway recommended. Distance between buoys should be 2,000 m",
+                "LocationIdentifier": "Starting Point",
+                "Appr. area to be cleared from submerged trees": "7.9 ha",
+                "Total population served by location": "Up to 12,000"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.020833333333333332,
+                  6.320555555555555
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "20-50",
+                "Design width of approach channel": "17.5 m",
+                "Cost for buoyage [USD]": "195.000",
+                "Costs for cutting of trees [USD]": "33.715",
+                "Appr. clearance width for approach channel": "150 m",
+                "Starting Point": "6°30’40”N - 0°03’49”E",
+                "Weekly passenger transport by boat": "100-300",
+                "Number of buoys": "13",
+                "End Point": "6°19’14”N - 0°01’15”W",
+                "Type of waterborne transport": "Motor boats  - Informal Boat Services",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the fairway recommended. Distance between buoys should be 2,000 m",
+                "LocationIdentifier": "End Point",
                 "Appr. area to be cleared from submerged trees": "7.9 ha",
                 "Total population served by location": "Up to 12,000"
               }
@@ -3591,6 +3687,10 @@
                     6.384722222222223
                   ],
                   [
+                    0.006666666666666667,
+                    6.38
+                  ],
+                  [
                     0.005444444444444249,
                     6.376944444444444
                   ]
@@ -3715,6 +3815,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "3.1 ha in front of landing station",
                 "Location": "6°20’41.78”N - 0°00’00.94”E",
                 "Total population served by location": "up to 500"
@@ -3754,6 +3855,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "6°19’14.00”N - 0°01’05.00”W",
                 "Total population served by location": "up to 4,500"
@@ -3793,6 +3895,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "1.7 ha on the fairway to Agajajetor between",
                 "Location": "6°20’12.51”N - 0°01’38.99”W",
                 "Total population served by location": "up to 7,000"
@@ -3808,27 +3911,17 @@
     "features": [
       {
         "heading": "Characteristics of the Southern Fairway of the Afram",
-        "type": "Characteristics",
+        "type": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    -0.20777777777777778,
-                    6.535555555555556
-                  ],
-                  [
-                    0.03361111111111111,
-                    6.448888888888889
-                  ],
-                  [
-                    -0.15361111111111111,
-                    6.525277777777777
-                  ]
+                  -0.20777777777777778,
+                  6.535555555555556
                 ]
               },
               "properties": {
@@ -3845,6 +3938,63 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "Alternative End Point",
+                "Appr. area to be cleared from submerged trees": "48.0 ha (until Akateng) / 76.0 ha (up to the end)",
+                "Total population served by location": "up to 47,000"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  0.03361111111111111,
+                  6.448888888888889
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "more than 130",
+                "Design width of approach channel": "17.5 m",
+                "Cost for buoyage [USD]": "240,000 (until Akateng) / 315,000 (over the",
+                "Costs for cutting of trees [USD]": "195,250 (until Akateng) / 308,650 (over the",
+                "Alternative End Point": "6°32’08”N - 0°12’28”W",
+                "Appr. clearance width for approach channel": "150 m",
+                "Starting Point": "6°26’56”N - 0°02’01”E",
+                "Weekly passenger transport by boat": "more than 750",
+                "Number of buoys": "16 / 21",
+                "End Point": "6°31’31”N - 0°09’13”W",
+                "Type of waterborne transport": "Motor boats  - Informal Boat Services",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "Starting Point",
+                "Appr. area to be cleared from submerged trees": "48.0 ha (until Akateng) / 76.0 ha (up to the end)",
+                "Total population served by location": "up to 47,000"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.15361111111111111,
+                  6.525277777777777
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "more than 130",
+                "Design width of approach channel": "17.5 m",
+                "Cost for buoyage [USD]": "240,000 (until Akateng) / 315,000 (over the",
+                "Costs for cutting of trees [USD]": "195,250 (until Akateng) / 308,650 (over the",
+                "Alternative End Point": "6°32’08”N - 0°12’28”W",
+                "Appr. clearance width for approach channel": "150 m",
+                "Starting Point": "6°26’56”N - 0°02’01”E",
+                "Weekly passenger transport by boat": "more than 750",
+                "Number of buoys": "16 / 21",
+                "End Point": "6°31’31”N - 0°09’13”W",
+                "Type of waterborne transport": "Motor boats  - Informal Boat Services",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "End Point",
                 "Appr. area to be cleared from submerged trees": "48.0 ha (until Akateng) / 76.0 ha (up to the end)",
                 "Total population served by location": "up to 47,000"
               }
@@ -4007,7 +4157,7 @@
                 "type": "Point",
                 "coordinates": [
                   -0.0961111111111111,
-                  6.394583333333334
+                  6.544583333333334
                 ]
               },
               "properties": {
@@ -4210,6 +4360,10 @@
                     6.504787581699347
                   ],
                   [
+                    -0.05583333333333334,
+                    6.506666666666667
+                  ],
+                  [
                     -0.05666666666666667,
                     6.506824324324325
                   ]
@@ -4228,11 +4382,11 @@
                 "coordinates": [
                   [
                     -0.06277777777777778,
-                    6.50798048048048
+                    6.519444444444439
                   ],
                   [
                     -0.08388888888888889,
-                    6.5217901234567845
+                    6.5216666666666665
                   ]
                 ]
               },
@@ -4252,7 +4406,11 @@
                     6.530833333333334
                   ],
                   [
-                    -0.10840107168132643,
+                    -0.08694444444444444,
+                    6.532777777777778
+                  ],
+                  [
+                    -0.08888562091503314,
                     6.535277777777778
                   ]
                 ]
@@ -4269,11 +4427,11 @@
                 "type": "LineString",
                 "coordinates": [
                   [
-                    -0.10847386512991607,
+                    -0.08953267973856263,
                     6.536111111111111
                   ],
                   [
-                    -0.10895915478718024,
+                    -0.0938464052287585,
                     6.541666666666667
                   ]
                 ]
@@ -4339,6 +4497,10 @@
                     6.542294685990338
                   ],
                   [
+                    -0.14055555555555554,
+                    6.5377777777777775
+                  ],
+                  [
                     -0.14083333333333334,
                     6.537511820330969
                   ]
@@ -4356,12 +4518,16 @@
                 "type": "LineString",
                 "coordinates": [
                   [
-                    -0.10864371650995848,
-                    6.538055555555555
-                  ],
-                  [
                     -0.0866388888888889,
                     6.531666666666666
+                  ],
+                  [
+                    -0.08694444444444444,
+                    6.532777777777778
+                  ],
+                  [
+                    -0.09104248366013074,
+                    6.538055555555555
                   ]
                 ]
               },
@@ -4402,7 +4568,11 @@
                     6.530833333333334
                   ],
                   [
-                    -0.10840107168132643,
+                    -0.08694444444444444,
+                    6.532777777777778
+                  ],
+                  [
+                    -0.08888562091503314,
                     6.535277777777778
                   ]
                 ]
@@ -4419,11 +4589,11 @@
                 "type": "LineString",
                 "coordinates": [
                   [
-                    -0.08572222222222232,
+                    -0.1550555555555557,
                     6.528333333333333
                   ],
                   [
-                    -0.10842533616418965,
+                    -0.1584696969696971,
                     6.535555555555556
                   ]
                 ]
@@ -4444,8 +4614,12 @@
                     6.5346794871794875
                   ],
                   [
-                    58.61222222219862,
-                    0.0
+                    -0.16083333333333333,
+                    6.540555555555556
+                  ],
+                  [
+                    -0.16694444444444442,
+                    6.537188208616779
                   ]
                 ]
               },
@@ -4465,8 +4639,12 @@
                     6.536116780045351
                   ],
                   [
-                    58.61222222219862,
-                    0.0
+                    -0.17444444444444443,
+                    6.533055555555555
+                  ],
+                  [
+                    -0.17444444444444443,
+                    6.533055555555555
                   ]
                 ]
               },
@@ -4482,11 +4660,11 @@
                 "type": "LineString",
                 "coordinates": [
                   [
-                    -0.0867916666666667,
+                    -0.15689393939393934,
                     6.532222222222222
                   ],
                   [
-                    -0.08579861111111123,
+                    -0.15518686868686885,
                     6.528611111111111
                   ]
                 ]
@@ -4526,6 +4704,10 @@
                   [
                     -0.1913888888888889,
                     6.533697318007662
+                  ],
+                  [
+                    -0.19152777777777777,
+                    6.5337499999999995
                   ],
                   [
                     -0.20027777777777778,
@@ -4594,6 +4776,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.3 ha on the fairway to Akrusu between 6°30’07”N,",
                 "Location": "6°29’43.29”N - 0°04’33.41”W",
                 "Total population served by location": "up to 16,000"
@@ -4633,6 +4816,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "27.3 ha over complete channel and in front of",
                 "Location": "6°30’53.81”N - 0°05’37.45”W",
                 "Total population served by location": "up to 11,000"
@@ -4672,6 +4856,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "1.3 ha in front of landing station",
                 "Location": "6°31’17.05”N - 0°09’11.91”W",
                 "Total population served by location": "up to 20,000"
@@ -4687,23 +4872,17 @@
     "features": [
       {
         "heading": "Characteristics of the Main Fairway of the Upper Afram",
-        "type": "Characteristics",
+        "type": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    -0.11175,
-                    6.553333333333333
-                  ],
-                  [
-                    -0.5561111111111111,
-                    6.760277777777778
-                  ]
+                  -0.11175,
+                  6.553333333333333
                 ]
               },
               "properties": {
@@ -4719,6 +4898,34 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "Starting Point",
+                "Appr. area to be cleared from submerged trees": "138.4 ha until Adawso, plus 31.1 ha between",
+                "Total population served by location": "< 77,000 (not including Hyewohodin and Sempoa)"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.5561111111111111,
+                  6.760277777777778
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "110-190 (not including Hyewohodin and Sempoa)",
+                "Design width of approach channel": "17.5 m",
+                "Cost for buoyage [USD]": "465,000 until Adawso, 540,000 (until end of fairway)",
+                "Costs for cutting of trees [USD]": "560,415 (until Adawso) / 686,475 (until end of the",
+                "Appr. clearance width for approach channel": "150 m",
+                "Starting Point": "6°33’12”N - 0°06’42.30”W",
+                "Weekly passenger transport by boat": "250-1,550 (not including Hyewohodin and Sempoa)",
+                "Number of buoys": "31 until Adawso plus 5 until end of fairway",
+                "End Point": "6°45’37”N - 0°33’22”W",
+                "Type of waterborne transport": "Motor boats  - Informal Boat Services",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "End Point",
                 "Appr. area to be cleared from submerged trees": "138.4 ha until Adawso, plus 31.1 ha between",
                 "Total population served by location": "< 77,000 (not including Hyewohodin and Sempoa)"
               }
@@ -5204,7 +5411,7 @@
         }
       },
       {
-        "heading": "Areas where submerged Trees are endangering the",
+        "heading": "Areas where submerged Trees are endangering the Navigation on the Main Fairway of the Upper Afram",
         "type": "Tree",
         "featureCollectionVo": {
           "type": "FeatureCollection",
@@ -5217,6 +5424,14 @@
                   [
                     -0.25194444444444447,
                     6.634293981481481
+                  ],
+                  [
+                    -0.2525,
+                    6.634583333333333
+                  ],
+                  [
+                    -0.2688888888888889,
+                    6.639166666666666
                   ],
                   [
                     -0.27,
@@ -5312,8 +5527,20 @@
                     6.667899831649832
                   ],
                   [
+                    -0.35527777777777775,
+                    6.667777777777778
+                  ],
+                  [
+                    -0.37277777777777776,
+                    6.671250000000001
+                  ],
+                  [
+                    -0.39083333333333337,
+                    6.675000000000001
+                  ],
+                  [
                     -0.40166666666666667,
-                    6.567222222222216
+                    6.680833333333334
                   ]
                 ]
               },
@@ -5331,6 +5558,14 @@
                   [
                     -0.40111111111111114,
                     6.680534188034189
+                  ],
+                  [
+                    -0.40166666666666667,
+                    6.680833333333334
+                  ],
+                  [
+                    -0.4138888888888889,
+                    6.693333333333333
                   ],
                   [
                     -0.4202777777777778,
@@ -5354,6 +5589,10 @@
                     6.69952492211838
                   ],
                   [
+                    -0.42875,
+                    6.700694444444444
+                  ],
+                  [
                     -0.43472222222222223,
                     6.70125786163522
                   ]
@@ -5375,6 +5614,14 @@
                     6.70125786163522
                   ],
                   [
+                    -0.4361111111111111,
+                    6.701388888888889
+                  ],
+                  [
+                    -0.44333333333333336,
+                    6.7
+                  ],
+                  [
                     -0.4527777777777778,
                     6.705246913580247
                   ]
@@ -5393,11 +5640,23 @@
                 "coordinates": [
                   [
                     -0.45833333333333337,
-                    6.638055555555551
+                    6.708333333333334
+                  ],
+                  [
+                    -0.47305555555555556,
+                    6.714722222222222
+                  ],
+                  [
+                    -0.4905555555555556,
+                    6.719444444444445
+                  ],
+                  [
+                    -0.5079166666666667,
+                    6.724166666666667
                   ],
                   [
                     -0.5111111111111111,
-                    6.72763888888889
+                    6.727638888888889
                   ]
                 ]
               },
@@ -5417,8 +5676,24 @@
                     6.72763888888889
                   ],
                   [
-                    -0.5061111111111111,
-                    6.723675555555556
+                    -0.52375,
+                    6.7375
+                  ],
+                  [
+                    -0.5402777777777777,
+                    6.745555555555556
+                  ],
+                  [
+                    -0.5454166666666667,
+                    6.751111111111111
+                  ],
+                  [
+                    -0.5505555555555556,
+                    6.753333333333333
+                  ],
+                  [
+                    -0.5561111111111111,
+                    6.760277777777778
                   ]
                 ]
               },
@@ -5462,6 +5737,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "7.5 ha on the fairway to Akuase between 6°34’11”N,",
                 "Location": "6°33’13.74”N - 0°13’27.34”W",
                 "Total population served by location": "up to 11,000"
@@ -5501,6 +5777,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "16.3 ha on the last 1,600 m of the access channel",
                 "Location": "6°34’08.81”N - 0°14’13.94”W",
                 "Total population served by location": "up to 10,000"
@@ -5540,6 +5817,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.2 ha at the beginning of the fairway (6°37’13”N,",
                 "Location": "6°35’47.03”N - 0°14’00.16”W",
                 "Total population served by location": "up to 1,000"
@@ -5569,15 +5847,16 @@
                 ]
               },
               "properties": {
-                "Weekly passenger transport by boat": "50-250",
-                "Number of buoys": "20 channel marker buoys along the channel",
                 "Number of visiting outboarder boats": "60-70",
                 "Design width of approach channel": "17.5 m",
+                "Costs for cutting of trees [USD]": "159.015",
+                "Appr. clearance width for approach channel": "70-100 m / 300 m in front of landing station",
+                "Weekly passenger transport by boat": "50-250",
+                "Number of buoys": "20 channel marker buoys along the channel",
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
-                "Costs for cutting of trees [USD]": "159.015",
-                "Appr. clearance width for approach channel": "70-100 m / 300 m in front of landing station",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "46.4 ha over the complete access channel and in front of the landing station",
                 "Location": "6°35’52.86”N - 0°16’05.94”W - 0°16’17.49”W",
                 "Total population served by location": "up to 11,000"
@@ -5617,6 +5896,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "14.7 ha within the channel from eastern direction",
                 "Location": "6°37’48.45”N - 0°16’56.58”W",
                 "Total population served by location": "up to 10,500"
@@ -5656,6 +5936,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "35 ha in the 3 km long access channel starting from",
                 "Location": "6°37’35.19”N - 0°18’17.44”W",
                 "Total population served by location": "up to 11,000"
@@ -5695,6 +5976,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "6°40’44.16”N - 0°24’13.38”W",
                 "Total population served by location": "up to 17,500"
@@ -5734,6 +6016,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "2.1 ha at the beginning of the fairway",
                 "Location": "6°41’52.22”N - 0°27’20.07”W",
                 "Total population served by location": "up to 5,000"
@@ -5773,6 +6056,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.4 ha between the Afram fairway and the landing",
                 "Location": "6°43’09.11”N - 0°30’47.60”W",
                 "Total population served by location": "n.a."
@@ -5804,6 +6088,7 @@
               "properties": {
                 "Number of buoys": "",
                 "Navigational Aids": "",
+                "LocationIdentifier": "Location",
                 "Location": "6°48’51.73”N - 0°40’02.73”W"
               }
             }
@@ -5841,6 +6126,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "90 ha over the complete approach channel between",
                 "Location": "6°52’19.45”N - 0°45’09.42”W",
                 "Total population served by location": "up to 1,000"
@@ -5880,6 +6166,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "Single tree at 6°44’14”N, 0°30’28”W",
                 "Location": "6°44’19.84”N - 0°30’21.59”W",
                 "Total population served by location": "n.a."
@@ -5919,6 +6206,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "64 ha over the complete fairway between the Upper",
                 "Location": "6°43’40.16”N - 0°18’43.64”W",
                 "Total population served by location": "up to 15,000"
@@ -5934,23 +6222,17 @@
     "features": [
       {
         "heading": "Characteristics of the Main Fairway of the Lower Afram",
-        "type": "Characteristics",
+        "type": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    -0.0763888888888889,
-                    6.539166666666667
-                  ],
-                  [
-                    0.11805555555555555,
-                    6.58425
-                  ]
+                  -0.0763888888888889,
+                  6.539166666666667
                 ]
               },
               "properties": {
@@ -5966,6 +6248,34 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "Installation of cardinal buoys marking the axis of the fairway recommended. Distance between buoys should be 2,000 m",
+                "LocationIdentifier": "Starting Point",
+                "Appr. area to be cleared from submerged trees": "4.3 ha",
+                "Total population served by location": "< 139,000"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  0.11805555555555555,
+                  6.58425
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "400-520",
+                "Design width of approach channel": "17.5 m",
+                "Cost for buoyage [USD]": "210.000",
+                "Costs for cutting of trees [USD]": "17.630",
+                "Appr. clearance width for approach channel": "150 m",
+                "Starting Point": "6°32’21”N - 0°04’35”W",
+                "Weekly passenger transport by boat": "1,100-2,550",
+                "Number of buoys": "14",
+                "End Point": "6°35’03.30”N - 0°07’05”E",
+                "Type of waterborne transport": "Motor boats  - Informal Boat Services",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the fairway recommended. Distance between buoys should be 2,000 m",
+                "LocationIdentifier": "End Point",
                 "Appr. area to be cleared from submerged trees": "4.3 ha",
                 "Total population served by location": "< 139,000"
               }
@@ -6177,11 +6487,11 @@
                 "coordinates": [
                   [
                     -0.08583333333333333,
-                    6.3595643939393955
+                    6.532777777777778
                   ],
                   [
                     -0.075,
-                    6.538695856873822
+                    6.539166666666667
                   ]
                 ]
               },
@@ -6225,6 +6535,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "5.2 ha within the access channel between 0°08’15”E",
                 "Location": "6°36’08.83”N - 0°09’40.17”E",
                 "Total population served by location": "up to 20,000"
@@ -6264,6 +6575,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "2.8 ha within the access channel between 0°12’52”E",
                 "Location": "6°49’39.67”N - 0°13’32.80”E",
                 "Total population served by location": "up to 2,500"
@@ -6303,6 +6615,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "104 ha over the complete access channel and in",
                 "Location": "6°51’01.73”N - 0°01’57.78”E",
                 "Total population served by location": "up to 5,000"
@@ -6342,6 +6655,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "6.5 ha within the access channel between 0°11’57”E",
                 "Location": "6°52’26.46”N - 0°12’37.79”E",
                 "Total population served by location": "up to 5,000"
@@ -6381,6 +6695,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing, Motor boats  - Informal Boat",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.8 ha at the end of the access channel between",
                 "Location": "6°59’43.67”N - 0°15’23.77”E",
                 "Total population served by location": "up to 12,500"
@@ -6414,6 +6729,7 @@
                 "Cutting of trees required": "yes",
                 "Cost for buoyage [USD]": "105.000",
                 "Navigational Aids": "",
+                "LocationIdentifier": "Location",
                 "Location": "7°02’44.07”N - 0°07’05.14”E"
               }
             }
@@ -6451,6 +6767,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "4.1 ha within the access channel between 0°14’23”E",
                 "Location": "7°09’40.56”N - 0°16’05.84”E",
                 "Total population served by location": "up to 2,500"
@@ -6466,23 +6783,17 @@
     "features": [
       {
         "heading": "Characteristics of the Fairway to Bridge Ano and Ntoaboma",
-        "type": "Characteristics",
+        "type": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    0.23791666666666667,
-                    7.162222222222223
-                  ],
-                  [
-                    0.007916666666666667,
-                    7.1850000000000005
-                  ]
+                  0.23791666666666667,
+                  7.162222222222223
                 ]
               },
               "properties": {
@@ -6498,6 +6809,34 @@
                 "Type of waterborne transport": "n.a.",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "Starting Point",
+                "Appr. area to be cleared from submerged trees": "31 ha",
+                "Total population served by location": "n.a."
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  0.007916666666666667,
+                  7.1850000000000005
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "n.a.",
+                "Design width of approach channel": "70.0 m",
+                "Cost for buoyage [USD]": "270.000",
+                "Costs for cutting of trees [USD]": "125.975",
+                "Appr. clearance width for approach channel": "150 m",
+                "Starting Point": "7°09’44”N - 0°14’16.50”E",
+                "Weekly passenger transport by boat": "n.a.",
+                "Number of buoys": "18",
+                "End Point": "7°11’06”N - 0°00’28.50”E",
+                "Type of waterborne transport": "n.a.",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of cardinal buoys marking the axis of the",
+                "LocationIdentifier": "End Point",
                 "Appr. area to be cleared from submerged trees": "31 ha",
                 "Total population served by location": "n.a."
               }
@@ -6905,6 +7244,10 @@
                     7.176079545454545
                   ],
                   [
+                    0.0936111111111111,
+                    7.1775
+                  ],
+                  [
                     0.08916666666666666,
                     7.180379499217527
                   ]
@@ -6924,6 +7267,10 @@
                   [
                     0.08805555555555555,
                     7.181099374021909
+                  ],
+                  [
+                    0.08374999999999999,
+                    7.183888888888889
                   ],
                   [
                     0.08055555555555555,
@@ -6968,6 +7315,10 @@
                     7.177332415059688
                   ],
                   [
+                    0.06694444444444445,
+                    7.177222222222222
+                  ],
+                  [
                     0.06194444444444445,
                     7.175698412698413
                   ]
@@ -6987,6 +7338,26 @@
                   [
                     0.05555555555555556,
                     7.173751322751324
+                  ],
+                  [
+                    0.052361111111111115,
+                    7.172777777777778
+                  ],
+                  [
+                    0.04611111111111111,
+                    7.1875
+                  ],
+                  [
+                    0.03888888888888889,
+                    7.2058333333333335
+                  ],
+                  [
+                    0.0275,
+                    7.190555555555556
+                  ],
+                  [
+                    0.024166666666666666,
+                    7.183194444444445
                   ],
                   [
                     0.007916666666666667,
@@ -7034,6 +7405,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing (t.b.d)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "3.9 ha between Bridge Ano and Ntoaboma",
                 "Location": "7°11’02.89”N - 0°00’30.61”E",
                 "Total population served by location": "n.a."
@@ -7073,6 +7445,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing (t.b.d)",
                 "Cutting of trees required": "see Bridge Ano",
                 "Navigational Aids": "see Bridge Ano",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "see Bridge Ano",
                 "Location": "7°11’17.76”N - 0°00’41.98”E",
                 "Total population served by location": "n.a."
@@ -7112,6 +7485,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "1.3 ha between 0°14’32”E and 0°15’06”E",
                 "Location": "7°24’31.77”N - 0°17’48.55”E",
                 "Total population served by location": "up to 2,500"
@@ -7151,6 +7525,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services (t.b.d)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "3.6 ha within the fairway (inner channel)",
                 "Location": "7°23’03.79”N - 0°05’23.46”E",
                 "Total population served by location": "?"
@@ -7190,6 +7565,7 @@
                 "Type of waterborne transport": "Yapei Queen (RoRo Cargo) (t.b.d)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "3.1 ha within the fairway between 0°04’32”E and",
                 "Location": "7°38’50.06”N - 0°06’24.20”E",
                 "Total population served by location": "n.a."
@@ -7229,6 +7605,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing (t.b.d)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "58.3 ha within the channel between Kpatchu and",
                 "Location": "7°55’40.46”N - 0°03’06.07”E",
                 "Total population served by location": "n.a."
@@ -7268,6 +7645,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing (t.b.d)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "see Kpatchu landing site",
                 "Location": "7°57’09.81”N - 0°05’15.08”E",
                 "Total population served by location": "n.a."
@@ -7307,6 +7685,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "15.4 ha within the channel between Dambai and",
                 "Location": "8°04’31.05”N - 0°10’32.23”E",
                 "Total population served by location": "n.a."
@@ -7346,6 +7725,7 @@
                 "Type of waterborne transport": "VLTC Ferry Crossing",
                 "Cutting of trees required": "see Diembra",
                 "Navigational Aids": "see Diembra",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "see Diembra",
                 "Location": "8°05’18.86”N - 0°10’39.33”E",
                 "Total population served by location": "n.a."
@@ -7385,6 +7765,7 @@
                 "Type of waterborne transport": "Yapei Queen (RoRo Cargo), Ferry, Barges",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "7°46’33.07”N - 0°03’11.09”W",
                 "Total population served by location": "n.a."
@@ -7424,6 +7805,7 @@
                 "Type of waterborne transport": "VLTC Ferry, Boats",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "9.4 ha within the fairway between 0°05’52”W and",
                 "Location": "7°46’12.02”N - 0°07’57.74”W",
                 "Total population served by location": "n.a."
@@ -7463,6 +7845,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen (RoRo Cargo)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.3 ha within the fairway at 7°58’13”N, 0°07’20”W",
                 "Location": "7°58’32.71”N - 0°06’57.73”W",
                 "Total population served by location": "n.a."
@@ -7502,6 +7885,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen (RoRo Cargo)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.1 ha at the end of the fairway",
                 "Location": "8°02’45.29”N - 0°09’01.08”W",
                 "Total population served by location": "n.a."
@@ -7541,6 +7925,7 @@
                 "Type of waterborne transport": "",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "1.0 ha within the fairway",
                 "Location": "8°02’47.44”N - 0°09’09.34”W",
                 "Total population served by location": "n.a."
@@ -7580,6 +7965,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen (RoRo Cargo)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "2.5 ha within the fairway",
                 "Location": "8°03’50.87”N - 0°13’49.13”W",
                 "Total population served by location": "n.a."
@@ -7619,6 +8005,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen (RoRo Cargo)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "0.7 ha within the fairway",
                 "Location": "8°04’44.82”N - 0°17’13.45”W",
                 "Total population served by location": "n.a."
@@ -7658,6 +8045,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen (RoRo Cargo)  (t.b.d.)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "7.3 ha within the fairway, 20 ha in front of landing",
                 "Location": "8°11’59.65”N - 0°23’32.08”W",
                 "Total population served by location": "n.a."
@@ -7697,6 +8085,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen (RoRo Cargo)  (t.b.d.)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "34 ha within fairway and in front of landing station",
                 "Location": "8°10’19.53”N - 0°27’04.91”W",
                 "Total population served by location": "n.a."
@@ -7712,23 +8101,17 @@
     "features": [
       {
         "heading": "Characteristics of the Fairway to Tonka, Kajai and Parambo",
-        "type": "Characteristics",
+        "type": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
             {
               "type": "Feature",
               "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                  [
-                    -0.5701388888888889,
-                    8.206944444444444
-                  ],
-                  [
-                    -0.7636111111111111,
-                    8.116388888888888
-                  ]
+                  -0.5701388888888889,
+                  8.206944444444444
                 ]
               },
               "properties": {
@@ -7744,6 +8127,34 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "Installation of channel marker buoys on both side of",
+                "LocationIdentifier": "Starting Point",
+                "Appr. area to be cleared from submerged trees": "up to 134.3 ha until Tonka, up to 33.2 ha between Tonka and Kajai, up to 136 ha between Kajai and Parambo",
+                "Total population served by location": "Up to 2,500"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.7636111111111111,
+                  8.116388888888888
+                ]
+              },
+              "properties": {
+                "Number of visiting outboarder boats": "20-50",
+                "Design width of approach channel": "17.5 m",
+                "Cost for buoyage [USD]": "330,000 until Tonka, 80,000 between Tonka and",
+                "Costs for cutting of trees [USD]": "157,355 until Tonka, 38,995 between Tonka and Kajai, 158,800 between Kajai and Parambo",
+                "Appr. clearance width for approach channel": "70-100 m",
+                "Starting Point": "8°12’25”N - 0°34’12.50”W",
+                "Weekly passenger transport by boat": "More than 750",
+                "Number of buoys": "66 channel marker buoys until Tonka, 16 channel",
+                "End Point": "8°06’59”N - 0°45’49”W",
+                "Type of waterborne transport": "Motor boats  - Informal Boat Services",
+                "Cutting of trees required": "yes",
+                "Navigational Aids": "Installation of channel marker buoys on both side of",
+                "LocationIdentifier": "End Point",
                 "Appr. area to be cleared from submerged trees": "up to 134.3 ha until Tonka, up to 33.2 ha between Tonka and Kajai, up to 136 ha between Kajai and Parambo",
                 "Total population served by location": "Up to 2,500"
               }
@@ -7782,6 +8193,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "up to 7.2 ha",
                 "Location": "8°08’33.93”N - 0°37’18.89”W",
                 "Total population served by location": "Up to 1,000"
@@ -7821,6 +8233,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "up to 6.8 ha",
                 "Location": "8°09’14.74”N - 0°39’21.63”W",
                 "Total population served by location": "Up to 1,000"
@@ -7860,6 +8273,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "up to 11 ha",
                 "Location": "8°07’17.67”N - 0°46’24.33”W",
                 "Total population served by location": "Up to 500"
@@ -7899,6 +8313,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "up to 44.2 ha",
                 "Location": "8°14’59.10”N - 0°33’15.81”W",
                 "Total population served by location": "Up to 5,000"
@@ -7938,6 +8353,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "8°13’41.33”N - 0°38’12.16”W",
                 "Total population served by location": "Up to 5,000"
@@ -7977,6 +8393,7 @@
                 "Type of waterborne transport": "Yapei Queen (RoRo Cargo), Ferry, Barges",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "8°14’03.14”N - 0°38’40.57”W",
                 "Total population served by location": "n.a."
@@ -8016,6 +8433,7 @@
                 "Type of waterborne transport": "",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "",
                 "Location": "8°18’43.37”N - 0°37’46.80”W",
                 "Total population served by location": "n.a."
@@ -8055,6 +8473,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "up to 27.2 ha",
                 "Location": "8°20’02.63”N - 0°38’41.91”W",
                 "Total population served by location": "Up to 1,000"
@@ -8094,6 +8513,7 @@
                 "Type of waterborne transport": "Motor boats  - Informal Boat Services (t.b.d.)",
                 "Cutting of trees required": "yes",
                 "Navigational Aids": "yes",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "up to 7.2 ha",
                 "Location": "8°30’20.54”N - 0°50’21.10”W",
                 "Total population served by location": "No information"
@@ -8133,6 +8553,7 @@
                 "Type of waterborne transport": "Pusher boat with barges (t.b.d.)",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "8°42’21.21”N - 1°16’23.16”W",
                 "Total population served by location": "n.a."
@@ -8172,6 +8593,7 @@
                 "Type of waterborne transport": "VLTC Yapei Queen, Pusher boat with barges",
                 "Cutting of trees required": "no",
                 "Navigational Aids": "no",
+                "LocationIdentifier": "Location",
                 "Appr. area to be cleared from submerged trees": "n.a.",
                 "Location": "8°46’06.39”N - 1°26’43.54”W",
                 "Total population served by location": "n.a."

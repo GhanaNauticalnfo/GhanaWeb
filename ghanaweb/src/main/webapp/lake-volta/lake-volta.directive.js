@@ -13,8 +13,9 @@
             template: '<div id="popup" class="ol-popup">' +
             '<a href="#" id="popup-closer" class="ol-popup-closer"></a>' +
             '<div id="popup-content">' +
-            '<p><img ng-src="{{popupImgSrc}}" alt="{{popupImgAlt}}"/> {{name}}</p>' +
+            '<img style="float: left" ng-src="{{popupImgSrc}}" alt="{{popupImgAlt}}"/><p> {{name}}</p>' +
             '<code>{{(hazardPos | lonlat:{ decimals : 2, pp: true })}}</code></div>' +
+            '<h5>Details</h5><p>{{details}}</p>' +
             '</div>',
             require: '^olMap',
             scope: {
@@ -49,7 +50,8 @@
                                 if (typeFeature.type === "Tree") {
                                     olFeature.set(popupImgSrc, "img/lake-volta/tree40x40.svg", true);
                                     olFeature.set(popupImgAlt, "Tree Stumb Hazard", true);
-                                    olFeature.set("description", olFeature.get("characteristics"), true);
+                                    olFeature.set("description", olFeature.get("characteristics") + ": " + typeHeading, true);
+                                    olFeature.set("details", "Size of area to be cleared is " + olFeature.get("area-size") + " and the estimated number of trees to be cut is  " + olFeature.get("est-number-of-trees"), true);
                                 }
 
                                 if (typeFeature.type === "Waypoint") {
@@ -62,7 +64,13 @@
                                     olFeature.set("description", typeHeading, true);
                                 }
 
-                                lakeVoltaLayer.getSource().addFeature(olFeature);
+                                if (typeFeature.type === "Fairway Characteristics") {
+                                    olFeature.set(popupImgAlt, "Fairway info", true);
+                                    olFeature.set("description", typeHeading + " (" + olFeature.get("LocationIdentifier") + ")" , true);
+
+                                }
+
+                                    lakeVoltaLayer.getSource().addFeature(olFeature);
                             });
                         });
                     });
@@ -91,7 +99,17 @@
                 var geometryType = feature.getGeometry().getType();
 
                 var styles = [];
-                if (type === "Characteristics") {
+                if (type === "Fairway Characteristics") {
+                    styles.push(new ol.style.Style(/** @type {olx.style.StyleOptions}*/{
+                        image: new ol.style.Circle({
+                            radius: 6,
+                            stroke: new ol.style.Stroke({
+                                width: 2,
+                                color: 'red'
+                            }),
+                        })
+                    }));
+                } else if (type === "Characteristics") {
                     styles.push(new ol.style.Style(/** @type {olx.style.StyleOptions}*/{
                         image: new ol.style.RegularShape({
                             points: 4,
@@ -113,7 +131,15 @@
                                 width: 1,
                                 color: 'yellow'
                             }),
+                        }),
+                        text: new ol.style.Text({
+                            text: feature.get('name'),
+                            offsetY: 27,
+                            fill: new ol.style.Fill({
+                                color: '#fff'
+                            })
                         })
+
                     }));
                 } else if (type === "Tree") {
                     if (geometryType === "MultiPoint" || geometryType === "Point") {
@@ -189,6 +215,7 @@
                             scope.name = selectedFeature.get("description");
                             scope.popupImgSrc = selectedFeature.get("popupImgSrc");
                             scope.popupImgAlt = selectedFeature.get("popupImgAlt");
+                            scope.details = selectedFeature.get("details");
 
                         }, /** @type olx.AtPixelOptions */{
                             layerFilter: function (layerCandidate) {

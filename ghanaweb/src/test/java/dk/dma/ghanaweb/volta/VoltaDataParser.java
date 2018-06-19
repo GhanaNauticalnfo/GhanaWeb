@@ -372,4 +372,19 @@ private double parseDegreesMinuttesSeconds(String degMinSec) {
         System.out.println(matcher.group("lat"));
 
     }
+
+    @Test
+    public void nameb() {
+        String test = ";;Between WP 02-9 and WP 02-14;;;";
+//        String test = ";;Between WP 102 and WP 103;;;";
+//        String test = ";;Between WP 99 and WP 100;;;";
+//        String test = ";;;Between WP03-31 (Adawso) and WP 03-36 (End of Fairway navigable during Low;;";
+
+        Pattern p = Pattern.compile("(?<from>WP\\s?[\\d-]{2,5}) .*and (?<to>WP\\s?[\\d-]{2,5})");
+        Matcher m = p.matcher(test);
+        System.out.println(m.find());
+        System.out.println(m.group("from").replace(" ", ""));
+        System.out.println(m.group("to").replace(" ", ""));
+
+    }
 }
