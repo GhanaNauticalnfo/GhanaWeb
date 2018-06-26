@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg" version="1.1" width="10.0" height="17.7" viewBox="0 0 100 180">
+    <defs
+            id="defs4" />
+    <path
+            style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 43.0004,50.850189 15.03816,0"
+            id="path4166" />
+    <path
+            style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 42.22977,106.1739 0,7.34375 5.78125,8.375 -6.5,9.5 -0.0937,7.34375 9.09375,-13.1875 9.0625,13.1875 -0.125,-7.34375 -6.46875,-9.46875 5.78125,-8.40625 0,-7.34375 -8.28125,12.09375 -8.25,-12.09375 z"
+            id="path4111" />
+    <path
+            style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 42.22977,76.580149 0,7.3125 5.78125,8.40625 -6.5,9.500001 -0.0937,7.34375 9.09375,-13.218751 9.0625,13.218751 -0.125,-7.34375 -6.46875,-9.468751 5.78125,-8.4375 0,-7.3125 -8.28125,12.09375 -8.25,-12.09375 z"
+            id="path4113" />
+    <path
+            style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 43.29227,47.642649 -0.46875,7.34375 5.28125,8.8125 -6,10.125 0.34375,7.34375 8.0625,-13.46875 8.03125,13.46875 0.34375,-7.34375 -6,-10.125 5.28125,-8.8125 -0.46875,-7.34375 -7.1875,12.125 -7.21875,-12.125 z"
+            id="path4115" />
+    <path
+            style="fill:#ffffff;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 41.01735,139.37152 19.00426,0 0,3.80085 -19.11443,0 0.11017,-3.80085 z"
+            id="path4164" />
+    <path
+            style="fill:#ff0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 35.59252,150.73933 5.249,-105.101861 3.728,0.11017 -2.67505,105.212031 -6.30195,-0.22034 z"
+            id="path4103"
+             />
+    <path
+            
+            id="path4128"
+            d="m 65.39132,150.73933 -5.249,-105.101861 -3.728,0.11017 2.67505,105.212031 6.30195,-0.22034 z"
+            style="fill:#ff0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+            style="fill:#ff0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 36.05972,40.218819 28.86445,0 0,8.15256 -28.75428,0 -0.11017,-8.15256 z"
+            id="path4107" />
+    <path
+            style="fill:#ff0000;stroke:#000000;stroke-width:1.05999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+            d="m 0.52999997,176.58015 0,-20.904 c 33.08762003,-10.64973 66.39558003,-10.64973 99.92388003,0 l 0,20.904 -99.92388003,0 z"
+            id="path4101"
+             />
+    <path
+            style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.31297874;stroke-miterlimit:4;stroke-dasharray:none"
+            id="path5106"
+            d="m 0.88135719,50.898384 a 20.271217,18.288164 0 1 1 -40.54243419,0 20.271217,18.288164 0 1 1 40.54243419,0 z"
+            transform="matrix(0.72341487,0,0,0.80185741,64.518853,-25.648747)" />
+    <path
+            style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            d="m 21.152575,176.58015 0,-20.904 c 5.403257,-8.80755 15.415487,-7.0865 24.113384,-7.86336 -1.919763,2.42522 -3.978794,4.73437 -5.054033,7.86336 l 0,20.904 -19.059351,0 z"
+            id="path3671"
+             />
+    <path
+            
+            id="path3681"
+            d="m 79.831305,176.58015 0,-20.904 c -5.403257,-8.80755 -15.415487,-7.0865 -24.113384,-7.86336 1.919763,2.42522 3.978794,4.73437 5.054033,7.86336 l 0,20.904 19.059351,0 z"
+            style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+</svg>

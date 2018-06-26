@@ -194,7 +194,7 @@ body {
 
 .sidebar-toggle-btn {
     color: white;
-    top: 10px;
+    top: 65px;
     right: 12px;
     position: absolute;
     z-index: 100;
@@ -351,7 +351,7 @@ body {
 
 .map-scale-line {
     left: 50px;
-    top: 18px;
+    top: 65px;
     position: absolute;
     z-index: 100;
 }
@@ -363,12 +363,13 @@ body {
 
 .map-mouse-position {
     position: absolute;
-    left: 240px;
-    top: 10px;
+    left: 60px;
+    top: 65px;
     border-radius: 4px;
     padding: 4px;
     width: auto;
     height: 1.85em;
+    line-height: 1.3em;
     text-align: center;
     font-size: 0.8em;
     color: white;
@@ -382,7 +383,7 @@ body {
     top:0px;
     border-radius: 4px;
     padding: 4px;
-    width: 22px;
+    width: 25px;
     height: 100%;
     text-align: center;
     font-size: 0.8em;
@@ -612,6 +613,10 @@ table.positions td:nth-child(1) {
     bottom: 10px;
 }
 
+.ol-zoom {
+    top: 65px;
+}
+
 .message-details-close-btn {
     float: right;
     position: absolute;
@@ -625,18 +630,47 @@ table.positions td:nth-child(1) {
 }
 
 .ol-popup {
+    min-width: 360px;
+}
+
+@media (min-width: 800px) {
+    .ol-popup {
+        min-width: 420px;
+    }
+}
+
+.ol-popup {
     position: absolute;
-    background-color: white;
     -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
     filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
-    border-radius: 10px;
-    border: 1px solid #cccccc;
     bottom: 12px;
     left: -50px;
-    min-width: 280px;
-    padding: 15px;
 }
-.ol-popup:after, .ol-popup:before {
+#ol-popup-top, #ol-popup-bottom {
+    background-color: white;
+}
+
+#ol-popup-top {
+    padding-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid white;
+    border-top: 1px solid #cccccc;
+}
+
+#ol-popup-top:before {
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+}
+
+#ol-popup-bottom {
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #cccccc;
+}
+#ol-popup-bottom:after {
     top: 100%;
     border: solid transparent;
     content: " ";
@@ -644,14 +678,17 @@ table.positions td:nth-child(1) {
     width: 0;
     position: absolute;
     pointer-events: none;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
 }
-.ol-popup:after {
+
+#ol-popup-bottom:after {
     border-top-color: white;
     border-width: 10px;
     left: 48px;
     margin-left: -10px;
 }
-.ol-popup:before {
+#ol-popup-bottom:before {
     border-top-color: #cccccc;
     border-width: 11px;
     left: 48px;
@@ -667,6 +704,9 @@ table.positions td:nth-child(1) {
     content: "✖";
 }
 
+.ol-popup-img {
+    align-self: center;
+}
 
 /* aligning of content in table of vesseldata.*/
 .table tbody>tr>td.vert-align{
@@ -743,3 +783,4 @@ table.positions td:nth-child(1) {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+

@@ -4,28 +4,29 @@
 
 
         <!-- NW-NM tab -->
-        <uib-tab classes="btn-sm" ng-click="sidebarUncollapse()">
+        <uib-tab ng-class="'btn-sm'" classes="btn-sm" ng-click="sidebarUncollapse()">
             <uib-tab-heading>
                 <img src="/img/nwnm/nw16x16.png" alt="Navigational warning icon" />
                 NW-NM
-                <span class="badge sidebar-badge" ng-bind="nwNmMessages.length"></span>
+                <span class="badge badge-pill text-white sidebar-badge" ng-bind="nwNmMessages.length"></span>
             </uib-tab-heading>
 
-            <div class="panel" ng-class="(nwNmServicesStatus=='true') ? 'panel-primary' : 'panel-default'">
-                <div class="panel-heading cursor-default clearfix" ng-click="sidebarUncollapse()">
+            <div class="card">
+                <div class="card-header bg-primary text-white cursor-default clearfix" ng-click="sidebarUncollapse()">
                     Navigationel Warnings and Notices to Mariners
-                    <small tooltip="Refresh" class="glyphicon glyphicon-refresh"
-                           ng-click="refreshNwNmServices()"></small>
+                    <small tooltip="Refresh" ng-click="refreshNwNmServices()">
+                        <i class="fa fa-sync"></i>
+                    </small>
 
-                    <div class="small pull-right">
+                    <div class="small float-right">
                         Display &nbsp;&nbsp;
                         <input type="checkbox" ng-model="nwNmType.NW" ng-change="nwNmTypeChanged()" aria-label="Display navigational warnings">&nbsp;NW
                         &nbsp;&nbsp;
-                        <input type="checkbox" ng-model="nwNmType.NM" ng-change="nwNmTypeChanged()" aria-label="Display notices to mariners">&nbsp;NtM
+                        <input type="checkbox" ng-model="nwNmType.NM" ng-change="nwNmTypeChanged()" aria-label="Display notices to mariners">&nbsp;NM
                     </div>
                 </div>
 
-                <div class="panel-body">
+                <div class="card-body">
                     <div class="message-service" ng-repeat="s in nwNmServices">
                         <input type="checkbox" ng-model="s.selected" ng-change="nwNmSelected(s)" aria-label="Choose service">&nbsp;{{s.name}}
                     </div>
@@ -42,7 +43,7 @@
                                 <img ng-if="msg.mainType == 'NW'" src="/img/nwnm/nw20x20.png" alt="Navigational warning icon"/>
                             </td>
                             <td width="*" class="message-item">
-                                <span ng-if="msg.shortId" class="badge label-message-id">{{msg.shortId}}</span>
+                                <span ng-if="msg.shortId" class="badge-pill badge-dark label-message-id">{{msg.shortId}}</span>
                                 <a href ng-click="showNwNmDetails(msg)">{{msg.descs[0].title}}</a>
                             </td>
                         </tr>
@@ -52,13 +53,12 @@
         </uib-tab>
 
         <!-- Vessels tab -->
-        <uib-tab classes="btn-sm" ng-click="sidebarUncollapse()">
+        <uib-tab ng-class="'btn-sm'" classes="btn-sm" ng-click="sidebarUncollapse()">
             <uib-tab-heading classes="btn-sm" >
                 <img src="/img/vessel_gray.png"/>
                 &nbsp;Vessels
                 <span class="badge sidebar-badge" ng-if="vessels.length>0" >{{vessels.length}} <i ng-if="vesselsinfo.maxnumberexceeded" class="fa fa-plus" aria-hidden="true"></i> </span>
             </uib-tab-heading>
-            <div class="sidebar-panel">
 
 <!--
                 <div ng-if="!loggedIn" class="well" ng-click="sidebarUncollapse()">
@@ -68,11 +68,11 @@
 -->
 
                 <!--<div class="panel panel-default" ng-if="loggedIn" ng-click="sidebarUncollapse()">-->
-                <div class="panel panel-default" ng-click="sidebarUncollapse()">
+                <div class="card" ng-click="sidebarUncollapse()">
 
-                    <div class="panel-heading cursor-default"><span class="glyphicon glyphicon-globe"></span> AIS information
+                    <div class="card-header bg-primary text-white cursor-default"><span class="glyphicon glyphicon-globe"></span> AIS information
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body">
                         <p class="cursor-default"><i class="fa fa-ship" aria-hidden="true"></i> Position information from AIS providers</p>
                         <p class="small" ng-if="vesselsinfo.maxnumberexceeded">Note that the actual number of vessels in the areas is {{vesselsinfo.actualnumberofvessels}} but the number is reduced to {{vessels.length}} in order to increase performance. Zoom in to see all vessels in an area.</p>
                     </div>
@@ -100,22 +100,21 @@
                         <td class="vessel-item">{{toLonLat(vessel) | lonlat:{ decimals : 3, pp: true } }}</td>
                     </tr>
                 </table>
-            </div>
         </uib-tab>
 
         <!-- Lake Volta tab -->
-        <uib-tab classes="btn-sm" ng-click="sidebarUncollapse()">
+        <uib-tab ng-class="'btn-sm'" classes="btn-sm" ng-click="sidebarUncollapse()">
             <uib-tab-heading>
                 Lake Volta
-                <span class="badge sidebar-badge" ng-bind="voltaFeatures.length"></span>
+                <span class="badge badge-pill text-white sidebar-badge " ng-bind="voltaFeatures.length"></span>
             </uib-tab-heading>
 
-            <div class="panel" ng-class="(nwNmServicesStatus=='true') ? 'panel-primary' : 'panel-default'">
-                <div class="panel-heading cursor-default clearfix" ng-click="sidebarUncollapse()">
+            <div class="card">
+                <div class="card-header bg-primary text-white cursor-default clearfix" ng-click="sidebarUncollapse()">
                     Landing sites, Routes and Fairways of the Lake Volta
                 </div>
 
-                <div class="panel-body">
+                <div class="card-body">
                     <table class="table table-striped">
                         <tr ng-repeat-start="feature in voltaFeatures">
                             <td class="message-area-heading">
