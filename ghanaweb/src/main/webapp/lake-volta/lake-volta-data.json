@@ -143,7 +143,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01"
+                "name": "WP01",
+                "location": "6°19’31”N - 0°03’32”E"
               }
             },
             {
@@ -156,7 +157,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02"
+                "name": "WP02",
+                "location": "6°20’06”N - 0°04’05.50”E"
               }
             },
             {
@@ -169,7 +171,8 @@
                 ]
               },
               "properties": {
-                "name": "WP1"
+                "name": "WP1",
+                "location": "6°18’20”N - 0°03’41”E"
               }
             },
             {
@@ -182,7 +185,8 @@
                 ]
               },
               "properties": {
-                "name": "WP2"
+                "name": "WP2",
+                "location": "6°19’14”N - 0°04’18”E"
               }
             },
             {
@@ -195,7 +199,8 @@
                 ]
               },
               "properties": {
-                "name": "WP3"
+                "name": "WP3",
+                "location": "6°20’01”N - 0°04’52”E"
               }
             },
             {
@@ -208,7 +213,8 @@
                 ]
               },
               "properties": {
-                "name": "WP4"
+                "name": "WP4",
+                "location": "6°20’41”N - 0°05’30”E"
               }
             },
             {
@@ -221,7 +227,8 @@
                 ]
               },
               "properties": {
-                "name": "WP5"
+                "name": "WP5",
+                "location": "6°21’51”N - 0°05’54”E"
               }
             },
             {
@@ -234,7 +241,8 @@
                 ]
               },
               "properties": {
-                "name": "WP6"
+                "name": "WP6",
+                "location": "6°22’46”N - 0°06’24”E"
               }
             },
             {
@@ -247,7 +255,8 @@
                 ]
               },
               "properties": {
-                "name": "WP7"
+                "name": "WP7",
+                "location": "6°23’45”N - 0°06’47”E"
               }
             },
             {
@@ -260,7 +269,8 @@
                 ]
               },
               "properties": {
-                "name": "WP8"
+                "name": "WP8",
+                "location": "6°24’48”N - 0°06’57”E"
               }
             },
             {
@@ -273,7 +283,8 @@
                 ]
               },
               "properties": {
-                "name": "WP9"
+                "name": "WP9",
+                "location": "6°25’53”N - 0°07’09”E"
               }
             },
             {
@@ -286,7 +297,8 @@
                 ]
               },
               "properties": {
-                "name": "WP10"
+                "name": "WP10",
+                "location": "6°26’26.50”N - 0°07’15”E"
               }
             },
             {
@@ -299,7 +311,8 @@
                 ]
               },
               "properties": {
-                "name": "WP11"
+                "name": "WP11",
+                "location": "6°27’31”N - 0°06’50”E"
               }
             },
             {
@@ -312,7 +325,8 @@
                 ]
               },
               "properties": {
-                "name": "WP12"
+                "name": "WP12",
+                "location": "6°28’18”N - 0°06’26”E"
               }
             },
             {
@@ -325,7 +339,8 @@
                 ]
               },
               "properties": {
-                "name": "WP13"
+                "name": "WP13",
+                "location": "6°29’26”N - 0°06’24”E"
               }
             },
             {
@@ -338,7 +353,8 @@
                 ]
               },
               "properties": {
-                "name": "WP14"
+                "name": "WP14",
+                "location": "6°30’28”N - 0°06’44”E"
               }
             },
             {
@@ -351,7 +367,8 @@
                 ]
               },
               "properties": {
-                "name": "WP15"
+                "name": "WP15",
+                "location": "6°31’31”N - 0°07’02”E"
               }
             },
             {
@@ -364,7 +381,8 @@
                 ]
               },
               "properties": {
-                "name": "WP16"
+                "name": "WP16",
+                "location": "6°32’35”N - 0°07’11”E"
               }
             },
             {
@@ -377,7 +395,8 @@
                 ]
               },
               "properties": {
-                "name": "WP17"
+                "name": "WP17",
+                "location": "6°33’32”N - 0°07’16.50”E"
               }
             },
             {
@@ -390,7 +409,8 @@
                 ]
               },
               "properties": {
-                "name": "WP18"
+                "name": "WP18",
+                "location": "6°34’37”N - 0°07’15”E"
               }
             },
             {
@@ -403,7 +423,8 @@
                 ]
               },
               "properties": {
-                "name": "WP19"
+                "name": "WP19",
+                "location": "6°35’16”N - 0°07’16”E"
               }
             },
             {
@@ -416,7 +437,8 @@
                 ]
               },
               "properties": {
-                "name": "WP20"
+                "name": "WP20",
+                "location": "6°36’20”N - 0°07’21”E"
               }
             },
             {
@@ -429,7 +451,8 @@
                 ]
               },
               "properties": {
-                "name": "WP21"
+                "name": "WP21",
+                "location": "6°37’25”N - 0°07’21”E"
               }
             },
             {
@@ -442,7 +465,8 @@
                 ]
               },
               "properties": {
-                "name": "WP22"
+                "name": "WP22",
+                "location": "6°38’27”N - 0°07’37”E"
               }
             },
             {
@@ -455,7 +479,8 @@
                 ]
               },
               "properties": {
-                "name": "WP23"
+                "name": "WP23",
+                "location": "6°39’22”N - 0°08’10”E"
               }
             },
             {
@@ -468,7 +493,8 @@
                 ]
               },
               "properties": {
-                "name": "WP24"
+                "name": "WP24",
+                "location": "6°40’09”N - 0°08’54”E"
               }
             },
             {
@@ -481,7 +507,8 @@
                 ]
               },
               "properties": {
-                "name": "WP25"
+                "name": "WP25",
+                "location": "6°40’52”N - 0°09’43”E"
               }
             },
             {
@@ -494,7 +521,8 @@
                 ]
               },
               "properties": {
-                "name": "WP26"
+                "name": "WP26",
+                "location": "6°41’39”N - 0°10’27”E"
               }
             },
             {
@@ -507,7 +535,8 @@
                 ]
               },
               "properties": {
-                "name": "WP27"
+                "name": "WP27",
+                "location": "6°42’29”N - 0°11’11”E"
               }
             },
             {
@@ -520,7 +549,8 @@
                 ]
               },
               "properties": {
-                "name": "WP28"
+                "name": "WP28",
+                "location": "6°43’20”N - 0°11’50”E"
               }
             },
             {
@@ -533,7 +563,8 @@
                 ]
               },
               "properties": {
-                "name": "WP29"
+                "name": "WP29",
+                "location": "6°44’20”N - 0°12’10”E"
               }
             },
             {
@@ -546,7 +577,8 @@
                 ]
               },
               "properties": {
-                "name": "WP30"
+                "name": "WP30",
+                "location": "6°45’25”N - 0°12’08”E"
               }
             },
             {
@@ -559,7 +591,8 @@
                 ]
               },
               "properties": {
-                "name": "WP31"
+                "name": "WP31",
+                "location": "6°46’26”N - 0°11’46”E"
               }
             },
             {
@@ -572,7 +605,8 @@
                 ]
               },
               "properties": {
-                "name": "WP32"
+                "name": "WP32",
+                "location": "6°47’27”N - 0°11’26”E"
               }
             },
             {
@@ -585,7 +619,8 @@
                 ]
               },
               "properties": {
-                "name": "WP33"
+                "name": "WP33",
+                "location": "6°48’30”N - 0°11’11”E"
               }
             },
             {
@@ -598,7 +633,8 @@
                 ]
               },
               "properties": {
-                "name": "WP34"
+                "name": "WP34",
+                "location": "6°49’22”N - 0°11’05”E"
               }
             },
             {
@@ -611,7 +647,8 @@
                 ]
               },
               "properties": {
-                "name": "WP35"
+                "name": "WP35",
+                "location": "6°50’24”N - 0°10’46”E"
               }
             },
             {
@@ -624,7 +661,8 @@
                 ]
               },
               "properties": {
-                "name": "WP36"
+                "name": "WP36",
+                "location": "6°51’28”N - 0°10’43”E"
               }
             },
             {
@@ -637,7 +675,8 @@
                 ]
               },
               "properties": {
-                "name": "WP37"
+                "name": "WP37",
+                "location": "6°52’17”N - 0°10’37”E"
               }
             },
             {
@@ -650,7 +689,8 @@
                 ]
               },
               "properties": {
-                "name": "WP38"
+                "name": "WP38",
+                "location": "6°53’23”N - 0°10’44”E"
               }
             },
             {
@@ -663,7 +703,8 @@
                 ]
               },
               "properties": {
-                "name": "WP39"
+                "name": "WP39",
+                "location": "6°54’28”N - 0°10’50”E"
               }
             },
             {
@@ -676,7 +717,8 @@
                 ]
               },
               "properties": {
-                "name": "WP40"
+                "name": "WP40",
+                "location": "6°55’13”N - 0°11’34”E"
               }
             },
             {
@@ -689,7 +731,8 @@
                 ]
               },
               "properties": {
-                "name": "WP41"
+                "name": "WP41",
+                "location": "6°55’54”N - 0°12’26”E"
               }
             },
             {
@@ -702,7 +745,8 @@
                 ]
               },
               "properties": {
-                "name": "WP42"
+                "name": "WP42",
+                "location": "6°56’46”N - 0°12’58”E"
               }
             },
             {
@@ -715,7 +759,8 @@
                 ]
               },
               "properties": {
-                "name": "WP43"
+                "name": "WP43",
+                "location": "6°57’48”N - 0°13’19”E"
               }
             },
             {
@@ -728,7 +773,8 @@
                 ]
               },
               "properties": {
-                "name": "WP44"
+                "name": "WP44",
+                "location": "6°58’49”N - 0°13’20”E"
               }
             },
             {
@@ -741,7 +787,8 @@
                 ]
               },
               "properties": {
-                "name": "WP45"
+                "name": "WP45",
+                "location": "6°59’54”N - 0°13’08”E"
               }
             },
             {
@@ -754,7 +801,8 @@
                 ]
               },
               "properties": {
-                "name": "WP46"
+                "name": "WP46",
+                "location": "7°00’58”N - 0°12’57”E"
               }
             },
             {
@@ -767,7 +815,8 @@
                 ]
               },
               "properties": {
-                "name": "WP47"
+                "name": "WP47",
+                "location": "7°02’02”N - 0°12’44”E"
               }
             },
             {
@@ -780,7 +829,8 @@
                 ]
               },
               "properties": {
-                "name": "WP48"
+                "name": "WP48",
+                "location": "7°03’06.50”N - 0°12’38”E"
               }
             },
             {
@@ -793,7 +843,8 @@
                 ]
               },
               "properties": {
-                "name": "WP49"
+                "name": "WP49",
+                "location": "7°04’11”N - 0°12’44”E"
               }
             },
             {
@@ -806,7 +857,8 @@
                 ]
               },
               "properties": {
-                "name": "WP50"
+                "name": "WP50",
+                "location": "7°05’09”N - 0°13’14”E"
               }
             },
             {
@@ -819,7 +871,8 @@
                 ]
               },
               "properties": {
-                "name": "WP51"
+                "name": "WP51",
+                "location": "7°06’04”N - 0°13’50”E"
               }
             },
             {
@@ -832,7 +885,8 @@
                 ]
               },
               "properties": {
-                "name": "WP52"
+                "name": "WP52",
+                "location": "7°07’00”N - 0°14’22”E"
               }
             },
             {
@@ -845,7 +899,8 @@
                 ]
               },
               "properties": {
-                "name": "WP53"
+                "name": "WP53",
+                "location": "7°08’03”N - 0°14’32”E"
               }
             },
             {
@@ -858,7 +913,8 @@
                 ]
               },
               "properties": {
-                "name": "WP54"
+                "name": "WP54",
+                "location": "7°09’08”N - 0°14’32”E"
               }
             },
             {
@@ -871,7 +927,8 @@
                 ]
               },
               "properties": {
-                "name": "WP55"
+                "name": "WP55",
+                "location": "7°09’57.50”N - 0°14’04.50”E"
               }
             },
             {
@@ -884,7 +941,8 @@
                 ]
               },
               "properties": {
-                "name": "WP56"
+                "name": "WP56",
+                "location": "7°10’52”N - 0°13’37”E"
               }
             },
             {
@@ -897,7 +955,8 @@
                 ]
               },
               "properties": {
-                "name": "WP57"
+                "name": "WP57",
+                "location": "7°11’58”N - 0°13’38”E"
               }
             },
             {
@@ -910,7 +969,8 @@
                 ]
               },
               "properties": {
-                "name": "WP58"
+                "name": "WP58",
+                "location": "7°13’04”N - 0°13’34”E"
               }
             },
             {
@@ -923,7 +983,8 @@
                 ]
               },
               "properties": {
-                "name": "WP59"
+                "name": "WP59",
+                "location": "7°14’09”N - 0°13’38”E"
               }
             },
             {
@@ -936,7 +997,8 @@
                 ]
               },
               "properties": {
-                "name": "WP60"
+                "name": "WP60",
+                "location": "7°15’13”N - 0°13’41”E"
               }
             },
             {
@@ -949,7 +1011,8 @@
                 ]
               },
               "properties": {
-                "name": "WP61"
+                "name": "WP61",
+                "location": "7°16’19”N - 0°13’41”E"
               }
             },
             {
@@ -962,7 +1025,8 @@
                 ]
               },
               "properties": {
-                "name": "WP62"
+                "name": "WP62",
+                "location": "7°17’23”N - 0°13’47”E"
               }
             },
             {
@@ -975,7 +1039,8 @@
                 ]
               },
               "properties": {
-                "name": "WP63"
+                "name": "WP63",
+                "location": "7°18’28”N - 0°13’45”E"
               }
             },
             {
@@ -988,7 +1053,8 @@
                 ]
               },
               "properties": {
-                "name": "WP64"
+                "name": "WP64",
+                "location": "7°19’30”N - 0°13’26”E"
               }
             },
             {
@@ -1001,7 +1067,8 @@
                 ]
               },
               "properties": {
-                "name": "WP65"
+                "name": "WP65",
+                "location": "7°20’29”N - 0°13’00”E"
               }
             },
             {
@@ -1014,7 +1081,8 @@
                 ]
               },
               "properties": {
-                "name": "WP66"
+                "name": "WP66",
+                "location": "7°21’26”N - 0°12’28”E"
               }
             },
             {
@@ -1027,7 +1095,8 @@
                 ]
               },
               "properties": {
-                "name": "WP67"
+                "name": "WP67",
+                "location": "7°22’18”N - 0°11’47”E"
               }
             },
             {
@@ -1040,7 +1109,8 @@
                 ]
               },
               "properties": {
-                "name": "WP68"
+                "name": "WP68",
+                "location": "7°22’58”N - 0°11’10”E"
               }
             },
             {
@@ -1053,7 +1123,8 @@
                 ]
               },
               "properties": {
-                "name": "WP69"
+                "name": "WP69",
+                "location": "7°23’25.50”N - 0°10’09”E"
               }
             },
             {
@@ -1066,7 +1137,8 @@
                 ]
               },
               "properties": {
-                "name": "WP70"
+                "name": "WP70",
+                "location": "7°24’05”N - 0°09’16”E"
               }
             },
             {
@@ -1079,7 +1151,8 @@
                 ]
               },
               "properties": {
-                "name": "WP71"
+                "name": "WP71",
+                "location": "7°24’31”N - 0°08’17”E"
               }
             },
             {
@@ -1092,7 +1165,8 @@
                 ]
               },
               "properties": {
-                "name": "WP72"
+                "name": "WP72",
+                "location": "7°25’05”N - 0°07’16.50”E"
               }
             },
             {
@@ -1105,7 +1179,8 @@
                 ]
               },
               "properties": {
-                "name": "WP73"
+                "name": "WP73",
+                "location": "7°25’50”N - 0°06’59”E"
               }
             },
             {
@@ -1118,7 +1193,8 @@
                 ]
               },
               "properties": {
-                "name": "WP74"
+                "name": "WP74",
+                "location": "7°26’54.50”N - 0°06’47”E"
               }
             },
             {
@@ -1131,7 +1207,8 @@
                 ]
               },
               "properties": {
-                "name": "WP75"
+                "name": "WP75",
+                "location": "7°27’59”N - 0°06’34”E"
               }
             },
             {
@@ -1144,7 +1221,8 @@
                 ]
               },
               "properties": {
-                "name": "WP76"
+                "name": "WP76",
+                "location": "7°29’01”N - 0°06’13”E"
               }
             },
             {
@@ -1157,7 +1235,8 @@
                 ]
               },
               "properties": {
-                "name": "WP77"
+                "name": "WP77",
+                "location": "7°30’02”N - 0°05’51”E"
               }
             },
             {
@@ -1170,7 +1249,8 @@
                 ]
               },
               "properties": {
-                "name": "WP78"
+                "name": "WP78",
+                "location": "7°31’00.50”N - 0°05’21”E"
               }
             },
             {
@@ -1183,7 +1263,8 @@
                 ]
               },
               "properties": {
-                "name": "WP79"
+                "name": "WP79",
+                "location": "7°31’59”N - 0°04’55”E"
               }
             },
             {
@@ -1196,7 +1277,8 @@
                 ]
               },
               "properties": {
-                "name": "WP80"
+                "name": "WP80",
+                "location": "7°32’58”N - 0°04’28”E"
               }
             },
             {
@@ -1209,7 +1291,8 @@
                 ]
               },
               "properties": {
-                "name": "WP81"
+                "name": "WP81",
+                "location": "7°33’52”N - 0°03’51”E"
               }
             },
             {
@@ -1222,7 +1305,8 @@
                 ]
               },
               "properties": {
-                "name": "WP82"
+                "name": "WP82",
+                "location": "7°34’46”N - 0°03’16”E"
               }
             },
             {
@@ -1235,7 +1319,8 @@
                 ]
               },
               "properties": {
-                "name": "WP83"
+                "name": "WP83",
+                "location": "7°35’38”N - 0°02’32”E"
               }
             },
             {
@@ -1248,7 +1333,8 @@
                 ]
               },
               "properties": {
-                "name": "WP84"
+                "name": "WP84",
+                "location": "7°36’41”N - 0°02’44”E"
               }
             },
             {
@@ -1261,7 +1347,8 @@
                 ]
               },
               "properties": {
-                "name": "WP85"
+                "name": "WP85",
+                "location": "7°37’45”N - 0°02’09”E"
               }
             },
             {
@@ -1274,7 +1361,8 @@
                 ]
               },
               "properties": {
-                "name": "WP86"
+                "name": "WP86",
+                "location": "7°38’48”N - 0°01’57”E"
               }
             },
             {
@@ -1287,7 +1375,8 @@
                 ]
               },
               "properties": {
-                "name": "WP87"
+                "name": "WP87",
+                "location": "7°39’53”N - 0°01’58”E"
               }
             },
             {
@@ -1300,7 +1389,8 @@
                 ]
               },
               "properties": {
-                "name": "WP88"
+                "name": "WP88",
+                "location": "7°40’59”N - 0°01’55”E"
               }
             },
             {
@@ -1313,7 +1403,8 @@
                 ]
               },
               "properties": {
-                "name": "WP89"
+                "name": "WP89",
+                "location": "7°42’01”N - 0°02’12”E"
               }
             },
             {
@@ -1326,7 +1417,8 @@
                 ]
               },
               "properties": {
-                "name": "WP90"
+                "name": "WP90",
+                "location": "7°43’03.50”N - 0°02’17”E"
               }
             },
             {
@@ -1339,7 +1431,8 @@
                 ]
               },
               "properties": {
-                "name": "WP91"
+                "name": "WP91",
+                "location": "7°44’09”N - 0°02’17”E"
               }
             },
             {
@@ -1352,7 +1445,8 @@
                 ]
               },
               "properties": {
-                "name": "WP92"
+                "name": "WP92",
+                "location": "7°45’06”N - 0°01’54”E"
               }
             },
             {
@@ -1365,7 +1459,8 @@
                 ]
               },
               "properties": {
-                "name": "WP93"
+                "name": "WP93",
+                "location": "7°45’29”N - 0°01’08.50”E"
               }
             },
             {
@@ -1378,7 +1473,8 @@
                 ]
               },
               "properties": {
-                "name": "WP94"
+                "name": "WP94",
+                "location": "7°45’47”N - 0°00’05”E"
               }
             },
             {
@@ -1391,7 +1487,8 @@
                 ]
               },
               "properties": {
-                "name": "WP95"
+                "name": "WP95",
+                "location": "7°46’01.50”N - 0°00’57”W"
               }
             },
             {
@@ -1404,7 +1501,8 @@
                 ]
               },
               "properties": {
-                "name": "WP96"
+                "name": "WP96",
+                "location": "7°46’00”N - 0°01’59”W"
               }
             },
             {
@@ -1417,7 +1515,8 @@
                 ]
               },
               "properties": {
-                "name": "WP97"
+                "name": "WP97",
+                "location": "7°45’54”N - 0°03’03”W"
               }
             },
             {
@@ -1430,7 +1529,8 @@
                 ]
               },
               "properties": {
-                "name": "WP98"
+                "name": "WP98",
+                "location": "7°46’18”N - 0°04’01”W"
               }
             },
             {
@@ -1443,7 +1543,8 @@
                 ]
               },
               "properties": {
-                "name": "WP99"
+                "name": "WP99",
+                "location": "7°47’07”N - 0°04’45”W"
               }
             },
             {
@@ -1456,7 +1557,8 @@
                 ]
               },
               "properties": {
-                "name": "WP100"
+                "name": "WP100",
+                "location": "7°47’57”N - 0°05’27”W"
               }
             },
             {
@@ -1469,7 +1571,8 @@
                 ]
               },
               "properties": {
-                "name": "WP101"
+                "name": "WP101",
+                "location": "7°48’56”N - 0°05’54”W"
               }
             },
             {
@@ -1482,7 +1585,8 @@
                 ]
               },
               "properties": {
-                "name": "WP102"
+                "name": "WP102",
+                "location": "7°49’55”N - 0°06’08”W"
               }
             },
             {
@@ -1495,7 +1599,8 @@
                 ]
               },
               "properties": {
-                "name": "WP103"
+                "name": "WP103",
+                "location": "7°50’57”N - 0°06’23”W"
               }
             },
             {
@@ -1508,7 +1613,8 @@
                 ]
               },
               "properties": {
-                "name": "WP104"
+                "name": "WP104",
+                "location": "7°51’45.50”N - 0°06’50”W"
               }
             },
             {
@@ -1521,7 +1627,8 @@
                 ]
               },
               "properties": {
-                "name": "WP105"
+                "name": "WP105",
+                "location": "7°52’28”N - 0°07’35”W"
               }
             },
             {
@@ -1534,7 +1641,8 @@
                 ]
               },
               "properties": {
-                "name": "WP106"
+                "name": "WP106",
+                "location": "7°53’25”N - 0°07’49”W"
               }
             },
             {
@@ -1547,7 +1655,8 @@
                 ]
               },
               "properties": {
-                "name": "WP107"
+                "name": "WP107",
+                "location": "7°54’32”N - 0°07’53”W"
               }
             },
             {
@@ -1560,7 +1669,8 @@
                 ]
               },
               "properties": {
-                "name": "WP108"
+                "name": "WP108",
+                "location": "7°55’36”N - 0°07’59”W"
               }
             },
             {
@@ -1573,7 +1683,8 @@
                 ]
               },
               "properties": {
-                "name": "WP109"
+                "name": "WP109",
+                "location": "7°56’32”N - 0°07’43”W"
               }
             },
             {
@@ -1586,7 +1697,8 @@
                 ]
               },
               "properties": {
-                "name": "WP110"
+                "name": "WP110",
+                "location": "7°57’08”N - 0°07’19”W"
               }
             },
             {
@@ -1599,7 +1711,8 @@
                 ]
               },
               "properties": {
-                "name": "WP111"
+                "name": "WP111",
+                "location": "7°58’03”N - 0°07’37”W"
               }
             },
             {
@@ -1612,7 +1725,8 @@
                 ]
               },
               "properties": {
-                "name": "WP112"
+                "name": "WP112",
+                "location": "7°59’05”N - 0°07’58”W"
               }
             },
             {
@@ -1625,7 +1739,8 @@
                 ]
               },
               "properties": {
-                "name": "WP113"
+                "name": "WP113",
+                "location": "8°00’01”N - 0°08’03”W"
               }
             },
             {
@@ -1638,7 +1753,8 @@
                 ]
               },
               "properties": {
-                "name": "WP114"
+                "name": "WP114",
+                "location": "8°00’27”N - 0°07’50”W"
               }
             },
             {
@@ -1651,7 +1767,8 @@
                 ]
               },
               "properties": {
-                "name": "WP115"
+                "name": "WP115",
+                "location": "8°01’15”N - 0°08’21”W"
               }
             },
             {
@@ -1664,7 +1781,8 @@
                 ]
               },
               "properties": {
-                "name": "WP116"
+                "name": "WP116",
+                "location": "8°01’33.50”N - 0°08’55”W"
               }
             },
             {
@@ -1677,7 +1795,8 @@
                 ]
               },
               "properties": {
-                "name": "WP117"
+                "name": "WP117",
+                "location": "8°01’35”N - 0°10’00”W"
               }
             },
             {
@@ -1690,7 +1809,8 @@
                 ]
               },
               "properties": {
-                "name": "WP118"
+                "name": "WP118",
+                "location": "8°01’17”N - 0°10’59”W"
               }
             },
             {
@@ -1703,7 +1823,8 @@
                 ]
               },
               "properties": {
-                "name": "WP119"
+                "name": "WP119",
+                "location": "8°01’10”N - 0°12’01”W"
               }
             },
             {
@@ -1716,7 +1837,8 @@
                 ]
               },
               "properties": {
-                "name": "WP120"
+                "name": "WP120",
+                "location": "8°01’34”N - 0°12’48”W"
               }
             },
             {
@@ -1729,7 +1851,8 @@
                 ]
               },
               "properties": {
-                "name": "WP121"
+                "name": "WP121",
+                "location": "8°02’24”N - 0°13’31”W"
               }
             },
             {
@@ -1742,7 +1865,8 @@
                 ]
               },
               "properties": {
-                "name": "WP122"
+                "name": "WP122",
+                "location": "8°03’07”N - 0°14’18”W"
               }
             },
             {
@@ -1755,7 +1879,8 @@
                 ]
               },
               "properties": {
-                "name": "WP123"
+                "name": "WP123",
+                "location": "8°03’51”N - 0°15’05”W"
               }
             },
             {
@@ -1768,7 +1893,8 @@
                 ]
               },
               "properties": {
-                "name": "WP124"
+                "name": "WP124",
+                "location": "8°04’31”N - 0°15’47”W"
               }
             },
             {
@@ -1781,7 +1907,8 @@
                 ]
               },
               "properties": {
-                "name": "WP125"
+                "name": "WP125",
+                "location": "8°04’55”N - 0°16’29”W"
               }
             },
             {
@@ -1794,7 +1921,8 @@
                 ]
               },
               "properties": {
-                "name": "WP126"
+                "name": "WP126",
+                "location": "8°05’41.50”N - 0°17’23”W"
               }
             },
             {
@@ -1807,7 +1935,8 @@
                 ]
               },
               "properties": {
-                "name": "WP127"
+                "name": "WP127",
+                "location": "8°06’41”N - 0°17’51.50”W"
               }
             },
             {
@@ -1820,7 +1949,8 @@
                 ]
               },
               "properties": {
-                "name": "WP128"
+                "name": "WP128",
+                "location": "8°07’22”N - 0°18’37”W"
               }
             },
             {
@@ -1833,7 +1963,8 @@
                 ]
               },
               "properties": {
-                "name": "WP129"
+                "name": "WP129",
+                "location": "8°07’29”N - 0°19’41”W"
               }
             },
             {
@@ -1846,7 +1977,8 @@
                 ]
               },
               "properties": {
-                "name": "WP130"
+                "name": "WP130",
+                "location": "8°07’45”N - 0°20’42”W"
               }
             },
             {
@@ -1859,7 +1991,8 @@
                 ]
               },
               "properties": {
-                "name": "WP131"
+                "name": "WP131",
+                "location": "8°07’32”N - 0°21’46”W"
               }
             },
             {
@@ -1872,7 +2005,8 @@
                 ]
               },
               "properties": {
-                "name": "WP132"
+                "name": "WP132",
+                "location": "8°07’25”N - 0°22’51”W"
               }
             },
             {
@@ -1885,7 +2019,8 @@
                 ]
               },
               "properties": {
-                "name": "WP133"
+                "name": "WP133",
+                "location": "8°07’19”N - 0°23’56”W"
               }
             },
             {
@@ -1898,7 +2033,8 @@
                 ]
               },
               "properties": {
-                "name": "WP134"
+                "name": "WP134",
+                "location": "8°07’22”N - 0°25’00”W"
               }
             },
             {
@@ -1911,7 +2047,8 @@
                 ]
               },
               "properties": {
-                "name": "WP135"
+                "name": "WP135",
+                "location": "8°07’45”N - 0°26’03”W"
               }
             },
             {
@@ -1924,7 +2061,8 @@
                 ]
               },
               "properties": {
-                "name": "WP136"
+                "name": "WP136",
+                "location": "8°09*06”N - 0°27’05”W"
               }
             },
             {
@@ -1937,7 +2075,8 @@
                 ]
               },
               "properties": {
-                "name": "WP137"
+                "name": "WP137",
+                "location": "8°08’40”N - 0°28’00”W"
               }
             },
             {
@@ -1950,7 +2089,8 @@
                 ]
               },
               "properties": {
-                "name": "WP138"
+                "name": "WP138",
+                "location": "8°09’00”N - 0°28’59”W"
               }
             },
             {
@@ -1963,7 +2103,8 @@
                 ]
               },
               "properties": {
-                "name": "WP139"
+                "name": "WP139",
+                "location": "8°09’30”N - 0°30’01”W"
               }
             },
             {
@@ -1976,7 +2117,8 @@
                 ]
               },
               "properties": {
-                "name": "WP140"
+                "name": "WP140",
+                "location": "8°10’05”N - 0°30’38”W"
               }
             },
             {
@@ -1989,7 +2131,8 @@
                 ]
               },
               "properties": {
-                "name": "WP141"
+                "name": "WP141",
+                "location": "8°10’50”N - 0°31’23.50”W"
               }
             },
             {
@@ -2002,7 +2145,8 @@
                 ]
               },
               "properties": {
-                "name": "WP142"
+                "name": "WP142",
+                "location": "8°11’20.50”N - 0°32’20”W"
               }
             },
             {
@@ -2015,7 +2159,8 @@
                 ]
               },
               "properties": {
-                "name": "WP143"
+                "name": "WP143",
+                "location": "8°11’52”N - 0°33’17.50”W"
               }
             },
             {
@@ -2028,7 +2173,8 @@
                 ]
               },
               "properties": {
-                "name": "WP144"
+                "name": "WP144",
+                "location": "8°12’25”N - 0°34’12.50”W"
               }
             },
             {
@@ -2041,7 +2187,8 @@
                 ]
               },
               "properties": {
-                "name": "WP145"
+                "name": "WP145",
+                "location": "8°12’46”N - 0°35’13”W"
               }
             },
             {
@@ -2054,7 +2201,8 @@
                 ]
               },
               "properties": {
-                "name": "WP146"
+                "name": "WP146",
+                "location": "8°13’05.50”N - 0°36’07”W"
               }
             },
             {
@@ -2067,7 +2215,8 @@
                 ]
               },
               "properties": {
-                "name": "WP147"
+                "name": "WP147",
+                "location": "8°13’37.50”N - 0°37’04”W"
               }
             },
             {
@@ -2080,7 +2229,8 @@
                 ]
               },
               "properties": {
-                "name": "WP148"
+                "name": "WP148",
+                "location": "8°14’10”N - 0°38’01.50”W"
               }
             },
             {
@@ -2093,7 +2243,8 @@
                 ]
               },
               "properties": {
-                "name": "WP149"
+                "name": "WP149",
+                "location": "8°14’44.50”N - 0°38’55”W"
               }
             },
             {
@@ -2106,7 +2257,8 @@
                 ]
               },
               "properties": {
-                "name": "WP150"
+                "name": "WP150",
+                "location": "8°15’34”N - 0°39’32”W"
               }
             },
             {
@@ -2119,7 +2271,8 @@
                 ]
               },
               "properties": {
-                "name": "WP151"
+                "name": "WP151",
+                "location": "8°16’32.50”N - 0°40’00”W"
               }
             },
             {
@@ -2132,7 +2285,8 @@
                 ]
               },
               "properties": {
-                "name": "WP152"
+                "name": "WP152",
+                "location": "8°17’32.50”N - 0°40’25”W"
               }
             },
             {
@@ -2145,7 +2299,8 @@
                 ]
               },
               "properties": {
-                "name": "WP153"
+                "name": "WP153",
+                "location": "8°18’20”N - 0°40’56”W"
               }
             },
             {
@@ -2158,7 +2313,8 @@
                 ]
               },
               "properties": {
-                "name": "WP154"
+                "name": "WP154",
+                "location": "8°19’25”N - 0°41’30”W"
               }
             },
             {
@@ -2171,7 +2327,8 @@
                 ]
               },
               "properties": {
-                "name": "WP155"
+                "name": "WP155",
+                "location": "8°19’58”N - 0°42’00”W"
               }
             },
             {
@@ -2184,7 +2341,8 @@
                 ]
               },
               "properties": {
-                "name": "WP156"
+                "name": "WP156",
+                "location": "8°19’56”N - 0°43’07”W"
               }
             },
             {
@@ -2197,7 +2355,8 @@
                 ]
               },
               "properties": {
-                "name": "WP157"
+                "name": "WP157",
+                "location": "8°20’34”N - 0°43’59.50”W"
               }
             },
             {
@@ -2210,7 +2369,8 @@
                 ]
               },
               "properties": {
-                "name": "WP158"
+                "name": "WP158",
+                "location": "8°21’17”N - 0°44’48”W"
               }
             },
             {
@@ -2223,7 +2383,8 @@
                 ]
               },
               "properties": {
-                "name": "WP159"
+                "name": "WP159",
+                "location": "8°22’07.50”N - 0°45’28”W"
               }
             },
             {
@@ -2236,7 +2397,8 @@
                 ]
               },
               "properties": {
-                "name": "WP160"
+                "name": "WP160",
+                "location": "8°23’04”N - 0°45’59”W"
               }
             },
             {
@@ -2249,7 +2411,8 @@
                 ]
               },
               "properties": {
-                "name": "WP161"
+                "name": "WP161",
+                "location": "8°24’06”N - 0°46’17”W"
               }
             },
             {
@@ -2262,7 +2425,8 @@
                 ]
               },
               "properties": {
-                "name": "WP162"
+                "name": "WP162",
+                "location": "8°25’11”N - 0°46’21.50”W"
               }
             },
             {
@@ -2275,7 +2439,8 @@
                 ]
               },
               "properties": {
-                "name": "WP163"
+                "name": "WP163",
+                "location": "8°26’14”N - 0°46’42”W"
               }
             },
             {
@@ -2288,7 +2453,8 @@
                 ]
               },
               "properties": {
-                "name": "WP164"
+                "name": "WP164",
+                "location": "8°27’13”N - 0°47’08.50”W"
               }
             },
             {
@@ -2301,7 +2467,8 @@
                 ]
               },
               "properties": {
-                "name": "WP165"
+                "name": "WP165",
+                "location": "8°27’57”N - 0°47’39”W"
               }
             },
             {
@@ -2314,7 +2481,8 @@
                 ]
               },
               "properties": {
-                "name": "WP166"
+                "name": "WP166",
+                "location": "8°28’08”N - 0°48’38”W"
               }
             },
             {
@@ -2327,7 +2495,8 @@
                 ]
               },
               "properties": {
-                "name": "WP167"
+                "name": "WP167",
+                "location": "8°28’42”N - 0°49’34”W"
               }
             },
             {
@@ -2340,7 +2509,8 @@
                 ]
               },
               "properties": {
-                "name": "WP168"
+                "name": "WP168",
+                "location": "8°29’23.50”N - 0°50’23”W"
               }
             },
             {
@@ -2353,7 +2523,8 @@
                 ]
               },
               "properties": {
-                "name": "WP169"
+                "name": "WP169",
+                "location": "8°30’13.50”N - 0°51’02.50”W"
               }
             },
             {
@@ -2366,7 +2537,8 @@
                 ]
               },
               "properties": {
-                "name": "WP170"
+                "name": "WP170",
+                "location": "8°30’59”N - 0°51’49”W"
               }
             },
             {
@@ -2379,7 +2551,8 @@
                 ]
               },
               "properties": {
-                "name": "WP171"
+                "name": "WP171",
+                "location": "8°31’31”N - 0°52’01”W"
               }
             },
             {
@@ -2392,7 +2565,8 @@
                 ]
               },
               "properties": {
-                "name": "WP172"
+                "name": "WP172",
+                "location": "8°32’04”N - 0°52’01”W"
               }
             },
             {
@@ -2405,7 +2579,8 @@
                 ]
               },
               "properties": {
-                "name": "WP173"
+                "name": "WP173",
+                "location": "8°33’00”N - 0°52’31”W"
               }
             },
             {
@@ -2418,7 +2593,8 @@
                 ]
               },
               "properties": {
-                "name": "WP174"
+                "name": "WP174",
+                "location": "8°33’52”N - 0°53’10”W"
               }
             },
             {
@@ -2431,7 +2607,8 @@
                 ]
               },
               "properties": {
-                "name": "WP175"
+                "name": "WP175",
+                "location": "8°34’53”N - 0°53’39.50”W"
               }
             },
             {
@@ -2444,7 +2621,8 @@
                 ]
               },
               "properties": {
-                "name": "WP176"
+                "name": "WP176",
+                "location": "8°35’38”N - 0°54’21”W"
               }
             },
             {
@@ -2457,7 +2635,8 @@
                 ]
               },
               "properties": {
-                "name": "WP177"
+                "name": "WP177",
+                "location": "8°36’39”N - 0°54’45”W"
               }
             },
             {
@@ -2470,7 +2649,8 @@
                 ]
               },
               "properties": {
-                "name": "WP178"
+                "name": "WP178",
+                "location": "8°37’22”N - 0°55’02”W"
               }
             },
             {
@@ -2483,7 +2663,8 @@
                 ]
               },
               "properties": {
-                "name": "WP179"
+                "name": "WP179",
+                "location": "8°38’09”N - 0°55’48”W"
               }
             },
             {
@@ -2496,7 +2677,8 @@
                 ]
               },
               "properties": {
-                "name": "WP180"
+                "name": "WP180",
+                "location": "8°39’00”N - 0°56’27”W"
               }
             },
             {
@@ -2509,7 +2691,8 @@
                 ]
               },
               "properties": {
-                "name": "WP181"
+                "name": "WP181",
+                "location": "8°39’15.50”N - 0°56’56”W"
               }
             },
             {
@@ -2522,7 +2705,8 @@
                 ]
               },
               "properties": {
-                "name": "WP182"
+                "name": "WP182",
+                "location": "8°38’58”N - 0°57’58”W"
               }
             },
             {
@@ -2535,7 +2719,8 @@
                 ]
               },
               "properties": {
-                "name": "WP183"
+                "name": "WP183",
+                "location": "8°38’45”N - 0°58’40.50”W"
               }
             },
             {
@@ -2548,7 +2733,8 @@
                 ]
               },
               "properties": {
-                "name": "WP184"
+                "name": "WP184",
+                "location": "8°39’12”N - 0°59’16”W"
               }
             },
             {
@@ -2561,7 +2747,8 @@
                 ]
               },
               "properties": {
-                "name": "WP185"
+                "name": "WP185",
+                "location": "8°40’05”N - 0°59’51”W"
               }
             },
             {
@@ -2574,7 +2761,8 @@
                 ]
               },
               "properties": {
-                "name": "WP186"
+                "name": "WP186",
+                "location": "8°41’02”N - 1°00’35”W"
               }
             },
             {
@@ -2587,7 +2775,8 @@
                 ]
               },
               "properties": {
-                "name": "WP187"
+                "name": "WP187",
+                "location": "8°41’35”N - 1°01’32”W"
               }
             },
             {
@@ -2600,7 +2789,8 @@
                 ]
               },
               "properties": {
-                "name": "WP188"
+                "name": "WP188",
+                "location": "8°42’01”N - 1°02’34”W"
               }
             },
             {
@@ -2613,7 +2803,8 @@
                 ]
               },
               "properties": {
-                "name": "WP189"
+                "name": "WP189",
+                "location": "8°42’06.50”N - 1°03’39”W"
               }
             },
             {
@@ -2626,7 +2817,8 @@
                 ]
               },
               "properties": {
-                "name": "WP190"
+                "name": "WP190",
+                "location": "8°42’07”N - 1°04’41”W"
               }
             },
             {
@@ -2639,7 +2831,8 @@
                 ]
               },
               "properties": {
-                "name": "WP191"
+                "name": "WP191",
+                "location": "8°41’37.50”N - 1°05’40”W"
               }
             },
             {
@@ -2652,7 +2845,8 @@
                 ]
               },
               "properties": {
-                "name": "WP192"
+                "name": "WP192",
+                "location": "8°41’00”N - 1°06’39.50”W"
               }
             },
             {
@@ -2665,7 +2859,8 @@
                 ]
               },
               "properties": {
-                "name": "WP193"
+                "name": "WP193",
+                "location": "8°40’53”N - 1°07’33.50”W"
               }
             },
             {
@@ -2678,7 +2873,8 @@
                 ]
               },
               "properties": {
-                "name": "WP194"
+                "name": "WP194",
+                "location": "8°40’52”N - 1°08’34”W"
               }
             },
             {
@@ -2691,7 +2887,8 @@
                 ]
               },
               "properties": {
-                "name": "WP195"
+                "name": "WP195",
+                "location": "8°40’57.50”N - 1°09’39”W"
               }
             },
             {
@@ -2704,7 +2901,8 @@
                 ]
               },
               "properties": {
-                "name": "WP196"
+                "name": "WP196",
+                "location": "8°40’56”N - 1°10’42”W"
               }
             },
             {
@@ -2717,7 +2915,8 @@
                 ]
               },
               "properties": {
-                "name": "WP197"
+                "name": "WP197",
+                "location": "8°40’29”N - 1°11’33”W"
               }
             },
             {
@@ -2730,7 +2929,8 @@
                 ]
               },
               "properties": {
-                "name": "WP198"
+                "name": "WP198",
+                "location": "8°40’07”N - 1°12’21”W"
               }
             },
             {
@@ -2743,7 +2943,8 @@
                 ]
               },
               "properties": {
-                "name": "WP199"
+                "name": "WP199",
+                "location": "8°40’52”N - 1°13’39.50”W"
               }
             },
             {
@@ -2756,7 +2957,8 @@
                 ]
               },
               "properties": {
-                "name": "WP200"
+                "name": "WP200",
+                "location": "8°40’49”N - 1°14’21”W"
               }
             },
             {
@@ -2769,7 +2971,8 @@
                 ]
               },
               "properties": {
-                "name": "WP201"
+                "name": "WP201",
+                "location": "8°41’15”N - 1°15’20”W"
               }
             },
             {
@@ -2782,7 +2985,8 @@
                 ]
               },
               "properties": {
-                "name": "WP202"
+                "name": "WP202",
+                "location": "8°41’34”N - 1°15’51”W"
               }
             },
             {
@@ -2795,7 +2999,8 @@
                 ]
               },
               "properties": {
-                "name": "WP203"
+                "name": "WP203",
+                "location": "8°42’24.50”N - 1°16’31”W"
               }
             },
             {
@@ -2808,7 +3013,8 @@
                 ]
               },
               "properties": {
-                "name": "WP204"
+                "name": "WP204",
+                "location": "8°43’13”N - 1°17’11”W"
               }
             },
             {
@@ -2821,7 +3027,8 @@
                 ]
               },
               "properties": {
-                "name": "WP205"
+                "name": "WP205",
+                "location": "8°43’15.50”N - 1°18’15”W"
               }
             },
             {
@@ -2834,7 +3041,8 @@
                 ]
               },
               "properties": {
-                "name": "WP206"
+                "name": "WP206",
+                "location": "8°43’49.50”N - 1°19’09”W"
               }
             },
             {
@@ -2847,7 +3055,8 @@
                 ]
               },
               "properties": {
-                "name": "WP207"
+                "name": "WP207",
+                "location": "8°44’30”N - 1°20’00”W"
               }
             },
             {
@@ -2860,7 +3069,8 @@
                 ]
               },
               "properties": {
-                "name": "WP208"
+                "name": "WP208",
+                "location": "8°45’10”N - 1°20’51”W"
               }
             },
             {
@@ -2873,7 +3083,8 @@
                 ]
               },
               "properties": {
-                "name": "WP209"
+                "name": "WP209",
+                "location": "8°45’41”N - 1°21’40”W"
               }
             },
             {
@@ -2886,7 +3097,8 @@
                 ]
               },
               "properties": {
-                "name": "WP210"
+                "name": "WP210",
+                "location": "8°46’06.50”N - 1°22’42”W"
               }
             },
             {
@@ -2899,7 +3111,8 @@
                 ]
               },
               "properties": {
-                "name": "WP211"
+                "name": "WP211",
+                "location": "8°46’19”N - 1°23’46”W"
               }
             },
             {
@@ -2912,7 +3125,8 @@
                 ]
               },
               "properties": {
-                "name": "WP212"
+                "name": "WP212",
+                "location": "8°46’29”N - 1°24’43”W"
               }
             },
             {
@@ -2925,7 +3139,8 @@
                 ]
               },
               "properties": {
-                "name": "WP213"
+                "name": "WP213",
+                "location": "8°46’13”N - 1°25’46”W"
               }
             },
             {
@@ -3797,7 +4012,9 @@
               },
               "properties": {
                 "name": "Positions of Waypoints of the VLTC Main North-South Route",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "6°19’31”N - 0°03’32”E",
+                "locationEnd": "8°46’13”N - 1°25’46”W"
               }
             }
           ]
@@ -4004,7 +4221,8 @@
                 ]
               },
               "properties": {
-                "name": "WP431"
+                "name": "WP431",
+                "location": "8°38’55”N - 0°58’55.50”W"
               }
             },
             {
@@ -4017,7 +4235,8 @@
                 ]
               },
               "properties": {
-                "name": "WP432"
+                "name": "WP432",
+                "location": "8°40’00”N - 0°58’59”W"
               }
             },
             {
@@ -4030,7 +4249,8 @@
                 ]
               },
               "properties": {
-                "name": "WP433"
+                "name": "WP433",
+                "location": "8°41’04.50”N - 0°59’08”W"
               }
             },
             {
@@ -4043,7 +4263,8 @@
                 ]
               },
               "properties": {
-                "name": "WP434"
+                "name": "WP434",
+                "location": "8°42’07”N - 0°59’26”W"
               }
             },
             {
@@ -4056,7 +4277,8 @@
                 ]
               },
               "properties": {
-                "name": "WP435"
+                "name": "WP435",
+                "location": "8°43’10”N - 0°59’41”W"
               }
             },
             {
@@ -4069,7 +4291,8 @@
                 ]
               },
               "properties": {
-                "name": "WP436"
+                "name": "WP436",
+                "location": "8°44’13”N - 0°59’40”W"
               }
             },
             {
@@ -4082,7 +4305,8 @@
                 ]
               },
               "properties": {
-                "name": "WP437"
+                "name": "WP437",
+                "location": "8°45’14”N - 0°59’13”W"
               }
             },
             {
@@ -4095,7 +4319,8 @@
                 ]
               },
               "properties": {
-                "name": "WP438"
+                "name": "WP438",
+                "location": "8°45’56”N - 0°58’51”W"
               }
             },
             {
@@ -4108,7 +4333,8 @@
                 ]
               },
               "properties": {
-                "name": "WP439"
+                "name": "WP439",
+                "location": "8°46’33.50”N - 0°59’29”W"
               }
             },
             {
@@ -4121,7 +4347,8 @@
                 ]
               },
               "properties": {
-                "name": "WP440"
+                "name": "WP440",
+                "location": "8°46’55”N - 1°00’24”W"
               }
             },
             {
@@ -4134,7 +4361,8 @@
                 ]
               },
               "properties": {
-                "name": "WP441"
+                "name": "WP441",
+                "location": "8°47’06”N - 1°01’20”W"
               }
             },
             {
@@ -4147,7 +4375,8 @@
                 ]
               },
               "properties": {
-                "name": "WP442"
+                "name": "WP442",
+                "location": "8°47’28”N - 1°01’58”W"
               }
             },
             {
@@ -4160,7 +4389,8 @@
                 ]
               },
               "properties": {
-                "name": "WP443"
+                "name": "WP443",
+                "location": "8°48’26”N - 1°02’29”W"
               }
             },
             {
@@ -4173,7 +4403,8 @@
                 ]
               },
               "properties": {
-                "name": "WP444"
+                "name": "WP444",
+                "location": "8°48’30.50”N - 1°03’11.50”W"
               }
             },
             {
@@ -4186,7 +4417,8 @@
                 ]
               },
               "properties": {
-                "name": "WP445"
+                "name": "WP445",
+                "location": "8°49’04”N - 1°04’11”W"
               }
             },
             {
@@ -4258,7 +4490,9 @@
               },
               "properties": {
                 "name": "Positions of Fairway Buoys in the White Volta River upstream of its Confluent with the Black Volta River",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "8°38’55”N - 0°58’55.50”W",
+                "locationEnd": "8°49’04”N - 1°04’11”W"
               }
             }
           ]
@@ -4348,7 +4582,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-1"
+                "name": "WP01-1",
+                "location": "6°30’40”N - 0°03’49”E"
               }
             },
             {
@@ -4361,7 +4596,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-2"
+                "name": "WP01-2",
+                "location": "6°29’43”N - 0°03’19”E"
               }
             },
             {
@@ -4374,7 +4610,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-3"
+                "name": "WP01-3",
+                "location": "6°28’46”N - 0°02’46”E"
               }
             },
             {
@@ -4387,7 +4624,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-4"
+                "name": "WP01-4",
+                "location": "6°27’43”N - 0°02’26”E"
               }
             },
             {
@@ -4400,7 +4638,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-5"
+                "name": "WP01-5",
+                "location": "6°26’42”N - 0°02’01”E"
               }
             },
             {
@@ -4413,7 +4652,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-6"
+                "name": "WP01-6",
+                "location": "6°25’44”N - 0°01’54”E"
               }
             },
             {
@@ -4426,7 +4666,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-7"
+                "name": "WP01-7",
+                "location": "6°24’46”N - 0°01’21”E"
               }
             },
             {
@@ -4439,7 +4680,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-8"
+                "name": "WP01-8",
+                "location": "6°23’45”N - 0°00’57”E"
               }
             },
             {
@@ -4452,7 +4694,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-9"
+                "name": "WP01-9",
+                "location": "6°22’48”N - 0°00’24”E"
               }
             },
             {
@@ -4465,7 +4708,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-10"
+                "name": "WP01-10",
+                "location": "6°21’48”N - 0°00’00”E"
               }
             },
             {
@@ -4478,7 +4722,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-11"
+                "name": "WP01-11",
+                "location": "6°20’54”N - 0°00’13.30”W"
               }
             },
             {
@@ -4491,7 +4736,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-12"
+                "name": "WP01-12",
+                "location": "6°20’06”N - 0°00’46”W"
               }
             },
             {
@@ -4504,7 +4750,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-13"
+                "name": "WP01-13",
+                "location": "6°19’14”N - 0°01’15”W"
               }
             },
             {
@@ -4568,7 +4815,9 @@
               },
               "properties": {
                 "name": "Positions of Fairway Buoys marking the Fairway to",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "6°30’40”N - 0°03’49”E",
+                "locationEnd": "6°19’14”N - 0°01’15”W"
               }
             }
           ]
@@ -5026,7 +5275,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-14"
+                "name": "WP01-14",
+                "location": "6°26’56”N - 0°02’01”E"
               }
             },
             {
@@ -5039,7 +5289,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-15"
+                "name": "WP01-15",
+                "location": "6°27’28”N - 0°01’05”E"
               }
             },
             {
@@ -5052,7 +5303,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-16"
+                "name": "WP01-16",
+                "location": "6°28’06”N - 0°00’12”E"
               }
             },
             {
@@ -5065,7 +5317,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-17"
+                "name": "WP01-17",
+                "location": "6°28’48”N - 0°00’37”W"
               }
             },
             {
@@ -5078,7 +5331,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-18"
+                "name": "WP01-18",
+                "location": "6°29’32”N - 0°01’24”W"
               }
             },
             {
@@ -5091,7 +5345,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-19"
+                "name": "WP01-19",
+                "location": "6°30’01”N - 0°02’30”W"
               }
             },
             {
@@ -5104,7 +5359,8 @@
                 ]
               },
               "properties": {
-                "name": "WP01-20"
+                "name": "WP01-20",
+                "location": "6°30’24”N - 0°03’21”W"
               }
             },
             {
@@ -5117,7 +5373,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-1"
+                "name": "WP02-1",
+                "location": "6°30’31”N - 0°03’58”W"
               }
             },
             {
@@ -5130,7 +5387,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-2"
+                "name": "WP02-2",
+                "location": "6°31’22”N - 0°04’29”W"
               }
             },
             {
@@ -5143,7 +5401,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-3"
+                "name": "WP02-3",
+                "location": "6°31’18”N - 0°05’02”W"
               }
             },
             {
@@ -5156,7 +5415,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-4"
+                "name": "WP02-4",
+                "location": "6°31’58”N - 0°05’13”W"
               }
             },
             {
@@ -5169,7 +5429,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-5"
+                "name": "WP02-5",
+                "location": "6°32’40.50”N - 0°05’46”W"
               }
             },
             {
@@ -5182,7 +5443,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-6"
+                "name": "WP02-6",
+                "location": "6°32’50”N - 0°06’34”W"
               }
             },
             {
@@ -5195,7 +5457,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-7"
+                "name": "WP02-7",
+                "location": "6°32’50”N - 0°07’40”W"
               }
             },
             {
@@ -5208,7 +5471,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-8"
+                "name": "WP02-8",
+                "location": "6°32’16”N - 0°08’26”W"
               }
             },
             {
@@ -5221,7 +5485,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-9"
+                "name": "WP02-9",
+                "location": "6°31’31”N - 0°09’13”W"
               }
             },
             {
@@ -5234,7 +5499,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-10"
+                "name": "WP02-10",
+                "location": "6°32’26”N - 0°09’39”W"
               }
             },
             {
@@ -5247,7 +5513,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-11"
+                "name": "WP02-11",
+                "location": "6°31’59”N - 0°10’28”W"
               }
             },
             {
@@ -5260,7 +5527,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-12"
+                "name": "WP02-12",
+                "location": "6°31’45”N - 0°10’46”W"
               }
             },
             {
@@ -5273,7 +5541,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-13"
+                "name": "WP02-13",
+                "location": "6°32’01.50”N - 0°11’29.50”W"
               }
             },
             {
@@ -5286,7 +5555,8 @@
                 ]
               },
               "properties": {
-                "name": "WP02-14"
+                "name": "WP02-14",
+                "location": "6°32’08”N - 0°12’28”W"
               }
             },
             {
@@ -5382,7 +5652,9 @@
               },
               "properties": {
                 "name": "Positions of Fairway Buoys marking the Southern Fairway of the Afram",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "6°26’56”N - 0°02’01”E",
+                "locationEnd": "6°32’08”N - 0°12’28”W"
               }
             }
           ]
@@ -6053,7 +6325,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-1"
+                "name": "WP03-1",
+                "location": "6°33’12”N - 0°06’42.50”W"
               }
             },
             {
@@ -6066,7 +6339,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-2"
+                "name": "WP03-2",
+                "location": "6°33’45”N - 0°07’39”W"
               }
             },
             {
@@ -6079,7 +6353,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-3"
+                "name": "WP03-3",
+                "location": "6°34’17”N - 0°08’36”W"
               }
             },
             {
@@ -6092,7 +6367,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-4"
+                "name": "WP03-4",
+                "location": "6°34’49”N - 0°09’31”W"
               }
             },
             {
@@ -6105,7 +6381,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-5"
+                "name": "WP03-5",
+                "location": "6°35’24”N - 0°10’27”W"
               }
             },
             {
@@ -6118,7 +6395,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-6"
+                "name": "WP03-6",
+                "location": "6°35’49”N - 0°11’08”W"
               }
             },
             {
@@ -6131,7 +6409,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-7"
+                "name": "WP03-7",
+                "location": "6°36’22”N - 0°12’04”W"
               }
             },
             {
@@ -6144,7 +6423,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-8"
+                "name": "WP03-8",
+                "location": "6°36’29”N - 0°12’24”W"
               }
             },
             {
@@ -6157,7 +6437,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-9"
+                "name": "WP03-9",
+                "location": "6°37’02”N - 0°13’21”W"
               }
             },
             {
@@ -6170,7 +6451,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-10"
+                "name": "WP03-10",
+                "location": "6°37’15”N - 0°13’49”W"
               }
             },
             {
@@ -6183,7 +6465,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-11"
+                "name": "WP03-11",
+                "location": "6°37’52”N - 0°14’45”W"
               }
             },
             {
@@ -6196,7 +6479,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-12"
+                "name": "WP03-12",
+                "location": "6°38’04.50”N - 0°15’09”W"
               }
             },
             {
@@ -6209,7 +6493,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-13"
+                "name": "WP03-13",
+                "location": "6°38’21”N - 0°16’08”W"
               }
             },
             {
@@ -6222,7 +6507,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-14"
+                "name": "WP03-14",
+                "location": "6°38’41”N - 0°16’59”W"
               }
             },
             {
@@ -6235,7 +6521,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-15"
+                "name": "WP03-15",
+                "location": "6°39’43”N - 0°17’23”W"
               }
             },
             {
@@ -6248,7 +6535,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-16"
+                "name": "WP03-16",
+                "location": "6°40’10”N - 0°18’04”W"
               }
             },
             {
@@ -6261,7 +6549,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-17"
+                "name": "WP03-17",
+                "location": "6°40’17”N - 0°19’09”W"
               }
             },
             {
@@ -6274,7 +6563,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-18"
+                "name": "WP03-18",
+                "location": "6°40’05”N - 0°20’13”W"
               }
             },
             {
@@ -6287,7 +6577,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-19"
+                "name": "WP03-19",
+                "location": "6°40’04”N - 0°21’19”W"
               }
             },
             {
@@ -6300,7 +6591,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-20"
+                "name": "WP03-20",
+                "location": "6°40’16.50”N - 0°22’22”W"
               }
             },
             {
@@ -6313,7 +6605,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-21"
+                "name": "WP03-21",
+                "location": "6°40’30”N - 0°23’27”W"
               }
             },
             {
@@ -6326,7 +6619,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-22"
+                "name": "WP03-22",
+                "location": "6°40’51”N - 0°24’06”W"
               }
             },
             {
@@ -6339,7 +6633,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-23"
+                "name": "WP03-23",
+                "location": "6°41’36”N - 0°24’50”W"
               }
             },
             {
@@ -6352,7 +6647,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-24"
+                "name": "WP03-24",
+                "location": "6°42’02.50”N - 0°25’43.50”W"
               }
             },
             {
@@ -6365,7 +6661,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-25"
+                "name": "WP03-25",
+                "location": "6°42’05”N - 0°26’10”W"
               }
             },
             {
@@ -6378,7 +6675,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-26"
+                "name": "WP03-26",
+                "location": "6°42’00”N - 0°26’36”W"
               }
             },
             {
@@ -6391,7 +6689,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-27"
+                "name": "WP03-27",
+                "location": "6°42’30”N - 0°27’30”W"
               }
             },
             {
@@ -6404,7 +6703,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-28"
+                "name": "WP03-28",
+                "location": "6°42’53”N - 0°28’23”W"
               }
             },
             {
@@ -6417,7 +6717,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-29"
+                "name": "WP03-29",
+                "location": "6°43’10”N - 0°29’26”W"
               }
             },
             {
@@ -6430,7 +6731,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-30"
+                "name": "WP03-30",
+                "location": "6°43’27”N - 0°30’28.50”W"
               }
             },
             {
@@ -6443,7 +6745,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-31"
+                "name": "WP03-31",
+                "location": "6°43’39.50”N - 0°30’40”W"
               }
             },
             {
@@ -6456,7 +6759,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-32"
+                "name": "WP03-32",
+                "location": "6°44’15”N - 0°31’25.50”W"
               }
             },
             {
@@ -6469,7 +6773,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-33"
+                "name": "WP03-33",
+                "location": "6°44’44”N - 0°32’25”W"
               }
             },
             {
@@ -6482,7 +6787,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-34"
+                "name": "WP03-34",
+                "location": "6°45’04”N - 0°32’43.50”W"
               }
             },
             {
@@ -6495,7 +6801,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-35"
+                "name": "WP03-35",
+                "location": "6°45’12”N - 0°33’02”W"
               }
             },
             {
@@ -6508,7 +6815,8 @@
                 ]
               },
               "properties": {
-                "name": "WP03-36"
+                "name": "WP03-36",
+                "location": "6°45’37”N - 0°33’22”W"
               }
             },
             {
@@ -6664,7 +6972,9 @@
               },
               "properties": {
                 "name": "    Positions of Fairway Buoys marking the Main Fairway of the Upper Afram",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "6°33’12”N - 0°06’42.50”W",
+                "locationEnd": "6°45’37”N - 0°33’22”W"
               }
             }
           ]
@@ -7559,7 +7869,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-1"
+                "name": "WP06-1",
+                "location": "6°32’21”N - 0°04’35”W"
               }
             },
             {
@@ -7572,7 +7883,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-2"
+                "name": "WP06-2",
+                "location": "6°32’01”N - 0°03’36”W"
               }
             },
             {
@@ -7585,7 +7897,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-3"
+                "name": "WP06-3",
+                "location": "6°31’46”N - 0°02’31”W"
               }
             },
             {
@@ -7598,7 +7911,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-4"
+                "name": "WP06-4",
+                "location": "6°31’34”N - 0°01’28”W"
               }
             },
             {
@@ -7611,7 +7925,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-5"
+                "name": "WP06-5",
+                "location": "6°31’23”N - 0°00’23.50”E"
               }
             },
             {
@@ -7624,7 +7939,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-6"
+                "name": "WP06-6",
+                "location": "6°31’13”N - 0°00’40”E"
               }
             },
             {
@@ -7637,7 +7953,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-7"
+                "name": "WP06-7",
+                "location": "6°31’00”N - 0°01’43”E"
               }
             },
             {
@@ -7650,7 +7967,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-8"
+                "name": "WP06-8",
+                "location": "6°30’53.50”N - 0°02’46”E"
               }
             },
             {
@@ -7663,7 +7981,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-9"
+                "name": "WP06-9",
+                "location": "6°31’13.50”N - 0°03’38”E"
               }
             },
             {
@@ -7676,7 +7995,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-10"
+                "name": "WP06-10",
+                "location": "6°31’45”N - 0°04’17”E"
               }
             },
             {
@@ -7689,7 +8009,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-11"
+                "name": "WP06-11",
+                "location": "6°32’34”N - 0°04’59”E"
               }
             },
             {
@@ -7702,7 +8023,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-12"
+                "name": "WP06-12",
+                "location": "6°33’24.50”N - 0°05’39”E"
               }
             },
             {
@@ -7715,7 +8037,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-13"
+                "name": "WP06-13",
+                "location": "6°34’15”N - 0°06’21”E"
               }
             },
             {
@@ -7728,7 +8051,8 @@
                 ]
               },
               "properties": {
-                "name": "WP06-14"
+                "name": "WP06-14",
+                "location": "6°35’03.50”N - 0°07’05”E"
               }
             },
             {
@@ -7796,7 +8120,9 @@
               },
               "properties": {
                 "name": "Positions of Fairway Buoys marking the Main Fairway of the Lower Afram",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "6°32’21”N - 0°04’35”W",
+                "locationEnd": "6°35’03.50”N - 0°07’05”E"
               }
             }
           ]
@@ -8188,7 +8514,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°09’44”N - 0°14’16.50”E"
               }
             },
             {
@@ -8201,7 +8528,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’00”N - 0°13’15.50”E"
               }
             },
             {
@@ -8214,7 +8542,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’21”N - 0°12’16.50”E"
               }
             },
             {
@@ -8227,7 +8556,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’20.50”N - 0°11’11”E"
               }
             },
             {
@@ -8240,7 +8570,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’18.50”N - 0°10’06”E"
               }
             },
             {
@@ -8253,7 +8584,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’11”N - 0°09’01”E"
               }
             },
             {
@@ -8266,7 +8598,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’05”N - 0°07’57”E"
               }
             },
             {
@@ -8279,7 +8612,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’07”N - 0°06’51”E"
               }
             },
             {
@@ -8292,7 +8626,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’01.50”N - 0°06’21”E"
               }
             },
             {
@@ -8305,7 +8640,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’39”N - 0°05’37”E"
               }
             },
             {
@@ -8318,7 +8654,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°11’02”N - 0°05’01.50”E"
               }
             },
             {
@@ -8331,7 +8668,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’38”N - 0°04’01”E"
               }
             },
             {
@@ -8344,7 +8682,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’22”N - 0°03’08.50”E"
               }
             },
             {
@@ -8357,7 +8696,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°11’15”N - 0°02’46”E"
               }
             },
             {
@@ -8370,7 +8710,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°12’21”N - 0°02’20”E"
               }
             },
             {
@@ -8383,7 +8724,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°11’26”N - 0°01’39”E"
               }
             },
             {
@@ -8396,7 +8738,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°10’59.50”N - 0°01’27”E"
               }
             },
             {
@@ -8409,7 +8752,8 @@
                 ]
               },
               "properties": {
-                "name": "WP"
+                "name": "WP",
+                "location": "7°11’06”N - 0°00’28.50”E"
               }
             },
             {
@@ -8493,7 +8837,9 @@
               },
               "properties": {
                 "name": "Positions of Fairway Buoys marking the Fairway to Bridge Ano and Ntoaboma",
-                "waypointType": "waypointConnector"
+                "waypointType": "waypointConnector",
+                "locationStart": "7°09’44”N - 0°14’16.50”E",
+                "locationEnd": "7°11’06”N - 0°00’28.50”E"
               }
             }
           ]

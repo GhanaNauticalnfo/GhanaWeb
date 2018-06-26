@@ -5,9 +5,9 @@
         .module('maritimeweb.volta')
         .service('LakeVoltaService', LakeVoltaService);
 
-    LakeVoltaService.$inject = ['$http', 'growl', '$q'];
+    LakeVoltaService.$inject = ['$http', 'growl', '$q', '$uibModal'];
 
-    function LakeVoltaService($http, growl, $q) {
+    function LakeVoltaService($http, growl, $q, $uibModal) {
         this.getFeatures = getFeatures;
 
         var data;
@@ -29,5 +29,23 @@
             }
 
         }
+
+        /** Open the feature details view **/
+        this.showFeatureDetails = function (featureGroup, features) {
+            return $uibModal.open({
+                controller: "FeatureDetailsViewCtrl",
+                templateUrl: "lake-volta/feature-details-view.html",
+                size: 'lg',
+                resolve: {
+                    featureGroup: function () {
+                        return featureGroup;
+                    },
+                    features: function () {
+                        return features;
+                    }
+                }
+            });
+        };
+
     }
 })();

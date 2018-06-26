@@ -104,6 +104,11 @@ angular.module('maritimeweb.app')
                 $log.error(err);
             });
 
+            /** Show a detailed view of the feature and the group it belongs to */
+            $scope.showFeatureDetails = function (featureGroup, feature) {
+                LakeVoltaService.showFeatureDetails(featureGroup, feature);
+            };
+
             /**************************************/
             /** Vessel sidebar functionality      **/
             /**************************************/

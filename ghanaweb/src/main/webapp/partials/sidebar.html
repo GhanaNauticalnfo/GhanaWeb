@@ -123,7 +123,7 @@
                         </tr>
                         <tr ng-repeat-end ng-repeat="f in feature.features">
                             <td class="message-item">
-                                {{f.heading}}
+                                <a href ng-click="showFeatureDetails(feature, f)">{{f.heading}}</a>
                             </td>
                         </tr>
                     </table>

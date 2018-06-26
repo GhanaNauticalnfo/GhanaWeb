@@ -14,12 +14,14 @@ public class WaypointParser implements FeatureParser {
     private boolean isFinished;
     private String heading;
     private List<double[]> fairwayCoords;
+    private List<String> fairwayCoordsString;
 
     private List<FeatureVo> features;
 
     private WaypointParser() {
         this.features = new ArrayList<>();
         this.fairwayCoords = new ArrayList<>();
+        this.fairwayCoordsString = new ArrayList<>();
     }
 
     WaypointParser(VoltaFeatureParser voltaFeatureParser) {
@@ -48,10 +50,12 @@ public class WaypointParser implements FeatureParser {
         double[] coord = {parseDegreesMinuttesSeconds(waypointTokens[2]), parseDegreesMinuttesSeconds(waypointTokens[1])};
         voltaFeatureParser.addWaypoint(new Waypoint(name, coord));
         fairwayCoords.add(coord);
+        fairwayCoordsString.add(waypointTokens[1] + " - " + waypointTokens[2]);
         pointVo.setCoordinates(coord);
         feature.setGeometry(pointVo);
         HashMap<String, Object> properties = new HashMap<>();
         properties.put("name", name);
+        properties.put("location", waypointTokens[1] + " - " + waypointTokens[2]);
         feature.setProperties(properties);
         features.add(feature);
 
@@ -76,6 +80,8 @@ public class WaypointParser implements FeatureParser {
         HashMap<String, Object> properties = new HashMap<>();
         properties.put("name", heading);
         properties.put("waypointType", "waypointConnector");
+        properties.put("locationStart", fairwayCoordsString.get(0));
+        properties.put("locationEnd", fairwayCoordsString.get(fairwayCoordsString.size() - 1));
         fairWayFeature.setProperties(properties);
         fairWayFeature.setGeometry(fairwayLine);
         features.add(fairWayFeature);

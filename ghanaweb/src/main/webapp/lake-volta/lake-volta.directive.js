@@ -5,47 +5,17 @@
         .module('maritimeweb.volta')
         .directive('lakeVoltaLayer', lakeVoltaLayer);
 
-    lakeVoltaLayer.$inject = ['MapService', '$interval'];
+    lakeVoltaLayer.$inject = ['MapService', '$interval', 'LakeVoltaService'];
 
-    function lakeVoltaLayer(MapService, $interval) {
+    function lakeVoltaLayer(MapService, $interval, LakeVoltaService) {
         var directive = {
             restrict: 'E',
-            template: '<div id="popup" class="ol-popup">' +
-            '<div id="ol-popup-top">' +
-            ' <a href="#" id="popup-closer" class="ol-popup-closer"></a>' +
-            '</div>' +
-            '<div id="popup-content">' +
-            '<div style="overflow-y: scroll;height: 250px;">' +
-            '<div class="card border-secondary mb-2">' +
-            ' <img class="card-img-top ol-popup-img w-25 pt-1" ng-src="{{popupImgSrc}}" alt="{{popupImgAlt}}"/>' +
-            ' <div class="card-body">' +
-            '  <p class="card-text"> {{name}}</p>' +
-            ' </div>' +
-            '</div>' +
-            '<div class="card border-secondary mb-2">' +
-            ' <div class="card-header bg-light text-center font-weight-bold">Location</div>' +
-            ' <div class="card-body">' +
-            '  <div ng-if="hazardPos"><code>{{(hazardPos | lonlat:{ decimals : 2, pp: true })}}</code></div>' +
-            '  <div ng-if="hazardPosStart">' +
-            '   <h5>Start location</h5> <code>{{(hazardPosStart | lonlat:{ decimals : 2, pp: true })}}</code>' +
-            '   <h5>End location</h5> <code>{{(hazardPosEnd | lonlat:{ decimals : 2, pp: true })}}</code>' +
-            '  </div>' +
-            ' </div>' +
-            '</div>' +
-            ' <div ng-if="hasProperties">' +
-            '    <div class="card border-secondary mb-2" ng-repeat="property in properties">' +
-            '     <div class="card-header bg-light text-center font-weight-bold">{{property.key}}</div>' +
-            '     <div class="card-body">' +
-            '      <p class="card-text">{{property.value}}</p>' +
-            '     </div> ' +
-            '    </div>' +
-            '  </div>' +
-            '</div>' +
-            '</div>' +
-            '<div id="ol-popup-bottom"></div>',
             require: '^olMap',
             scope: {
-                features:   '=?'
+                features:   '=?',
+                fitExtent:      '@',
+                maxZoom:        '@'
+
             },
             link: link
         };
@@ -53,9 +23,8 @@
 
         function link(scope, element, attrs, ctrl) {
             var lakeVoltaLayer = createLakeVoltaLayer();
+            var maxZoom = scope.maxZoom ? parseInt(scope.maxZoom) : 11;
             var selectedFeature;
-            var popupImgSrc = "popupImgSrc";
-            var popupImgAlt = "popupImgAlt";
 
 
             function loadFeatures() {
@@ -70,51 +39,42 @@
                                 olFeature.set("mainHeading", mainHeading, true);
                                 olFeature.set("typeHeading", typeHeading, true);
                                 olFeature.set("type", typeFeature.type, true);
-                                olFeature.set(popupImgSrc, "img/lake-volta/info40x40.svg", true);
-                                olFeature.set(popupImgAlt, "Location Information", true);
+                                olFeature.set("mainFeature", feature, true);
+                                olFeature.set("typeFeature", typeFeature, true);
 
                                 if (typeFeature.type === "Tree") {
-                                    olFeature.set(popupImgSrc, "img/lake-volta/tree40x40.svg", true);
-                                    olFeature.set(popupImgAlt, "Tree Stumb Hazard", true);
                                     olFeature.set("description", olFeature.get("characteristics") + ": " + typeHeading, true);
                                     olFeature.set("details", "Size of area to be cleared is " + olFeature.get("area-size") + " and the estimated number of trees to be cut is  " + olFeature.get("est-number-of-trees"), true);
                                 }
 
                                 if (typeFeature.type === "Waypoint") {
-                                    olFeature.set(popupImgAlt, "Waypoint/Buoy", true);
                                     olFeature.set("description", "Waypoint/Buoy (" + olFeature.get("name") + ") on the " + olFeature.get("mainHeading"), true);
                                     if (olFeature.get("waypointType") === "waypointConnector") {
-                                        olFeature.set(popupImgAlt, "Fairway/Route", true);
                                         olFeature.set("description", olFeature.get("mainHeading"), true);
                                     }
                                 }
 
                                 if (typeFeature.type === "Characteristics") {
-                                    olFeature.set(popupImgAlt, "General info", true);
                                     olFeature.set("description", typeHeading, true);
                                 }
 
                                 if (typeFeature.type === "Fairway Characteristics") {
-                                    olFeature.set(popupImgAlt, "Fairway info", true);
                                     olFeature.set("description", typeHeading + " (" + olFeature.get("LocationIdentifier") + ")" , true);
-
                                 }
 
                                     lakeVoltaLayer.getSource().addFeature(olFeature);
                             });
                         });
                     });
+
+                    if (fitExtentFn ) {
+                        fitExtentFn();
+                    }
                 }
             }
 
             var stop = $interval(loadFeatures, 300);
 
-
-/*
-            lakeVoltaLayer.getSource().on("addfeature", function (evt) {
-                console.log(evt);
-            });
-*/
 
             function createLakeVoltaLayer() {
                 var layer = new ol.layer.Vector(/** @type {olx.layer.VectorOptions}*/{
@@ -228,32 +188,39 @@
             lakeVoltaLayer.setStyle(styleFunction);
 
             //popup inspired by  https://openlayers.org/en/latest/examples/popup.html
+/*
             var container = document.getElementById('popup');
             var closer = document.getElementById('popup-closer');
+*/
 
 
             /**
              * Create an overlay to anchor the popup to the map.
              */
-            var overlay = new ol.Overlay(/** @type {olx.OverlayOptions}*/{
+/*
+            var overlay = new ol.Overlay(/!** @type {olx.OverlayOptions}*!/{
                 element: container,
                 autoPan: true,
                 autoPanAnimation: {
                     duration: 250
                 }
             });
+*/
 
+/*
             closer.onclick = function () {
                 overlay.setPosition(undefined);
                 closer.blur();
                 return false;
             };
+*/
 
+            var fitExtentFn;
 
             var olScope = ctrl.getOpenlayersScope();
             olScope.getMap().then(function (map) {
                 map.addLayer(lakeVoltaLayer);
-                map.addOverlay(overlay);
+                // map.addOverlay(overlay);
 
                 var listenerKeys = map.on(['click', 'pointermove'], function (e) {
                     var selected = false;
@@ -271,6 +238,10 @@
                         map.forEachFeatureAtPixel(pixel, function (feature) {
                             selectedFeature = feature;
                             selected = true;
+
+                            LakeVoltaService.showFeatureDetails(selectedFeature.get("mainFeature"), selectedFeature.get("typeFeature"));
+
+/*
                             overlay.setPosition(e.coordinate);
                             var type = selectedFeature.get("type");
                             scope.hazardPos = undefined;
@@ -314,6 +285,7 @@
                             }
 
                             scope.hasProperties = scope.properties && scope.properties.length > 0;
+*/
 
                         }, /** @type olx.AtPixelOptions */{
                             layerFilter: function (layerCandidate) {
@@ -328,14 +300,34 @@
                     lakeVoltaLayer.getSource().changed();
                 });
 
+                fitExtentFn = function () {
+                    if (scope.fitExtent === 'true') {
+                        var fitExtent = false;
+                        var extent = ol.extent.createEmpty();
+                        if (lakeVoltaLayer.getSource().getFeatures().length > 0) {
+                            ol.extent.extend(extent, lakeVoltaLayer.getSource().getExtent());
+                            fitExtent = true;
+                        }
+                        if (fitExtent) {
+                            map.getView().fit(extent, map.getSize(), {
+                                padding: [20, 20, 20, 20],
+                                maxZoom: maxZoom
+                            });
+                        }
+                    }
+
+                };
+
                 // Clean up when the scope is destroyed
                 scope.$on('$destroy', function () {
                     if (angular.isDefined(lakeVoltaLayer)) {
                         map.removeLayer(lakeVoltaLayer);
                     }
+/*
                     if (angular.isDefined(overlay)) {
                         map.removeOverlay(overlay);
                     }
+*/
                     if (listenerKeys) {
                         ol.Observable.unByKey(listenerKeys);
                     }

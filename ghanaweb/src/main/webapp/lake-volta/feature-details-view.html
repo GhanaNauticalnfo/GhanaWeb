@@ -1,0 +1,45 @@
+<div>
+
+    <div class="modal-body print" style="padding-bottom: 0">
+
+        <div>
+
+            <ol-map class="message-details-map">
+                <map-tile-layer name="OSM" visible="true" source="OSM"></map-tile-layer>
+                <lake-volta-layer features="features" fit-extent="true"></lake-volta-layer>
+            </ol-map>
+
+            <button type="button" class="close dialog-close-btn" ng-click="$dismiss('aborted')">x</button>
+
+            <div style="max-height: 300px; overflow-y: scroll;">
+                <div class="d-flex flex-column">
+                    <div class="card border-secondary mb-2">
+                        <img style="align-self: center;" class="card-img-top w-25 pt-1" ng-src="{{imageSrc}}"
+                             alt="{{imageAlt}}"/>
+                        <div class="card-body">
+                            <p class="card-text"> {{featureDetail.heading}}</p>
+                        </div>
+                    </div>
+
+                    <div ng-repeat="feature in featureDetail.featureCollectionVo.features">
+                        <div class="card border-secondary mb-2">
+                            <div class="card-header bg-light text-center font-weight-bold">{{featureDetail.type}}</div>
+                            <div class="card-body">
+                                <div class="d-flex flex-row" ng-repeat="(key, value) in feature.properties">
+                                    <div class="p-2">{{key}}</div>
+                                    <div class="p-2">{{value}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row-reverse mb-2 mt-1">
+            <div>
+                <button class="btn btn-primary btn-sm" ng-click="$dismiss('aborted')">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
