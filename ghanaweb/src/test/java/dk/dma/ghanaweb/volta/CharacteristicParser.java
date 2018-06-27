@@ -120,7 +120,7 @@ public class CharacteristicParser implements FeatureParser {
         if (heading.contains("Fairway")) {
             type = "Fairway Characteristics";
         }
-        return new VoltaFeature(heading, type, convertCharacteristic());
+        return new VoltaFeature(heading, type, type, convertCharacteristic());
     }
 
     private FeatureCollectionVo convertCharacteristic() {

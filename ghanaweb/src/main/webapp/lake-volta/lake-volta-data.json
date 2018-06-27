@@ -5,6 +5,7 @@
       {
         "heading": "VLTC Main North-South Route Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -130,6 +131,7 @@
       {
         "heading": "Positions of Waypoints of the VLTC Main North-South Route",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -4023,6 +4025,7 @@
       {
         "heading": "Areas where submerged Trees are endangering the Navigation on the main North-South Route",
         "type": "Tree",
+        "displayType": "Tree or Grove",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -4208,6 +4211,7 @@
       {
         "heading": "Positions of Fairway Buoys in the White Volta River upstream of its Confluent with the Black Volta River",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -4506,6 +4510,7 @@
       {
         "heading": "Characteristics of the Fairway to Sedom, Obelemenya and Agajajetor",
         "type": "Fairway Characteristics",
+        "displayType": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -4569,6 +4574,7 @@
       {
         "heading": "Positions of Fairway Buoys marking the Fairway to",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -4826,6 +4832,7 @@
       {
         "heading": "Areas where submerged Trees are endangering the Navigation on the Fairway to Sedom, Obelemenya and Agajajetor",
         "type": "Tree",
+        "displayType": "Tree or Grove",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -5048,6 +5055,7 @@
       {
         "heading": "Sedom Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -5089,6 +5097,7 @@
       {
         "heading": "Obelemanya Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -5129,6 +5138,7 @@
       {
         "heading": "Agajajetor Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -5169,6 +5179,7 @@
       {
         "heading": "Characteristics of the Southern Fairway of the Afram",
         "type": "Fairway Characteristics",
+        "displayType": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -5262,6 +5273,7 @@
       {
         "heading": "Positions of Fairway Buoys marking the Southern Fairway of the Afram",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -5663,6 +5675,7 @@
       {
         "heading": "Areas where submerged Trees are endangering the Navigation on the Southern Fairway of the Afram",
         "type": "Tree",
+        "displayType": "Tree or Grove",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -6129,6 +6142,7 @@
       {
         "heading": "Akrusu Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -6169,6 +6183,7 @@
       {
         "heading": "Akotoe Tsrebuanya Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -6209,6 +6224,7 @@
       {
         "heading": "Akateng Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -6249,6 +6265,7 @@
       {
         "heading": "Characteristics of the Main Fairway of the Upper Afram",
         "type": "Fairway Characteristics",
+        "displayType": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -6312,6 +6329,7 @@
       {
         "heading": "    Positions of Fairway Buoys marking the Main Fairway of the Upper Afram",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -6983,6 +7001,7 @@
       {
         "heading": "Areas where submerged Trees are endangering the Navigation on the Main Fairway of the Upper Afram",
         "type": "Tree",
+        "displayType": "Tree or Grove",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7284,6 +7303,7 @@
       {
         "heading": "Akuase Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7324,6 +7344,7 @@
       {
         "heading": "Odotorm Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7364,6 +7385,7 @@
       {
         "heading": "Petefour Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7404,6 +7426,7 @@
       {
         "heading": "Nar Panya Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7443,6 +7466,7 @@
       {
         "heading": "Adakope Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7483,6 +7507,7 @@
       {
         "heading": "Tremeleveme Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7523,6 +7548,7 @@
       {
         "heading": "Nketepa Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7563,6 +7589,7 @@
       {
         "heading": "Asuboni Dumasi Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7603,6 +7630,7 @@
       {
         "heading": "Adawso Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7643,6 +7671,7 @@
       {
         "heading": "Hyewodin Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7673,6 +7702,7 @@
       {
         "heading": "Sempoa Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7713,6 +7743,7 @@
       {
         "heading": "Ekye Amanfrom Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7753,6 +7784,7 @@
       {
         "heading": "Kwame Dwamena Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7793,6 +7825,7 @@
       {
         "heading": "Characteristics of the Main Fairway of the Lower Afram",
         "type": "Fairway Characteristics",
+        "displayType": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -7856,6 +7889,7 @@
       {
         "heading": "Positions of Fairway Buoys marking the Main Fairway of the Lower Afram",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8131,6 +8165,7 @@
       {
         "heading": "Areas where submerged Trees are endangering the Navigation on the Main Fairway of the Lower Afram",
         "type": "Tree",
+        "displayType": "Tree or Grove",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8166,6 +8201,7 @@
       {
         "heading": "Dzemini Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8206,6 +8242,7 @@
       {
         "heading": "Wusuta Tornu (Wusuta Kpebe) Landing Site",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8246,6 +8283,7 @@
       {
         "heading": "Bruben Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8286,6 +8324,7 @@
       {
         "heading": "Avatey (Awatetone) Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8326,6 +8365,7 @@
       {
         "heading": "Kpandu Torkor Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8366,6 +8406,7 @@
       {
         "heading": "",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8398,6 +8439,7 @@
       {
         "heading": "Adzamansu Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8438,6 +8480,7 @@
       {
         "heading": "Characteristics of the Fairway to Bridge Ano and Ntoaboma",
         "type": "Fairway Characteristics",
+        "displayType": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8501,6 +8544,7 @@
       {
         "heading": "Positions of Fairway Buoys marking the Fairway to Bridge Ano and Ntoaboma",
         "type": "Waypoint",
+        "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -8848,6 +8892,7 @@
       {
         "heading": "Areas where submerged Trees are endangering the Navigation on the Fairway to Bridge Ano and Ntoaboma",
         "type": "Tree",
+        "displayType": "Tree or Grove",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9140,6 +9185,7 @@
       {
         "heading": "Bridge Ano Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9180,6 +9226,7 @@
       {
         "heading": "Ntoaboma Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9220,6 +9267,7 @@
       {
         "heading": "Tapa Abotoase Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9260,6 +9308,7 @@
       {
         "heading": "C.K. Kope Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9300,6 +9349,7 @@
       {
         "heading": "Otisu Kpedzi Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9340,6 +9390,7 @@
       {
         "heading": "Kpatchu Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9380,6 +9431,7 @@
       {
         "heading": "Adiembra Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9420,6 +9472,7 @@
       {
         "heading": "Dambai Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9460,6 +9513,7 @@
       {
         "heading": "Overbank Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9500,6 +9554,7 @@
       {
         "heading": "Kete-Krachi Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9540,6 +9595,7 @@
       {
         "heading": "Kwadwakrom Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9580,6 +9636,7 @@
       {
         "heading": "Hiamankyne Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9620,6 +9677,7 @@
       {
         "heading": "Torkbenya Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9660,6 +9718,7 @@
       {
         "heading": "Anyiname Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9700,6 +9759,7 @@
       {
         "heading": "Bejamsu Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9740,6 +9800,7 @@
       {
         "heading": "Hausakope Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9780,6 +9841,7 @@
       {
         "heading": "Lonto Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9820,6 +9882,7 @@
       {
         "heading": "Padjae No. 2 Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9860,6 +9923,7 @@
       {
         "heading": "Characteristics of the Fairway to Tonka, Kajai and Parambo",
         "type": "Fairway Characteristics",
+        "displayType": "Fairway Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9928,6 +9992,7 @@
       {
         "heading": "Tonka Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -9968,6 +10033,7 @@
       {
         "heading": "Kajai Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10008,6 +10074,7 @@
       {
         "heading": "Parambo (No. 1 Ensuano) Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10048,6 +10115,7 @@
       {
         "heading": "Gbetepko Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10088,6 +10156,7 @@
       {
         "heading": "Jakla No.3 Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10128,6 +10197,7 @@
       {
         "heading": "Yeji Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10168,6 +10238,7 @@
       {
         "heading": "",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10208,6 +10279,7 @@
       {
         "heading": "Soldierkope Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10248,6 +10320,7 @@
       {
         "heading": "Mataheko Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10288,6 +10361,7 @@
       {
         "heading": "Debre Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [
@@ -10328,6 +10402,7 @@
       {
         "heading": "Buipe Landing Site Characteristics",
         "type": "Characteristics",
+        "displayType": "Characteristics",
         "featureCollectionVo": {
           "type": "FeatureCollection",
           "features": [

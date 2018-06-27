@@ -87,6 +87,6 @@ public class WaypointParser implements FeatureParser {
         features.add(fairWayFeature);
         collection.setFeatures(features.toArray(new FeatureVo[0]));
 
-        return new VoltaFeature(heading, "Waypoint", collection);
+        return new VoltaFeature(heading, "Waypoint", "Proposed waypoint (2018)", collection);
     }
 }

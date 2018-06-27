@@ -262,7 +262,7 @@ public class TreeParser implements FeatureParser {
         FeatureCollectionVo collection = new FeatureCollectionVo();
         collection.setFeatures(features.toArray(new FeatureVo[0]));
 
-        return new VoltaFeature(heading, "Tree", collection);
+        return new VoltaFeature(heading, "Tree", "Tree or Grove", collection);
     }
 
     private class CalcRes {

@@ -23,7 +23,7 @@
 
                     <div ng-repeat="feature in featureDetail.featureCollectionVo.features">
                         <div class="card border-secondary mb-2">
-                            <div class="card-header bg-light text-center font-weight-bold">{{featureDetail.type}}</div>
+                            <div class="card-header bg-light text-center font-weight-bold">{{featureDetail.displayType}}</div>
                             <div class="card-body">
                                 <div class="d-flex flex-row" ng-repeat="(key, value) in feature.properties">
                                     <div class="p-2">{{key}}</div>
