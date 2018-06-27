@@ -97,12 +97,22 @@ angular.module('maritimeweb.app')
                 $scope.mapState['reloadMap'] = true;
             };
             $scope.voltaFeatures = [];
+            $scope.voltaDisplayToggle = true;
+            $scope.voltaWaypointDisplayToggle = true;
 
             LakeVoltaService.getFeatures().then(function (features) {
                 $scope.voltaFeatures = features;
             }).catch(function (err) {
                 $log.error(err);
             });
+
+            $scope.voltaDisplayChanged = function () {
+                $scope.voltaDisplayToggle = !$scope.voltaDisplayToggle;
+            };
+
+            $scope.voltaWaypointDisplayChanged = function () {
+                $scope.voltaWaypointDisplayToggle = !$scope.voltaWaypointDisplayToggle;
+            };
 
             /** Show a detailed view of the feature and the group it belongs to */
             $scope.showFeatureDetails = function (featureGroup, feature) {

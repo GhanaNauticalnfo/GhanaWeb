@@ -6,7 +6,7 @@
 
             <ol-map class="message-details-map">
                 <map-tile-layer name="OSM" visible="true" source="OSM"></map-tile-layer>
-                <lake-volta-layer features="features" fit-extent="true"></lake-volta-layer>
+                <lake-volta-layer feature-group="features" fit-extent="true" display-layer="true" display-waypoints="true"></lake-volta-layer>
             </ol-map>
 
             <button type="button" class="close dialog-close-btn" ng-click="$dismiss('aborted')">x</button>

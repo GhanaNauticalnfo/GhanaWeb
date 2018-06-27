@@ -8,7 +8,7 @@
     FeatureDetailsViewCtrl.$inject = ['$scope', 'featureGroup', 'features'];
 
     function FeatureDetailsViewCtrl($scope, featureGroup, features) {
-        $scope.features = [featureGroup];
+        $scope.features = featureGroup;
         $scope.featureDetail = features;
         $scope.imageSrc = "img/lake-volta/info40x40.svg";
         $scope.imageAlt = "img/lake-volta/info40x40.svg";

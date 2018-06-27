@@ -112,9 +112,19 @@
             <div class="card">
                 <div class="card-header bg-primary text-white cursor-default clearfix" ng-click="sidebarUncollapse()">
                     Landing sites, Routes and Fairways of the Lake Volta
+
+                    <div class="small float-right">
+                        Display &nbsp;&nbsp;
+                        <input type="checkbox" ng-model="voltaDisplayToggle" ng-change="voltaDisplayChanged()" aria-label="Display Lake Volta features">&nbsp;All features
+                    </div>
                 </div>
 
                 <div class="card-body">
+                    <div class="message-service">
+                        <input type="checkbox" ng-model="voltaWaypointDisplayToggle" ng-change="voltaWaypointDisplayChanged()" aria-label="Display proposed waypoints">&nbsp;Display proposed waypoints
+
+                    </div>
+
                     <table class="table table-striped">
                         <tr ng-repeat-start="feature in voltaFeatures">
                             <td class="message-area-heading">
