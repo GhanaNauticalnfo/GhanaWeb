@@ -75,7 +75,7 @@ body {
     top: 51px;
     bottom: 3%;
     right: 24px;
-    margin: 1em;
+    margin: 1em 1em 1em 0;
     z-index: 300;
     height: 75%;
     background-color: white ;
