@@ -63,7 +63,7 @@ public class WaypointParser implements FeatureParser {
 
     @Override
     public void parseTableLine(String line) {
-        heading = line.split(";")[1];
+        heading = "Proposed " + line.split(";")[1];
     }
 
     @Override

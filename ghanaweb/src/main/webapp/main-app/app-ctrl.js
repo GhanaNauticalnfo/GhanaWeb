@@ -98,7 +98,7 @@ angular.module('maritimeweb.app')
             };
             $scope.voltaFeatures = [];
             $scope.voltaDisplayToggle = true;
-            $scope.voltaWaypointDisplayToggle = true;
+            $scope.voltaWaypointDisplayToggle = false;
 
             LakeVoltaService.getFeatures().then(function (features) {
                 $scope.voltaFeatures = features;

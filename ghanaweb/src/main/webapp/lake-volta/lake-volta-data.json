@@ -129,7 +129,7 @@
         }
       },
       {
-        "heading": "Positions of Waypoints of the VLTC Main North-South Route",
+        "heading": "Proposed Positions of Waypoints of the VLTC Main North-South Route",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -4013,7 +4013,7 @@
                 ]
               },
               "properties": {
-                "name": "Positions of Waypoints of the VLTC Main North-South Route",
+                "name": "Proposed Positions of Waypoints of the VLTC Main North-South Route",
                 "waypointType": "waypointConnector",
                 "locationStart": "6°19’31”N - 0°03’32”E",
                 "locationEnd": "8°46’13”N - 1°25’46”W"
@@ -4209,7 +4209,7 @@
     "heading": "\tWhite Volta River",
     "features": [
       {
-        "heading": "Positions of Fairway Buoys in the White Volta River upstream of its Confluent with the Black Volta River",
+        "heading": "Proposed Positions of Fairway Buoys in the White Volta River upstream of its Confluent with the Black Volta River",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -4493,7 +4493,7 @@
                 ]
               },
               "properties": {
-                "name": "Positions of Fairway Buoys in the White Volta River upstream of its Confluent with the Black Volta River",
+                "name": "Proposed Positions of Fairway Buoys in the White Volta River upstream of its Confluent with the Black Volta River",
                 "waypointType": "waypointConnector",
                 "locationStart": "8°38’55”N - 0°58’55.50”W",
                 "locationEnd": "8°49’04”N - 1°04’11”W"
@@ -4572,7 +4572,7 @@
         }
       },
       {
-        "heading": "Positions of Fairway Buoys marking the Fairway to",
+        "heading": "Proposed Positions of Fairway Buoys marking the Fairway to",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -4820,7 +4820,7 @@
                 ]
               },
               "properties": {
-                "name": "Positions of Fairway Buoys marking the Fairway to",
+                "name": "Proposed Positions of Fairway Buoys marking the Fairway to",
                 "waypointType": "waypointConnector",
                 "locationStart": "6°30’40”N - 0°03’49”E",
                 "locationEnd": "6°19’14”N - 0°01’15”W"
@@ -5271,7 +5271,7 @@
         }
       },
       {
-        "heading": "Positions of Fairway Buoys marking the Southern Fairway of the Afram",
+        "heading": "Proposed Positions of Fairway Buoys marking the Southern Fairway of the Afram",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -5663,7 +5663,7 @@
                 ]
               },
               "properties": {
-                "name": "Positions of Fairway Buoys marking the Southern Fairway of the Afram",
+                "name": "Proposed Positions of Fairway Buoys marking the Southern Fairway of the Afram",
                 "waypointType": "waypointConnector",
                 "locationStart": "6°26’56”N - 0°02’01”E",
                 "locationEnd": "6°32’08”N - 0°12’28”W"
@@ -6327,7 +6327,7 @@
         }
       },
       {
-        "heading": "    Positions of Fairway Buoys marking the Main Fairway of the Upper Afram",
+        "heading": "Proposed     Positions of Fairway Buoys marking the Main Fairway of the Upper Afram",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -6989,7 +6989,7 @@
                 ]
               },
               "properties": {
-                "name": "    Positions of Fairway Buoys marking the Main Fairway of the Upper Afram",
+                "name": "Proposed     Positions of Fairway Buoys marking the Main Fairway of the Upper Afram",
                 "waypointType": "waypointConnector",
                 "locationStart": "6°33’12”N - 0°06’42.50”W",
                 "locationEnd": "6°45’37”N - 0°33’22”W"
@@ -7887,7 +7887,7 @@
         }
       },
       {
-        "heading": "Positions of Fairway Buoys marking the Main Fairway of the Lower Afram",
+        "heading": "Proposed Positions of Fairway Buoys marking the Main Fairway of the Lower Afram",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -8153,7 +8153,7 @@
                 ]
               },
               "properties": {
-                "name": "Positions of Fairway Buoys marking the Main Fairway of the Lower Afram",
+                "name": "Proposed Positions of Fairway Buoys marking the Main Fairway of the Lower Afram",
                 "waypointType": "waypointConnector",
                 "locationStart": "6°32’21”N - 0°04’35”W",
                 "locationEnd": "6°35’03.50”N - 0°07’05”E"
@@ -8542,7 +8542,7 @@
         }
       },
       {
-        "heading": "Positions of Fairway Buoys marking the Fairway to Bridge Ano and Ntoaboma",
+        "heading": "Proposed Positions of Fairway Buoys marking the Fairway to Bridge Ano and Ntoaboma",
         "type": "Waypoint",
         "displayType": "Proposed waypoint (2018)",
         "featureCollectionVo": {
@@ -8880,7 +8880,7 @@
                 ]
               },
               "properties": {
-                "name": "Positions of Fairway Buoys marking the Fairway to Bridge Ano and Ntoaboma",
+                "name": "Proposed Positions of Fairway Buoys marking the Fairway to Bridge Ano and Ntoaboma",
                 "waypointType": "waypointConnector",
                 "locationStart": "7°09’44”N - 0°14’16.50”E",
                 "locationEnd": "7°11’06”N - 0°00’28.50”E"
