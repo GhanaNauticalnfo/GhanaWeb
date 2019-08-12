@@ -208,7 +208,7 @@
             <plugin>
                 <artifactId>exec-maven-plugin</artifactId>
                 <groupId>org.codehaus.mojo</groupId>
-                <version>1.5.0</version>
+                <version>1.6.0</version>
                 <executions>
                     <execution>
                         <id>npm-run</id>
@@ -217,11 +217,11 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <executable>cmd</executable>
+                            <executable>npm</executable>
                             <workingDirectory>./</workingDirectory>
                             <arguments>
-                                <argument>/c</argument>
-                                <argument>"npm run-script build"</argument>
+                                <!--argument>/c</argument-->
+                                <argument>install</argument>
                                 <!--<argument>"workbox &#45;&#45;config-file workbox-cli-config.js inject:manifest"</argument>-->
                             </arguments>
                         </configuration>
