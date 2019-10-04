@@ -217,11 +217,13 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <executable>cmd</executable>
+                            <executable>npm</executable>
                             <workingDirectory>./</workingDirectory>
                             <arguments>
-                                <argument>/c</argument>
-                                <argument>"npm run-script build"</argument>
+                                <!--argument>/c</argument-->
+                                <argument>run-script</argument>
+                                <argument>build</argument>
+
                                 <!--<argument>"workbox &#45;&#45;config-file workbox-cli-config.js inject:manifest"</argument>-->
                             </arguments>
                         </configuration>
