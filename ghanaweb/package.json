@@ -11,7 +11,7 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015-node6": "^0.4.0",
-    "workbox-cli": "^2.1.3"
+    "workbox-cli": "^4.3.1"
   },
   "babel": {
     "presets": [
@@ -42,6 +42,6 @@
   "scripts": {
     "build-ol": "babel node_modules/ol --out-dir node_modules/ol",
     "build:grid": "node src/scripts/tile-url-generator.js",
-    "build": "workbox --config-file workbox-cli-config.js inject:manifest"
+    "build": "workbox generateSW"
   }
 }

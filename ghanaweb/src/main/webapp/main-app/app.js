@@ -10,7 +10,7 @@ angular.module('maritimeweb.nw-nm', []);
 // angular.module('maritimeweb.weather', []);
 // angular.module('maritimeweb.vts-report', []);
 // angular.module('maritimeweb.vts-map', []);
-// angular.module('maritimeweb.serviceregistry', []);
+ angular.module('maritimeweb.serviceregistry', []);
 angular.module('maritimeweb.volta', []);
 // angular.module('maritimeweb.nasa-satellite', ['yaru22.angular-timeago']);
 
@@ -31,7 +31,7 @@ angular.module('maritimeweb.volta', []);
         // 'maritimeweb.weather',
         // 'maritimeweb.vts-report',
         // 'maritimeweb.vts-map',
-        // 'maritimeweb.serviceregistry',
+         'maritimeweb.serviceregistry',
         // 'maritimeweb.route',
         'maritimeweb.volta',
         // 'maritimeweb.nasa-satellite',

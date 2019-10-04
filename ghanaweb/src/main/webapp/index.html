@@ -73,7 +73,7 @@
 
 <!-- endbuild -->
 
-<!-- Register service worker -->
+<!-- Register service worker 
 <script>
     // Helper function which returns a promise which resolves once the service worker registration
     // is past the "installing" state.
@@ -97,8 +97,8 @@
         });
     }
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js', {scope: './'})
-        // navigator.serviceWorker.register('./service-worker.js', {scope: './'})
+        //navigator.serviceWorker.register('./sw.js', {scope: './'})
+         navigator.serviceWorker.register('./service-worker.js', {scope: './'})
             .then(waitUntilInstalled)
             .catch(function(error) {
                 // Something went wrong during registration. The service-worker.js file
@@ -113,7 +113,7 @@
         aElement.textContent = 'Service workers are not supported in the current browser.';
         document.querySelector('#status').appendChild(aElement);
     }
-</script>
+</script>-->
 
 </body>
 </html>
