@@ -1,10 +1,10 @@
 module.exports = {
-    "globDirectory": "target\\sw-prepare\\",
+    "globDirectory": "target/sw-prepare/",
     "globPatterns": [
         "**/*.{png,svg,html,js,kml,map,json,css,xml,woff2}"
     ],
     "swSrc": "sw.js",
-    "swDest": "src\\main\\webapp\\sw.js",
+    "swDest": "src/main/webapp/sw.js",
     "clientsClaim": true,
     "skipWaiting": true,
     "globIgnores": [
