@@ -15,7 +15,7 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install' # Options: install, publish, custom
-    workingDir: 'GhanaWeb/' # Optional
+    workingDir: 'ghanaweb/' # Optional
     verbose: true # Optional
     #customCommand: # Required when command == Custom
     #customRegistry: 'useNpmrc' # Optional. Options: useNpmrc, useFeed
@@ -27,7 +27,7 @@ steps:
     #publishEndpoint: # Required when publishRegistry == UseExternalRegistry
 - task: Maven@3
   inputs:
-    mavenPomFile: 'GhanaWeb/pom.xml'
+    mavenPomFile: 'ghanaweb/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
