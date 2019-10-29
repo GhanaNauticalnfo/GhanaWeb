@@ -10,9 +10,24 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+# npm
+# Install and publish npm packages, or run an npm command. Supports npmjs.com and authenticated registries like Azure Artifacts.
+- task: Npm@1
+  inputs:
+    command: 'install' # Options: install, publish, custom
+    workingDir: 'ghanaweb/' # Optional
+    verbose: true # Optional
+    #customCommand: # Required when command == Custom
+    #customRegistry: 'useNpmrc' # Optional. Options: useNpmrc, useFeed
+    #customFeed: # Required when customRegistry == UseFeed
+    #customEndpoint: # Optional
+    #publishRegistry: 'useExternalRegistry' # Optional. Options: useExternalRegistry, useFeed
+    #publishFeed: # Required when publishRegistry == UseFeed
+    #publishPackageMetadata: true # Optional
+    #publishEndpoint: # Required when publishRegistry == UseExternalRegistry
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'ghanaweb/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
